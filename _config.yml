@@ -90,23 +90,23 @@ author:
 #     url: http://google.com
 
 #Links
-customLinks:
-  - item:
-    - text: 掌心
-      url: http://www.zhanxin.info
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
-    message: Friends
-  - item:
-    - text: Font Awesome
-      url: http://fortawesome.github.io/Font-Awesome/
-    - text: Google Font
-      url: http://www.google.com/fonts/
-    - text: jQuery
-      url: http://jquery.com/
-    message: 其他相关链接
+# customLinks:
+#   - item:
+#     - text: 掌心
+#       url: http://www.zhanxin.info
+#     - text: Jekyll
+#       url: http://jekyllrb.com
+#     - text: Jekyll Theme
+#       url: http://www.zhanxin.info/themes.html
+#     message: Friends
+#   - item:
+#     - text: Font Awesome
+#       url: http://fortawesome.github.io/Font-Awesome/
+#     - text: Google Font
+#       url: http://www.google.com/fonts/
+#     - text: jQuery
+#       url: http://jquery.com/
+#     message: 其他相关链接
 
 #comment config
 disqus:
@@ -123,7 +123,7 @@ baseurl:
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 飞鸟集
+title: 鸿杰博客
 description: 人生到处知何似，应似飞鸿踏雪泥
 theme: kunka
 disqusname: hongjie
