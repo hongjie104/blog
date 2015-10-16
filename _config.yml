@@ -117,7 +117,8 @@ disqus:
 #################################### global configure #######################################
 
 username: Eddie104
-baseurl: /blog
+# baseurl: /blog
+baseurl:
 markdown: redcarpet
 safe: false
 highlighter: pygments
