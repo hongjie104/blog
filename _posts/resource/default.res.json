@@ -1,0 +1,35 @@
+{
+	"resources": [
+		{
+			"name":"armLeft",
+			"type":"image",
+			"url":"assets/avatar/f_armLeft_1_0_3.png"
+		},
+		{
+			"name":"armRight",
+			"type":"image",
+			"url":"assets/avatar/f_armRight_1_0_3.png"
+		},
+{
+			"name":"head",
+			"type":"image",
+			"url":"assets/avatar/f_head_1_0_3.png"
+		},
+{
+			"name":"body",
+			"type":"image",
+			"url":"assets/avatar/f_body_1_0_3.png"
+		},
+{
+			"name":"leg",
+			"type":"image",
+			"url":"assets/avatar/f_leg_1_0_3.png"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "leg,body,head,armLeft,armRight"
+		}
+	]
+}
