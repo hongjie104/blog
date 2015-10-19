@@ -69,7 +69,8 @@ nav:
 author:
     name: 鸿杰
     email: 32968210@qq.com
-    imageLink: http://7u2qiz.com1.z0.glb.clouddn.com/20pc_150.png
+    imageLink: http://7u2qiz.com1.z0.glb.clouddn.com/instaface_20151572843352.jpg
+    # http://7u2qiz.com1.z0.glb.clouddn.com/instaface_20151572843352.jpg
     simpleIntro: 我是鸿杰
     detailIntro:
       <p>hello world</p>
