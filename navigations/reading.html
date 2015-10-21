@@ -18,16 +18,16 @@ comment: true
             </thead>
             <tbody>
                 {% for i in site.reading.toRead %}
-               <!--  {% for book in i.item %}
+                {% for book in i.item %}
                 <tr>
                     <td>1</td>
-                    <td><a href="{{ book.url}}" target="_blank">{{ book.name }}</a></td>
+                    <td><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></td>
                 </tr>
-                {% endfor %} -->
-                <tr>
+                {% endfor %}
+                <!-- <tr>
                     <td>1</td>
-                    <td><a href="{{ book.url}}" target="_blank">{{ i }}</a></td>
-                </tr>
+                    <td><a href="{{ book.url }}" target="_blank">{{ i }}</a></td>
+                </tr> -->
                 {% endfor %}
             </tbody>
         </table>
