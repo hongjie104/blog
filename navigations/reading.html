@@ -7,53 +7,41 @@ comment: true
 <div class="article">
     <h3 class="title">{{ page.title }}</h3>
     <div class="links">
-    <!--
-        {% for i in site.customLinks %}
-        <h4 class="links-category fn-clear">{{ i.message }}</h4>
-        <ul class="links-list fn-clear">
-                {% for link in i.item %}
-                <li><a href="{{ link.url }}" target="_blank">{{ link.text }}</a></li>
-                {% endfor %}
-        </ul>
-        {% endfor %}
-    -->
-    <!--
-        <ul class="links-list fn-clear">
-            <li><img src="http://img3.douban.com/spic/s8921981.jpg" /><a href="http://www.baidu.com" target="_blank">dsfdfdfd</a></li>
-            <li><img src="http://img3.douban.com/spic/s8921981.jpg" /><a href="http://www.baidu.com" target="_blank">dsfdfdfd</a></li>
-            <li><img src="http://img3.douban.com/spic/s8921981.jpg" /><a href="http://www.baidu.com" target="_blank">dsfdfdfd</a></li>
-            <li><img src="http://img3.douban.com/spic/s8921981.jpg" /><a href="http://www.baidu.com" target="_blank">dsfdfdfd</a></li>
-            <li><img src="http://img3.douban.com/spic/s8921981.jpg" /><a href="http://www.baidu.com" target="_blank">dsfdfdfd</a></li>
-        </ul>
-    -->
-        <p>预定任务：30本</p>
+        <p>想读</p>
         <table>
             <thead>
                 <tr>
                     <th>编号</th>
+                    <th>封面</th>
                     <th>书名</th>
-                    <th align="center">状态</th>
-                    <th align="center">开始日期</th>
-                    <th align="center">结束日期</th>
-                    <th>书评</th>
+                    <!-- <th>状态</th> -->
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td><a href="http://book.douban.com/subject/10746113/">HTTP 权威指南</a></td>
-                <td align="center">已读</td>
-                <td align="center">2015-01-03</td>
-                <td align="center">2015-03-02</td>
-                <td><a href="http://zengrong.net/post/2274.htm">读书笔记</a></td>
+                    <td><img src="http://img4.douban.com/spic/s27766899.jpg"/></td>
+                    <td><a href="http://book.douban.com/subject/10746113/" target="_blank">HTTP 权威指南</a></td>
+                    <!--<td><a href="http://zengrong.net/post/2274.htm">读书笔记</a></td>-->
                 </tr>
+            </tbody>
+        </table>
+        <p>已读</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>封面</th>
+                    <th>书名</th>
+                    <th>笔记</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>1</td>
-                    <td><a href="http://book.douban.com/subject/10746113/">HTTP 权威指南</a></td>
-                <td align="center">已读</td>
-                <td align="center">2015-01-03</td>
-                <td align="center">2015-03-02</td>
-                <td><a href="http://zengrong.net/post/2274.htm">读书笔记</a></td>
+                    <td><img src="http://img4.douban.com/spic/s27766899.jpg"/></td>
+                    <td><a href="http://book.douban.com/subject/10746113/" target="_blank">HTTP 权威指南</a></td>
+                    <td><a href="http://www.baidu.com">读书笔记</a></td>
                 </tr>
             </tbody>
         </table>
