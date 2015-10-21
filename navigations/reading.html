@@ -12,26 +12,32 @@ comment: true
             <thead>
                 <tr>
                     <th>编号</th>
-                    <th>封面</th>
                     <th>书名</th>
                     <!-- <th>状态</th> -->
                 </tr>
             </thead>
             <tbody>
+                {% for i in site.reading.toRead %}
+                <!-- <h4 class="links-category fn-clear">{{ i.message }}</h4>
+                <ul class="links-list fn-clear">
+                        {% for link in i.item %}
+                        <li><a href="{{ link.url }}" target="_blank">{{ link.text }}</a></li>
+                        {% endfor %}
+                </ul> -->
                 <tr>
                     <td>1</td>
-                    <td><img src="http://img4.douban.com/spic/s27766899.jpg"/></td>
-                    <td><a href="http://book.douban.com/subject/10746113/" target="_blank">HTTP 权威指南</a></td>
+                    <td><a href="{{ i.url}}" target="_blank">{{ i.name }}</a></td>
                     <!--<td><a href="http://zengrong.net/post/2274.htm">读书笔记</a></td>-->
                 </tr>
+                {% endfor %}
             </tbody>
         </table>
+        <!--
         <p>已读</p>
         <table>
             <thead>
                 <tr>
                     <th>编号</th>
-                    <th>封面</th>
                     <th>书名</th>
                     <th>笔记</th>
                 </tr>
@@ -39,12 +45,12 @@ comment: true
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td><img src="http://img4.douban.com/spic/s27766899.jpg"/></td>
                     <td><a href="http://book.douban.com/subject/10746113/" target="_blank">HTTP 权威指南</a></td>
                     <td><a href="http://www.baidu.com">读书笔记</a></td>
                 </tr>
             </tbody>
         </table>
+        -->
     </div>
     <div class="comment">
         {% if site.disqus.config %}
