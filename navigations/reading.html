@@ -7,7 +7,7 @@ comment: true
 <div class="article">
     <h3 class="title">{{ page.title }}</h3>
     <div class="links">
-        <p>想读</p>
+        <p>想读1</p>
         <table>
             <thead>
                 <tr>
@@ -24,10 +24,10 @@ comment: true
                         <li><a href="{{ link.url }}" target="_blank">{{ link.text }}</a></li>
                         {% endfor %}
                 </ul> -->
-                {% for link in i.item %}
+                {% for book in i.item %}
                 <tr>
                     <td>1</td>
-                    <td><a href="{{ i.url}}" target="_blank">{{ i.name }}</a></td>
+                    <td><a href="{{ book.url}}" target="_blank">{{ book.name }}</a></td>
                     <!--<td><a href="http://zengrong.net/post/2274.htm">读书笔记</a></td>-->
                 </tr>
                 {% endfor %}
