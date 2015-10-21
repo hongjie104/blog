@@ -625,6 +625,12 @@ a         { color: #91736b; text-decoration: none; }
     color: #fff;
 }
 
+.reading-image {
+    width: 81px;
+    height: 102px;
+    float: left;
+}
+
 .aside {
     padding: 20px 20px 40px 20px;
     margin-top: 26px;
