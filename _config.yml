@@ -78,15 +78,17 @@ author:
       <p>hello world</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
-# follow:
+follow:
 #   - class: icon-rss
 #     url: /atom.xml
-#   - class: icon-weibo
-#     url: http://weibo.com
+  - class: icon-weibo
+    url: http://weibo.com/myfallenheaven
 #   - class: icon-renren
 #     url: http://renren.com
-#   - class: icon-github-alt
-#     url: http://github.com
+  - class: icon-github-alt
+    url: https://github.com/Eddie104
+  - class: icon-zhihu
+    url: http://www.zhihu.com/people/3zhongjie
 #   - class: icon-twitter
 #     url: http://twitter.com
 #   - class: icon-google-plus
