@@ -114,21 +114,21 @@ author:
 reading:
   toRead:
     -item:
-      -name: 程序员必读之软件架构1
-       url: http://book.douban.com/subject/26248182/
+      name: 程序员必读之软件架构1
+      url: http://book.douban.com/subject/26248182/
     -item:
-      -name: 程序员必读之软件架构2
-       url: http://book.douban.com/subject/26248182/
+      name: 程序员必读之软件架构2
+      url: http://book.douban.com/subject/26248182/
   readed:
     -item:
-      -name: 程序员必读之软件架构3
-       url: http://book.douban.com/subject/26248182/
+      name: 程序员必读之软件架构3
+      url: http://book.douban.com/subject/26248182/
     -item:
-      -name: 程序员必读之软件架构4
-       url: http://book.douban.com/subject/26248182/
+      name: 程序员必读之软件架构4
+      url: http://book.douban.com/subject/26248182/
     -item:
-      -name: 程序员必读之软件架构5
-       url: http://book.douban.com/subject/26248182/
+      name: 程序员必读之软件架构5
+      url: http://book.douban.com/subject/26248182/
 
 #comment config
 disqus:
