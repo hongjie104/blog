@@ -13,7 +13,7 @@ comment: true
                 <tr>
                     <th>编号</th>
                     <th>书名</th>
-                    <!-- <th>状态</th> -->
+                    <th>状态</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,16 +22,12 @@ comment: true
                 <tr>
                     <td>1</td>
                     <td><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></td>
+                    <td>未读</td>
                 </tr>
                 {% endfor %}
-                <!-- <tr>
-                    <td>1</td>
-                    <td><a href="{{ book.url }}" target="_blank">{{ i }}</a></td>
-                </tr> -->
                 {% endfor %}
             </tbody>
         </table>
-        <!--
         <p>已读</p>
         <table>
             <thead>
@@ -42,14 +38,17 @@ comment: true
                 </tr>
             </thead>
             <tbody>
+                {% for i in site.reading.readed %}
+                {% for book in i.item %}
                 <tr>
                     <td>1</td>
-                    <td><a href="http://book.douban.com/subject/10746113/" target="_blank">HTTP 权威指南</a></td>
-                    <td><a href="http://www.baidu.com">读书笔记</a></td>
+                    <td><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></td>
+                    <td><a href="{{ book.note }}" target="_blank">笔记</a></td>
                 </tr>
+                {% endfor %}
+                {% endfor %}
             </tbody>
         </table>
-        -->
     </div>
     <div class="comment">
         {% if site.disqus.config %}
