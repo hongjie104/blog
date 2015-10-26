@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用WebStorm做为Egert的开发环境
-category: 技术 Egret
+category: 技术
 comments: true
 ---
 
@@ -9,6 +9,7 @@ comments: true
 
 1. **第一步，下载[WebStorm](http://www.jetbrains.com/webstorm/)**
 2. **大家都懂的**
+
 ```
 WebStorm注册码
 User Name：
@@ -30,7 +31,7 @@ YA8vwka9tH!vibaUKS4FIDIkUfy!!f  
 ![](http://www.4yue.net/content/uploadfile/201505/916b1430585397.png)
 
 5. **配置FileWatcher**
-![](http://www.4yue.net/content/uploadfile/201505/thum-825f1430586835.png)
+![](http://www.4yue.net/content/uploadfile/201505/825f1430586835.png)
 
 6. **调试 egret 项目**
 如果不习惯使用 Chrome 浏览器进行调试，而是更希望在 IDE 里直接调试，可以遵循如下步骤进行设置
