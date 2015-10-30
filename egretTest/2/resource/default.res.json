@@ -1,16 +1,6 @@
 {
 	"resources": [
 	{
-		"name": "bgImage",
-		"type": "image",
-		"url": "assets/bg.jpg"
-	},
-	{
-		"name": "egretIcon",
-		"type": "image",
-		"url": "assets/egret_icon.png"
-	},
-	{
 		"name": "description",
 		"type": "json",
 		"url": "config/description.json"
@@ -18,16 +8,26 @@
 	{
 		"name": "testJson",
 		"type": "json",
-		"url": "assets/test.json"
+		"url": "assets/ff.json"
 	},
 	{
 		"name": "testPng",
 		"type": "image",
-		"url": "assets/test.png"
+		"url": "assets/ff.png"
+	},
+	{
+		"name": "rockBg",
+		"type": "image",
+		"url": "assets/Direction_bc.png"
+	},
+	{
+		"name": "rockBtn",
+		"type": "image",
+		"url": "assets/Direction_bt.png"
 	}],
 	"groups": [
 	{
 		"name": "preload",
-		"keys": "bgImage,egretIcon,testJson,testPng"
+		"keys": "testJson,testPng,rockBg,rockBtn"
 	}]
 }
