@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "name": "rockBg",
+      "type": "image",
+      "url": "assets/Direction_bc.png"
+    },
+    {
+      "name": "rockBtn",
+      "type": "image",
+      "url": "assets/Direction_bt.png"
+    },
+    {
+      "name": "btn_down",
+      "type": "image",
+      "url": "assets/btn_down.png"
+    },
+    {
+      "name": "btn_normal",
+      "type": "image",
+      "url": "assets/btn_normal.png"
+    }
+  ],
+  "groups": [
+    {
+      "name": "preload",
+      "keys": "rockBg,rockBtn,btn_down,btn_normal"
+    }
+  ]
+}
