@@ -149,7 +149,7 @@ reading:
 
 #comment config
 disqus:
-  config: false
+  config: true
   id: hongjie
 
 
