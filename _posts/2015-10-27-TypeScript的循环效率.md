@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TypeScript的循环效率
-category: 技术
+category: TypeScript
 comments: true
 ---
 
