@@ -1,0 +1,45 @@
+{
+	"resources": [
+		{
+			"name": "down",
+			"type": "image",
+			"url": "assets/down.png"
+		},
+		{
+			"name": "left",
+			"type": "image",
+			"url": "assets/left.png"
+		},
+		{
+			"name": "menu",
+			"type": "image",
+			"url": "assets/menu.png"
+		},
+		{
+			"name": "ok",
+			"type": "image",
+			"url": "assets/OK.png"
+		},
+		{
+			"name": "back",
+			"type": "image",
+			"url": "assets/return.png"
+		},
+		{
+			"name": "right",
+			"type": "image",
+			"url": "assets/right.png"
+		},
+		{
+			"name": "up",
+			"type": "image",
+			"url": "assets/up.png"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "down,left,menu,ok,back,right,up"
+		}
+	]
+}
