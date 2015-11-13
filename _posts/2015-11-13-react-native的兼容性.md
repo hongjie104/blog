@@ -29,6 +29,7 @@ var AwesomeProject = React.createClass({
   render: function() {
     return (
       <NavigatorIOS
+        style={styles.container}
     );
   }
 });
