@@ -15,6 +15,13 @@ comments: true
 
 ```
 'use strict';
+
+var React = require('react-native');
+var {
+  AppRegistry,
+  NavigatorIOS,
+  StyleSheet,
+} = React;
 ```
 
 
