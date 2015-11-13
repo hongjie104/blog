@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用WebStorm做为Egert的开发环境
-category: TypeScript
+category: Egret
 comments: true
 ---
 
