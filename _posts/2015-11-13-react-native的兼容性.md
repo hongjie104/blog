@@ -28,7 +28,7 @@ var Home = require('Home文件的路径');
 var AwesomeProject = React.createClass({
   render: function() {
     return (
-      NavigatorIOS
+      <NavigatorIOS
     );
   }
 });
