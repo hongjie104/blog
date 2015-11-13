@@ -11,4 +11,45 @@ comments: true
 
 ### 在定义导航的时候就出现了问题
 
+如果是ios我们就可以用NavigatorIOS组件，创建方式如下：
+
+```
+'use strict';
+
+var React = require('react-native');
+var {
+  AppRegistry,
+  NavigatorIOS,
+  StyleSheet,
+} = React;
+
+var Home = require('Home文件的路径');
+
+var AwesomeProject = React.createClass({
+  render: function() {
+    return (
+      <NavigatorIOS
+        style={styles.container}
+        initialRoute={{
+          title: '页面标题',
+          component: Home,
+        }}
+      />
+    );
+  }
+});
+
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+});
+
+AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
+```
+几行代码轻松搞定。
+
+而到了android那就不是那么简单的了，需要用Navigator组件来搞定，而且你必须要设置renderScene属性，来设置各个页面的跳转路由，创建方式如下：
+
 
