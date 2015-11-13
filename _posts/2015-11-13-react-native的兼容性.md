@@ -13,4 +13,42 @@ comments: true
 
 如果是ios我们就可以用NavigatorIOS组件，创建方式如下1：
 
+```
+
+'use strict';
+
+var React = require('react-native');
+var {
+  AppRegistry,
+  NavigatorIOS,
+  StyleSheet,
+} = React;
+
+var Home = require('Home文件的路径');
+
+var AwesomeProject = React.createClass({
+  render: function() {
+    return (
+      <NavigatorIOS
+        style={styles.container}
+        initialRoute={{
+          title: '页面标题',
+          component: Home,
+        }}
+      />
+    );
+  }
+});
+
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+});
+
+AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
+
+```
+
 
