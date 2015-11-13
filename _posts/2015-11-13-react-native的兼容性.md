@@ -30,6 +30,10 @@ var AwesomeProject = React.createClass({
     return (
       <NavigatorIOS
         style={styles.container}
+        initialRoute={{
+          title: '页面标题',
+          component: Home,
+        }}
     );
   }
 });
