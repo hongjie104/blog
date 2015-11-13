@@ -14,7 +14,7 @@ comments: true
 如果是ios我们就可以用NavigatorIOS组件，创建方式如下1：
 
 ```
-print("aa");
+'use strict';
 ```
 
 
