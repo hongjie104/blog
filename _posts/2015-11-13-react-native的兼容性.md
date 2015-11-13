@@ -30,7 +30,7 @@ var AwesomeProject = React.createClass({
     return (
       <NavigatorIOS
         style={styles.container}
-        initialRoute={{
+        initialRoute=
     );
   }
 });
