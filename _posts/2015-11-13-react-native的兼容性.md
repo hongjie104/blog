@@ -11,7 +11,7 @@ comments: true
 
 ### 在定义导航的时候就出现了问题
 
-如果是ios我们就可以用NavigatorIOS组件，创建方式如下1：
+如果是ios我们就可以用NavigatorIOS组件，创建方式如下：
 
 ```
 'use strict';
@@ -22,6 +22,8 @@ var {
   NavigatorIOS,
   StyleSheet,
 } = React;
+
+var Home = require('Home文件的路径');
 ```
 
 
