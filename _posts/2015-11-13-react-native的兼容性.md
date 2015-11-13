@@ -1,6 +1,6 @@
 ---
 layout: post
-title: （转）react-native的兼容性（Android、Ios）
+title: react-native的兼容性（Android、Ios）
 category: react-native
 comments: true
 ---
