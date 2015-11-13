@@ -28,13 +28,13 @@ var Home = require('Home文件的路径');
 var AwesomeProject = React.createClass({
   render: function() {
     return (
-      \<NavigatorIOS
+      &lt;NavigatorIOS
         style={styles.container}
         initialRoute={{
           title: '页面标题',
           component: Home,
         }}
-      /\>
+      /&gt;
     );
   }
 });
