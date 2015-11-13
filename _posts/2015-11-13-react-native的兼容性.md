@@ -34,7 +34,7 @@ var AwesomeProject = React.createClass({
           title: '页面标题',
           component: Home,
         }}
-      />
+      
     );
   }
 });
