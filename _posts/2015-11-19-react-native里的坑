@@ -9,7 +9,7 @@ comments: true
 
 ```
 <TouchableHighlight onPress={this.onTryLogin} underlayColor="#d9f2f3">
-	<Image style={{justifyContent:'center'}} source={require('./../common/imgs/btnBg.png')}>
+	<Image style={ {justifyContent:'center'} } source={require('./../common/imgs/btnBg.png')}>
 		<Text style={styles.loginText}>登录</Text>
 	</Image>
 </TouchableHighlight>
@@ -21,7 +21,7 @@ comments: true
 
 ```
 <View>
-	<Image style={{justifyContent:'center'}} source={require('./../common/imgs/btnBg.png')}>
+	<Image style={ {justifyContent:'center'} } source={require('./../common/imgs/btnBg.png')}>
 		<Text style={styles.loginText}>登录</Text>
 	</Image>
 </View>
