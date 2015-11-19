@@ -48,3 +48,20 @@ public void showDatepicker(int year, int month, int day, Callback successCallbac
 	dateDialog.show(mActivity.getSupportFragmentManager(), "datePicker");
 }
 ```
+
+3. precomputeStyle.js找不到。不知道从哪个版本开始，RN将precomputeStyle.js给删除了，那某些第三方组件用到了precomputeStyle就会报错，怎么破？将precomputeStyle( … )  改为   { style: { … } }就行了。
+
+例如：
+
+```
+// 旧版写法
+this.scrollView.setNativeProps(precomputeStyle({
+	transform: [{translateX: -1 * offsetX}],
+}));
+```
+改成:
+
+```
+// 新版写法
+this.scrollView.setNativeProps({style:{transform: [{translateX: -1 * offsetX}]}});
+```
