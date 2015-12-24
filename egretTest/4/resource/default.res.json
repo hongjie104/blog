@@ -6,14 +6,19 @@
 			"url": "assets/down.png"
 		},
 		{
+			"name": "down1",
+			"type": "image",
+			"url": "assets/down1.png"
+		},
+		{
 			"name": "left",
 			"type": "image",
 			"url": "assets/left.png"
 		},
 		{
-			"name": "menu",
+			"name": "left1",
 			"type": "image",
-			"url": "assets/menu.png"
+			"url": "assets/left1.png"
 		},
 		{
 			"name": "ok",
@@ -21,9 +26,19 @@
 			"url": "assets/OK.png"
 		},
 		{
+			"name": "ok1",
+			"type": "image",
+			"url": "assets/OK1.png"
+		},
+		{
 			"name": "back",
 			"type": "image",
 			"url": "assets/return.png"
+		},
+		{
+			"name": "back1",
+			"type": "image",
+			"url": "assets/return1.png"
 		},
 		{
 			"name": "right",
@@ -34,12 +49,27 @@
 			"name": "up",
 			"type": "image",
 			"url": "assets/up.png"
+		},
+		{
+			"name": "right1",
+			"type": "image",
+			"url": "assets/right1.png"
+		},
+		{
+			"name": "up1",
+			"type": "image",
+			"url": "assets/up1.png"
+		},
+		{
+    		"name": "logo",
+    		"type": "image",
+    		"url": "assets/logo.png"
 		}
 	],
 	"groups": [
 		{
 			"name": "preload",
-			"keys": "down,left,menu,ok,back,right,up"
+			"keys": "down,left,ok,back,right,up,logo,down1,left1,ok1,back1,right1,up1"
 		}
 	]
 }
