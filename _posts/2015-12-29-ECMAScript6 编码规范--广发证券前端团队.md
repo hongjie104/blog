@@ -1,3 +1,10 @@
+---
+layout: post
+title: ECMAScript6 编码规范--广发证券前端团队
+category: react-native
+comments: true
+---
+
 # ECMAScript6 编码规范--广发证券前端团队
 
 > 本规范是基于JavaScript规范拟定的，只针对ES6相关内容进行约定
