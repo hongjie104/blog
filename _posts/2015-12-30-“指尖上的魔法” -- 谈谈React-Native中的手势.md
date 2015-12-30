@@ -5,6 +5,8 @@ category: react-native
 comments: true
 ---
 
+[点击查看原文](https://github.com/jabez128/jabez128.github.io/issues/1)
+
 ![](https://cloud.githubusercontent.com/assets/2700425/9882570/d93d55ee-5c07-11e5-9dca-c3822e6b7eb9.png)
 React-Native是一款由Facebook开发并开源的框架，主要卖点是使用JavaScript编写原生的移动应用。从2015年3月份开源到现在，已经差不多有半年。目前，React-Native正在以几乎每周一个版本的速度进行快速迭代，开源社区非常活跃。2015年9月15日，React-Native正式宣布支持安卓，并在项目主页中更新了相关文档，这意味着React-Native已经完全覆盖了目前主流的iOS和Android系统，做到了“learn once，write everywhere”。React-Native能否颠覆传统的APP开发方式，现在下结论还为时尚早，但从微博和Twitter对React-Native相关消息的转发数量和评论来看，React-Native在未来的一段时间内都将是移动开发的热点。
 
