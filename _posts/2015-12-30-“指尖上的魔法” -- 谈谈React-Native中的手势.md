@@ -229,8 +229,8 @@ AppRegistry.registerComponent('pan', () => pan);
 1. 一个responder已经被激活
 2. 第一个responder还没有被release，用户去尝试去激活第另一个responder
 3. 后面将要被激活的responder去和前面还没有被释放的responder“协商”：兄弟，你都被激活这么久了，让我也活动一下呗？结果两种情况：
-> 1. 前面的responder比较“强硬”，非要占据唯一的responder的位置
-2. 前面的responder比较“好说话”，主动release
+1)前面的responder比较“强硬”，非要占据唯一的responder的位置
+2)前面的responder比较“好说话”，主动release
 
 4. 前面一种情况，后面的responder的onResponderReject方法被调用，后面的responder没有被激活
 5. 后面一种情况，后面的responder被激活，onResponderGrant方法被调用 ，前面的responder的onResponderTerminate方法被调用，前面的responder的状态被释放
