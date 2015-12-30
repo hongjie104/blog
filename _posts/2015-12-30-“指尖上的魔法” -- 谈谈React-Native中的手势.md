@@ -148,6 +148,7 @@ AppRegistry.registerComponent('gesture', () => gesture);
 要理解React Native的手势操作过程，首先要记住一点：
 **一个React Native应用中只能存在一个responder**
 正因为如此，gesture responder system中才存在reject和terminate方法。React Native事件响应的基本步骤如下：
+
 1. 用户通过触摸或者滑动来“激活”某个responder，这个步骤由View.props.onStartShouldSetResponder以及View.props.onMoveShouldSetResponder这两个方法负负责处理，如果返回值为true，则表示这个View能够响应触摸或者滑动手势被激活
 2. 如果组件被激活，View.props.onResponderGrant方法被调用，一般来说，这个时候需要去改变组建的底色或者透明度，来表示组件已经被激活
 3. 接下来，用户开始滑动手指，此时View.props.onResponderMove方法被调用
@@ -224,6 +225,7 @@ AppRegistry.registerComponent('pan', () => pan);
 ![](https://cloud.githubusercontent.com/assets/2700425/9908259/7d33ddea-5cc5-11e5-8191-88de055a14d1.gif)
 
 上面是正常事件响应流程，但是当应用中存在不止一个手势responder的时候，事情可能就复杂起来了。比如应用中存在两个responder，当使用一个手指激活一个responder之后，又去激活另一个responder会怎么样？因为React Native应用中只存在一个Responder，此时就会出现responder互斥的情况。具体来说过程如下：
+
 1. 一个responder已经被激活
 2. 第一个responder还没有被release，用户去尝试去激活第另一个responder
 3. 后面将要被激活的responder去和前面还没有被释放的responder“协商”：兄弟，你都被激活这么久了，让我也活动一下呗？结果两种情况：
