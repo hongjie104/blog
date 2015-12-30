@@ -5,8 +5,6 @@ category: react-native
 comments: true
 ---
 
-# ECMAScript6 编码规范--广发证券前端团队
-
 > 本规范是基于JavaScript规范拟定的，只针对ES6相关内容进行约定
 
 > 如变量命名，是否加分号等约定的请参考JavaScript规范
