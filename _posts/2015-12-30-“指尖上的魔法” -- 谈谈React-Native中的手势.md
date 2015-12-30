@@ -228,9 +228,225 @@ AppRegistry.registerComponent('pan', () => pan);
 
 1. 一个responder已经被激活
 2. 第一个responder还没有被release，用户去尝试去激活第另一个responder
-3. 后面将要被激活的responder去和前面还没有被释放的responder“协商”：兄弟，你都被激活这么久了，让我也活动一下呗？结果两种情况：
-1)前面的responder比较“强硬”，非要占据唯一的responder的位置
-2)前面的responder比较“好说话”，主动release
-
+3. 后面将要被激活的responder去和前面还没有被释放的responder“协商”：兄弟，你都被激活这么久了，让我也活动一下呗？结果两种情况：1)前面的responder比较“强硬”，非要占据唯一的responder的位置 2)前面的responder比较“好说话”，主动release
 4. 前面一种情况，后面的responder的onResponderReject方法被调用，后面的responder没有被激活
 5. 后面一种情况，后面的responder被激活，onResponderGrant方法被调用 ，前面的responder的onResponderTerminate方法被调用，前面的responder的状态被释放
+
+上面的步骤中，比较重要的部分是第三步“协商”，这个步骤由onResponderTerminationRequest这个方法的返回值决定，如果一个responder的这个方法的返回值是true，那么说明这个responder是“好说话”的方法，反之则是“强硬”的方法。
+
+由于在iOS simulator上不好模拟这个过程，大家可以自行编写应用在真机上对这个“协商”的步骤进行尝试。
+
+和web的事件的冒泡过程类似，React Native中的事件遵循的也是冒泡机制。默认情况下，当潜在的responder的互相嵌套时，最顶部的responder将会响应事件。大部分时候，这也是开发者想要的逻辑。但是我们可以来自定义响应事件的responder。具体来说，通过：
+
+1. View.props.onStartShouldSetResponderCapture
+2. View.props.onMoveShouldSetResponderCapture
+
+两个方法来进行设置。当某个潜在responder的这两个方法的其中一个返回值为true时，即使当前的View组件不在最顶部，唯一一个responder的位置也会由它占据。看下面的例子：
+
+```
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ */
+'use strict';
+
+var React = require('react-native');
+var {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+} = React;
+
+var pan = React.createClass({
+  getInitialState(){
+      return {
+        bg: 'white',
+        bg2: 'white'
+      }
+  },
+  componentWillMount(){
+    this._gestureHandlers = {
+      onStartShouldSetResponder: () => true,
+      onMoveShouldSetResponder: ()=> true,
+      onResponderGrant: ()=>{this.setState({bg: 'red'})},
+      onResponderMove: ()=>{console.log(123)},
+      onResponderRelease: ()=>{this.setState({bg: 'white'})},
+    }
+    this._gestureHandlers2 = {
+      onStartShouldSetResponder: () => true,
+      onMoveShouldSetResponder: ()=> true,
+      onResponderGrant: ()=>{this.setState({bg2: 'green'})},
+      onResponderMove: ()=>{console.log(123)},
+      onResponderRelease: ()=>{this.setState({bg2: 'white'})}
+    }
+  },
+  render: function() {
+    return (
+      <View style={styles.container}>
+        <View
+          {...this._gestureHandlers}
+          style={[styles.rect,{
+            "backgroundColor": this.state.bg
+          }]}>
+            <View
+              {...this._gestureHandlers2}
+              style={[styles.rect2,{
+                "backgroundColor": this.state.bg2
+              }]}
+            >
+
+            </View>
+          </View>
+      </View>
+    );
+  }
+});
+
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  rect: {
+    width: 200,
+    height: 200,
+    borderWidth: 1,
+    borderColor: 'black',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  rect2: {
+    width: 100,
+    height: 100,
+    borderWidth: 1,
+    borderColor: 'black'
+  }
+});
+
+AppRegistry.registerComponent('pan', () => pan);
+```
+
+这是正常的情况，当用户触摸最顶部的正方形时，最顶部的正方形会响应触摸事件，底色变为绿色，外层的正方形则不会响应触摸事件：
+
+![](https://cloud.githubusercontent.com/assets/2700425/9909019/e8da8c30-5cc8-11e5-8892-3ff2ab63b921.gif)
+
+而当在外层的View中加入
+
+```
+onStartShouldSetResponderCapture: () => true,
+onMoveShouldSetResponderCapture: ()=> true,
+```
+
+两个方法之后，即使点击最顶部的小正方形，响应的responder也变为了外层的正方形：
+
+![](https://cloud.githubusercontent.com/assets/2700425/9909068/22e0115c-5cc9-11e5-8640-4ffa5bb08a64.gif)
+
+和web开发中的事件参数类似，以上的每个方法都有一个evt参数，在事件发生的过程中，这个evt参数的nativeEvent属性的各个值能够标示手势进行的状态，如下所示：
+
+![](https://cloud.githubusercontent.com/assets/2700425/9909256/f6d2bcf8-5cc9-11e5-8862-17c2f27edb3b.png)
+
+参数的具体含义可以参看React Native文档。
+
+##PanResponder
+
+除了gesture responder system之外，React Native还抽象出了一套PanResponder方法，和gesture responder system相比，PanResponder方法的抽象程度更高，使用起来也更为方便。在使用PanResponder的时候，相应手势的逻辑和流程都不变，只需要根据文档对几个方法名称作修改即可。PanResponder的好处是：对于每个方法，除了第一个evt参数之外，开发者还可以使用第二个参数gestureState，这个gestureState是一个对象，包含手势进行过程中更多的信息，其中比较常用的几个是：
+
+1. dx/dy：手势进行到现在的横向/纵向相对位移
+2. vx/vy：此刻的横向/纵向速度
+3. numberActiveTouches：responder上的触摸的个数
+
+通过使用PanResponder，我们可以非常方便的实现drag & drop的效果。代码如下所示：
+
+```
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ */
+'use strict';
+
+var React = require('react-native');
+var {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  PanResponder
+} = React;
+
+var pan = React.createClass({
+  getInitialState(){
+      return {
+        bg: 'white',
+        top: 0,
+        left: 0
+      }
+  },
+  componentWillMount(){
+    this._panResponder = PanResponder.create({
+      onStartShouldSetPanResponder: () => true,
+      onMoveShouldSetPanResponder: ()=> true,
+      onPanResponderGrant: ()=>{
+        this._top = this.state.top
+        this._left = this.state.left
+        this.setState({bg: 'red'})
+      },
+      onPanResponderMove: (evt,gs)=>{
+        console.log(gs.dx+' '+gs.dy)
+        this.setState({
+          top: this._top+gs.dy,
+          left: this._left+gs.dx
+        })
+      },
+      onPanResponderRelease: (evt,gs)=>{
+        this.setState({
+          bg: 'white',
+          top: this._top+gs.dy,
+          left: this._left+gs.dx
+      })}
+    })
+  },
+  render: function() {
+    return (
+      <View style={styles.container}>
+        <View
+          {...this._panResponder.panHandlers}
+          style={[styles.rect,{
+            "backgroundColor": this.state.bg,
+            "top": this.state.top,
+            "left": this.state.left
+          }]}></View>
+      </View>
+    );
+  }
+});
+
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  rect: {
+    width: 200,
+    height: 200,
+    borderWidth: 1,
+    borderColor: 'black',
+    position: 'absolute',
+  }
+});
+
+AppRegistry.registerComponent('pan', () => pan);
+```
+
+![](https://cloud.githubusercontent.com/assets/2700425/9910057/b420a34e-5ccd-11e5-94d3-31259083726e.gif)
+
+##总结
+
+以上的内容就是我近一段事件来对React Native手势的学习和理解。讲了一些基本原理，但是要实现一些更加复杂的手势，例如pinch、rotate、zoom，还需要更进一步的研究和学习。
+
+1. [React Native文档](https://facebook.github.io/react-native/docs/gesture-responder-system.html#content)
+2. [Learning React Native Building Native Mobile Apps with JavaScript](http://shop.oreilly.com/product/0636920041511.do)
