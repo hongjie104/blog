@@ -162,12 +162,6 @@ __fbBatchedBridgeConfig.remoteModuleConfig的格式大概如下：
 好了，我们回过头来继续分析MessageQueue。MessageQueue构造函数中首先定义了一些实例变量，下面的代码中，我加入了一些注释，来解释这些变量的作用，注释里面的js module指的是只在js中定义的模块，native module指的是在native(这里就是Java)层定义的模块，这些模块都可以在js中使用。
 
 ```
-著作权归作者所有。
-商业转载请联系作者获得授权，非商业转载请注明出处。
-作者：hi大头鬼hi
-链接：http://zhuanlan.zhihu.com/program-life/20464825
-来源：知乎
-
 this.RemoteModules = {};//存储最终生成的各个模块信息，包含模块名，模块中的方法，常量等信息
 this._require = customRequire || require;//用于加载模块的函数
 this._queue = [[],[],[]];//队列，用于存放调用的模块，方法和参数信息，分别存储在第一二三个数组中
