@@ -2,5 +2,7 @@
 	// 安装包版本号
 	"versionCode": 1,
 	// jsbundle版本号
-	"jsVersionCode": 1
+	"jsVersionCode": 1,
+	// jsbundle下载地址
+	"jsbundleUrl": "http://3zhongjie.com/egretTest/5/jsbundle.zip"
 }
