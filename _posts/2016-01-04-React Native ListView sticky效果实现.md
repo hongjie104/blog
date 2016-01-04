@@ -22,17 +22,17 @@ React Native中，ScrollView组件可以使用*stickyHeaderIndices*轻松实现*
 
 dataBlob包含ListView所需的所有数据（section header 和 rows），在ListView渲染数据时，使用 getSectionData 和 getRowData 来渲染每一行数据。dataBlob的key值包含sectionID + rowId
 
-[](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/51.png)
+![](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/51.png)
 
 ##sectionIDs
 
 sectionIDs 用于标识每组section。
 
-[](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/52.png)
+![](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/52.png)
 
 ##rowIDs
 
-[](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/53.png)
+![](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/53.png)
 
 rowIDs 用于描述每个section里的每行数据的位置及是否需要渲染。在ListView渲染时，会先遍历rowIDs获取到对应的dataBlob数据。
 
@@ -57,17 +57,17 @@ var rowIDs = [ [ 'rowID1', 'rowID2' ], [ 'rowID1', 'rowID2' ], ... ]
 在DataSource中，告诉ListView获取row和section的方法。
 
 ```
-var getSectionData = (dataBlob, sectionID) =&gt; {
+var getSectionData = (dataBlob, sectionID) => {
       return dataBlob[sectionID];
  }
-var getRowData = (dataBlob, sectionID, rowID) =&gt; {
+var getRowData = (dataBlob, sectionID, rowID) => {
       return dataBlob[sectionID + ':' + rowID];
 }
 this.ds = new ListView.DataSource({
       getSectionData: getSectionData,
       getRowData: getRowData,
-      rowHasChanged: (r1, r2) =&gt; r1 !== r2,
-      sectionHeaderHasChanged: (s1, s2) =&gt; s1 !== s2
+      rowHasChanged: (r1, r2) => r1 !== r2,
+      sectionHeaderHasChanged: (s1, s2) => s1 !== s2
 })
 ```
 
@@ -79,7 +79,7 @@ this.dataSource.cloneWithRowsAndSections(dataBlob, sectionIDs, rowIDs)
 
 最终效果如图：
 
-[](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/1.gif)
+![](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/1.gif)
 
 [点击查看完整代码](https://github.com/hugohua/rn-listview-example)
 
