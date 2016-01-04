@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React Native 中组件的生命周期(转)
-category: 技术
+category: react-native
 comments: true
 ---
 

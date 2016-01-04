@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React Native ListView sticky效果实现(转)
-category: 技术
+category: react-native
 comments: true
 ---
 

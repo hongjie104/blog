@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ReactNativeAndroid源码分析-Js如何调用Native的代码(转)
-category: 技术
+category: react-native
 comments: true
 ---
 
