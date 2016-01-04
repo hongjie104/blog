@@ -1,3 +1,6 @@
 {
-	"versionCode": 36
+	// 安装包版本号
+	"versionCode": 1,
+	// jsbundle版本号
+	"jsVersionCode": 1
 }
