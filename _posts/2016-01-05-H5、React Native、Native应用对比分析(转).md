@@ -107,7 +107,7 @@ HTML5 vs React Native ? HTML5 : React Native
 （1）更新能力
 （2）维护成本
 
-－－－－－－－－－－提纲－－－－－－－－－－－－
+**－－－－－－－－－－提纲－－－－－－－－－－－－**
 
 ##1、开发方式
 很多人说React Native的代码不好看，不好理解。那是因为前端工程师都熟悉了Web的开发方式。怎么解决这个问题呢，可以先看看iOS代码，断定不熟悉iOS的同学心里会默念“一万匹**马奔腾”。那时候，你再看React Native，你会觉得使用React Native开发App是件多么美好的事！OK，我们先来看下三者在开始“一款简单App”的代码结构。
@@ -131,6 +131,7 @@ H5/Hybird的开发模式，我们需要维护3套代码，两套是Native（iOS/
 “面容姣好”，合理的UI却总是跟着时间在变。那么UI布局就不是小事。
 Web开发布局目前大多是 DIV + CSS。
 React Native的布局方式是Flexbox。
+
 ```
 //JSX
 <ScrollView style={styles.flex_1}>
