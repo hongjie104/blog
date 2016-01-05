@@ -190,8 +190,9 @@ publisher.text = obj[@"publisher"];
 ```
 
 **总结：React Native既综合了Web布局的优势，采用了FlexBox和JSX，又使用了Native原生组件。比如我们使用一个文本组件。**
+
 ```
-<Text style={{width:100;height:30;backgroundColor:'red'}}>测试</Text>
+<Text style={ {width:100;height:30;backgroundColor:'red'} }>测试</Text>
 ```
 
 ###（3）UI截面图
@@ -361,21 +362,31 @@ Native：iOS/Android开发周期长，两个开发团队。
 ---
 ###1、开发方式
 （1）代码结构： React Native更为合理，组件化程度高
+
 （2）UI布局：Web布局灵活度 > React Native > Native
+
 （3）UI截面图：React Native使用的是原生组件，
+
 （4）路由／Navigation：React Native & Native更胜一筹
+
 （5）第三方生态链：Native modules + js modules = React Native modules
 
 ###2、性能 & 体验
 （1）内存：Native最少；因为React Native含有框架，所以相对较高，但是后期平稳后会优于Native。
+
 （2）CPU：React Native居中。
+
 （3）动画：React Native动画需求基本满足。
+
 （4）安装包体积：React Native框架打包后，811KB。相比热更新，可以忽略和考虑资源规划。
+
 （5）Big ListView
+
 （6）真机体验：Native >= React Native > H5/Hybrid
 
 ###3、更新 & 维护
 （1）更新能力: H5/Hybird > React Native > Native
+
 （2）维护成本: H5/Hybird <= React Native < Native
 
 React Native定制难度相比Native有些大；但是具备跨平台能力和热更新能力。
