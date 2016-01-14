@@ -155,11 +155,11 @@ reading:
 working:
   webGame:
     - item:
-      - name: 皮卡堂  
+      - name: 皮卡堂
         url: http://www.picatown.com
         state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
     - item:
-      - name: 寻将记  
+      - name: 寻将记
         url: http://baike.baidu.com/link?url=a9F2-letrb-ytHnlL7OLTN-P6YX7m6AqMwCFafGrYhROptXrRLYnXKmfZwNGOo4-kl9maPa3dE24RnIjzrWW9a
         state: 前端底层框架搭建，初期90%业务逻辑编写，已暂停运营
   phoneGame:
