@@ -157,7 +157,24 @@ working:
     - item:
       - name: 皮卡堂
         url: http://www.picatown.com
-        state: 运营中
+        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
+    - item:
+      - name: 寻将记
+        url: http://baike.baidu.com/link?url=a9F2-letrb-ytHnlL7OLTN-P6YX7m6AqMwCFafGrYhROptXrRLYnXKmfZwNGOo4-kl9maPa3dE24RnIjzrWW9a
+        state: 前端底层框架搭建，初期90%业务逻辑编写，已暂停运营
+  phoneGame:
+    - item:
+      - name: 花样三国
+        url: http://baike.baidu.com/link?url=krJzKqJ_YuRRJCvquaktkpW2gcGXwKjoblOD-4gcT9GATgFPvTiV0ZuASpaMlsimfsqE9Xb8dGmxTxajT_rIgx7EW8jRuO7tNNwgDGNVJX0bE55DQ1gRx4VT7T4uQ3F-
+        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
+      - name: 花样武侠
+        url: http://www.tvhome.com/article/21191.html
+        state: 前端底层框架搭建，初期60%业务逻辑编写，运营中
+  app:
+    - item:
+      - name: P图社区
+        url: http://www.52ptu.com
+        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
 
 #comment config
 disqus:
