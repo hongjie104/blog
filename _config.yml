@@ -62,6 +62,8 @@ nav:
     url: navigations/archives.html
   - text: 读书笔记
     url: navigations/reading.html
+  - text: 健身计划
+    url: navigations/bodyBuilding.html
   - text: 联系我
     url: navigations/contact.html
   # - text: 友情链接
