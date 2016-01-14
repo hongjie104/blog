@@ -1,48 +1,28 @@
 ---
 layout: default
-title: Reading
+title: BodyBuilding
 comment: true
 ---
 
 <div class="article">
     <h3 class="title">{{ page.title }}</h3>
     <div class="links">
-        <p>想读</p>
         <table>
             <thead>
                 <tr>
-                    <th>书名</th>
-                    <th>状态</th>
+                    <th>时间</th>
+                    <th>动作名</th>
                 </tr>
             </thead>
             <tbody>
-                {% for i in site.reading.toRead %}
-                {% for book in i.item %}
                 <tr>
-                    <td><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></td>
-                    <td align="center">未读</td>
+                    <td align="center">周一</td>
+                    <td align="center">杠铃直立划船</td>
                 </tr>
-                {% endfor %}
-                {% endfor %}
-            </tbody>
-        </table>
-        <p>已读</p>
-        <table>
-            <thead>
                 <tr>
-                    <th>书名</th>
-                    <th>笔记</th>
+                    <td align="center">周三</td>
+                    <td align="center">深蹲</td>
                 </tr>
-            </thead>
-            <tbody>
-                {% for i in site.reading.readed %}
-                {% for book in i.item %}
-                <tr>
-                    <td><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></td>
-                    <td align="center"><a href="{{ book.note }}" target="_blank">笔记</a></td>
-                </tr>
-                {% endfor %}
-                {% endfor %}
             </tbody>
         </table>
     </div>
