@@ -63,7 +63,7 @@ nav:
   - text: 读书笔记
     url: navigations/reading.html
   - text: 我的作品
-    url: navigations/working.md
+    url: navigations/working.html
   - text: 联系我
     url: navigations/contact.html
   # - text: 友情链接
@@ -151,6 +151,13 @@ reading:
       - name: 程序员必读之软件架构5
         url: http://book.douban.com/subject/26248182/
         note: http://book.douban.com/subject/26248182/
+
+working:
+  webGame:
+    - item:
+      - name: 皮卡堂
+        url: http://www.picatown.com
+        state: 运营中
 
 #comment config
 disqus:
