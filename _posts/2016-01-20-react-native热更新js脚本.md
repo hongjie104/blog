@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Native ListView sticky效果实现(转)
+title: react-native热更新js脚本
 category: react-native
 comments: true
 ---
