@@ -9,7 +9,7 @@ comments: true
 
 了解了版本号中各个数字的意义之后，那么我们接下来说说如何实现js代码的热更新。
 [热更新的大致流程](https://www.processon.com/view/link/569f895ce4b0bd5c5c1062b6)如下：
-![](http://upload-images.jianshu.io/upload_images/68795-c035e2064202c45f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://7u2qiz.com1.z0.glb.clouddn.com/react-native%E7%83%AD%E6%9B%B4%E6%96%B0%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 1.启动的时候使用原生语言判断本地是否存在曾经热更新下来的js代码，如果存在，那么加载该js代码，否则加载安装包asset中的js代码。这一步很好理解，发布产品的时候肯定有一份js代码是打包在asset中的，这是默认加载的js代码，假如我们已经成功通过热更新下载好了更新的js代码保存在本地，那么app启动的时候就应该直接加载保存在本地的js代码而不是asset中的旧代码了，否则每次启动都加载旧代码，那么热更新也就失去意义了。
 2.js代码加载完成后就向服务器索要一份版本信息配置文件，其中记录了js代码压缩包的下载地址和版本号，也就是之前所说的第四位版本号，将该版本号与本地记录的js版本号进行比较，如果不一致，说明有新的js代码需要更新，如果一直，说明本地的js代码是最新的了，就直接进入主界面了。
@@ -22,4 +22,4 @@ comments: true
 目前热更新只能实现js代码的更新，局限性比较大，当原生代码更新了或者图片资源更新了，还是需要重新打包，提供用户下载安装。
 
 下面放上一个热更新实例图，新安装好的版本，主界面Toolbar右上角是没有“更多”按钮的，版本号的最后一位为1，重启启动后开始热更新，更新成功后，主界面Toolbar右上角出现“更多”按钮，版本号最后一位变成436。
-![](http://upload-images.jianshu.io/upload_images/68795-d0acdd61c1158aae.gif?imageMogr2/auto-orient/strip)
+![](http://7u2qiz.com1.z0.glb.clouddn.com/rn%E7%83%AD%E6%9B%B4%E6%96%B0.gif)
