@@ -1,132 +1,200 @@
-# This is the default format. 
-# For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:year/:month/:day/:title 
-markdown: rdiscount
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
-#mardown: redcarpet
 
+
+
+######################### theme kunka condigure ##############################################
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Jekyll Theme
+description: Just another Jekyll theme design and code by zhanxin.info.
+keywords: Jekyll Theme
+# 如果没有使用自定义域名，那么url为/blog，否则为空
+# url: /blog
+url:
+feed: /atom.xml
+favicon: http://jekyllrb.com/favicon.png
+
+#Nav config
+nav:
+  - text: 首页
+    url: index.html
+  - text: 分类目录 
+    url: navigations/categories.html
+  - text: 文章归档
+    url: navigations/archives.html
+  - text: 读书笔记
+    url: navigations/reading.html
+  - text: 我的作品
+    url: navigations/working.html
+  - text: 联系我
+    url: navigations/contact.html
+  # - text: 友情链接
+  #   url: navigations/links.html
+
+#Author config
+author:
+    name: 鸿杰
+    email: 32968210@qq.com
+    imageLink: http://7u2qiz.com1.z0.glb.clouddn.com/instaface_20151572843352.jpg
+    # http://7u2qiz.com1.z0.glb.clouddn.com/instaface_20151572843352.jpg
+    simpleIntro: 我是鸿杰
+    detailIntro:
+      <p>hello world</p>
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+#   - class: icon-rss
+#     url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/myfallenheaven
+#   - class: icon-renren
+#     url: http://renren.com
+  - class: icon-github-alt
+    url: https://github.com/Eddie104
+  - class: icon-graduation-cap
+    url: http://www.zhihu.com/people/3zhongjie
+#   - class: icon-twitter
+#     url: http://twitter.com
+#   - class: icon-google-plus
+#     url: http://google.com
+
+#Links
+# customLinks:
+#   - item:
+#     - text: 掌心
+#       url: http://www.zhanxin.info
+#     - text: Jekyll
+#       url: http://jekyllrb.com
+#     - text: Jekyll Theme
+#       url: http://www.zhanxin.info/themes.html
+#     message: Friends
+#   - item:
+#     - text: Font Awesome
+#       url: http://fortawesome.github.io/Font-Awesome/
+#     - text: Google Font
+#       url: http://www.google.com/fonts/
+#     - text: jQuery
+#       url: http://jquery.com/
+#     message: 其他相关链接
+
+reading:
+  toRead:
+    - item:
+      - name: 程序员必读之软件架构
+        url: http://book.douban.com/subject/26248182/
+    - item:
+      - name: 枪与玫瑰的使用方法
+        url: http://book.douban.com/subject/25775846/
+    - item:
+      - name: 大话数据结构
+        url: http://book.douban.com/subject/6424904/
+    - item:
+      - name: JavaScript权威指南（第6版）
+        url: http://book.douban.com/subject/10549733/
+    - item:
+      - name: 魔鬼约会学
+        url: http://book.douban.com/subject/25839107/
+    - item:
+      - name: 自控术
+        url: http://book.douban.com/subject/20504840/
+    - item:
+      - name: 冒号课堂
+        url: http://book.douban.com/subject/4031906/
+  readed:
+    - item:
+      - name: 程序员必读之软件架构3
+        url: http://book.douban.com/subject/26248182/
+        note: http://book.douban.com/subject/26248182/
+    - item:
+      - name: 程序员必读之软件架构4
+        url: http://book.douban.com/subject/26248182/
+        note: http://book.douban.com/subject/26248182/
+    - item:
+      - name: 程序员必读之软件架构5
+        url: http://book.douban.com/subject/26248182/
+        note: http://book.douban.com/subject/26248182/
+
+working:
+  webGame:
+    - item:
+      - name: 皮卡堂
+        url: http://www.picatown.com
+        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
+    - item:
+      - name: 寻将记
+        url: http://baike.baidu.com/link?url=a9F2-letrb-ytHnlL7OLTN-P6YX7m6AqMwCFafGrYhROptXrRLYnXKmfZwNGOo4-kl9maPa3dE24RnIjzrWW9a
+        state: 前端底层框架搭建，初期90%业务逻辑编写，已暂停运营
+  phoneGame:
+    - item:
+      - name: 花样三国
+        url: http://baike.baidu.com/link?url=krJzKqJ_YuRRJCvquaktkpW2gcGXwKjoblOD-4gcT9GATgFPvTiV0ZuASpaMlsimfsqE9Xb8dGmxTxajT_rIgx7EW8jRuO7tNNwgDGNVJX0bE55DQ1gRx4VT7T4uQ3F-
+        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
+      - name: 花样武侠
+        url: http://www.tvhome.com/article/21191.html
+        state: 前端底层框架搭建，初期60%业务逻辑编写，运营中
+  app:
+    - item:
+      - name: P图社区
+        url: http://www.52ptu.com
+        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
+
+#comment config
+disqus:
+  config: true
+  id: hongjie
+
+
+#################################### global configure #######################################
+
+username: Eddie104
+# 如果没有使用自定义域名，那么url为/blog，否则为空
+# baseurl: /blog
+baseurl:
+markdown: redcarpet
 safe: false
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
-title : 寂寞先生
-tagline: Site Tagline
-author :
-  name : 陈佳伟
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+highlighter: pygments
+title: 鸿杰博客
+description: 人生到处知何似，应似飞鸿踏雪泥
+theme: kunka
+disqusname: hongjie
 
-# The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
-# Most places will/should use BASE_PATH to make the urls
-#
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.io, replace with your username.
-# Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
-production_url : http://enml.github.io/blog
-
-# All Jekyll-Bootstrap specific configurations are namespaced into this hash
-#
-JB :
-  version : 0.3.0
-
-  # All links will be namespaced by BASE_PATH if defined.
-  # Links in your website should always be prefixed with {{BASE_PATH}}
-  # however this value will be dynamically changed depending on your deployment situation.
-  #
-  # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH 
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH 
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Project Pages (http://username.github.io/project-name)
-  #
-  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
-  #
-  # CAUTION:
-  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
-  #   - Only the following values are falsy: ["", null, false]
-  #   - When setting BASE_PATH it must be a valid url.
-  #     This means always setting the protocol (http|https) or prefixing with "/"
-  # BASE_PATH : /blog
-
-  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
-  #
-  # Override this by defining an absolute path to assets here.
-  # ex: 
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
-  #   /assets
-  #
-  ASSET_PATH : False
-
-  # These paths are to the main pages Jekyll-Bootstrap ships with.
-  # Some JB helpers refer to these paths; change them here if needed.
-  #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
-
-  # Settings for comments helper
-  # Set 'provider' to the comment provider you want to use.
-  # Set 'provider' to false to turn commenting off globally.
-  #
-  comments :
-    provider : disqus
-    disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
-   
-  # Settings for analytics helper
-  # Set 'provider' to the analytics provider you want to use.
-  # Set 'provider' to false to turn analytics off globally.
-  #        
-  analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-50637568-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
-
-  # Settings for sharing helper. 
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
-  # Set 'provider' to the sharing provider you want to use.
-  # Set 'provider' to false to turn sharing off globally.
-  #
-  sharing :
-    provider : false
-    
-  # Settings for all other include helpers can be defined by creating 
-  # a hash with key named for the given helper. ex:
-  #
-  #   pages_list :
-  #     provider : "custom"   
-  #
-  # Setting any helper's provider to 'custom' will bypass the helper code
-  # and include your custom code. Your custom file must be defined at:
-  #   ./_includes/custom/[HELPER]
-  # where [HELPER] is the name of the helper you are overriding.
-  
+# theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
+# those themes are all come from GitHub Pages Themes

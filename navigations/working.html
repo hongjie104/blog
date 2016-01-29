@@ -1,0 +1,83 @@
+---
+layout: default
+title: Working
+comment: true
+---
+
+<div class="article">
+    <h3 class="title">{{ page.title }}</h3>
+    <div class="links">
+        <p>参与过的页游</p>
+        <table>
+            <thead>
+                <tr>
+                    <!-- <th>编号</th> -->
+                    <th>游戏名</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in site.working.webGame %}
+                {% for game in i.item %}
+                <tr>
+                    <!-- <td>1</td> -->
+                    <td><a href="{{ game.url }}" target="_blank">{{ game.name }}</a></td>
+                    <td align="left">{{ game.state }}</td>
+                </tr>
+                {% endfor %}
+                {% endfor %}
+            </tbody>
+        </table>
+        <p>参与过的手游(电视游戏)</p>
+        <table>
+            <thead>
+                <tr>
+                    <!-- <th>编号</th> -->
+                    <th>游戏名</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in site.working.phoneGame %}
+                {% for game in i.item %}
+                <tr>
+                    <!-- <td>1</td> -->
+                    <td><a href="{{ game.url }}" target="_blank">{{ game.name }}</a></td>
+                    <td align="left">{{ game.state }}</td>
+                </tr>
+                {% endfor %}
+                {% endfor %}
+            </tbody>
+        </table>
+        <p>参与过的APP</p>
+        <table>
+            <thead>
+                <tr>
+                    <!-- <th>编号</th> -->
+                    <th>应用名</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in site.working.app %}
+                {% for game in i.item %}
+                <tr>
+                    <!-- <td>1</td> -->
+                    <td><a href="{{ game.url }}" target="_blank">{{ game.name }}</a></td>
+                    <td align="left">{{ game.state }}</td>
+                </tr>
+                {% endfor %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="comment">
+        {% if site.disqus.config %}
+        <div id="disqus_thread"></div>
+        {% else %}
+            {% if site.duoshuo.config %}
+            <div class="ds-thread"></div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
