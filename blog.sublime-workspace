@@ -1,0 +1,2130 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"前端",
+				"前端底层框架搭建，初期90"
+			],
+			[
+				"_ac",
+				"_activeIndex"
+			],
+			[
+				"_c",
+				"_children"
+			],
+			[
+				"_a",
+				"_activeChild"
+			],
+			[
+				"_acti",
+				"_activeIndex"
+			],
+			[
+				"cl",
+				"clear()	DrawNode"
+			],
+			[
+				"_targ",
+				"_targetY"
+			],
+			[
+				"tra",
+				"transition.moveTo(target, args)	."
+			],
+			[
+				"tolua",
+				"tolua.cast(obj,type)"
+			],
+			[
+				"addeve",
+				"addEventListener(eventName, listener, tag)	EventProtocol"
+			],
+			[
+				"ex",
+				"export	keyword"
+			],
+			[
+				"cons",
+				"constructor	keyword"
+			],
+			[
+				"Pe",
+				"Person	class"
+			],
+			[
+				"impo",
+				"import	keyword"
+			],
+			[
+				"impor",
+				"importScripts	function"
+			],
+			[
+				"con",
+				"console	var"
+			],
+			[
+				"clas",
+				"class	keyword"
+			],
+			[
+				"_ser",
+				"_serverIndex"
+			],
+			[
+				"disrig",
+				"display.right	."
+			],
+			[
+				"disRight",
+				"display.CENTER_RIGHT	."
+			],
+			[
+				"trafa",
+				"transition.fadeOut(target, args)	."
+			],
+			[
+				"seto",
+				"setOpacity(opacity)	Node"
+			],
+			[
+				"for",
+				"fori	for i,v in ipairs()"
+			],
+			[
+				"output",
+				"outputNotExists"
+			],
+			[
+				"filena",
+				"filename"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"_server",
+				"_serverListData"
+			],
+			[
+				"getCont",
+				"getContentSize()	Node"
+			],
+			[
+				"disnewsrpi",
+				"display.newSprite(filename, x, y, params)	."
+			],
+			[
+				"suer",
+				"super"
+			],
+			[
+				"_vi",
+				"_vipBtn"
+			],
+			[
+				"_S",
+				"_skillBtn"
+			],
+			[
+				"_equ",
+				"_equipBtn"
+			],
+			[
+				"_info",
+				"_infoAnimationName"
+			],
+			[
+				"setScale",
+				"setScaleX(scaleX)	Node"
+			],
+			[
+				"_war",
+				"_warriorCfg"
+			],
+			[
+				"plist",
+				"plistPath"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"_mail",
+				"_mailTitleList"
+			],
+			[
+				"_mai",
+				"_mailTitleList"
+			],
+			[
+				"_x",
+				"_xkdBtn"
+			],
+			[
+				"_border",
+				"_borderOffsetX"
+			],
+			[
+				"disnewsprite",
+				"display.newSprite(filename, x, y, params)	."
+			],
+			[
+				"disnewsp",
+				"display.newScale9Sprite(filename, x, y, size, capInsets)	."
+			],
+			[
+				"_rela",
+				"_relationList"
+			],
+			[
+				"_bo",
+				"_bottomComponent"
+			],
+			[
+				"_ot",
+				"_otherArmature"
+			],
+			[
+				"_pa",
+				"_payArmature"
+			],
+			[
+				"_sen",
+				"_shenJieArmature"
+			],
+			[
+				"_shenjie",
+				"_shenJieBtn"
+			],
+			[
+				"_ski",
+				"_skillArmature"
+			],
+			[
+				"_jjc",
+				"_jjcArmature"
+			],
+			[
+				"_eq",
+				"_equipArmature"
+			],
+			[
+				"_leve",
+				"_levelArmature"
+			],
+			[
+				"_warr",
+				"_warriorArmature"
+			],
+			[
+				"_wa",
+				"_warriorArmature"
+			],
+			[
+				"setvi",
+				"setVisible(visible)	Node"
+			],
+			[
+				"armatu",
+				"Armature"
+			],
+			[
+				"tramove",
+				"transition.moveBy(target, args)	."
+			],
+			[
+				"_lev",
+				"_levelBtn"
+			],
+			[
+				"displanewspcr",
+				"display.newScale9Sprite(filename, x, y, size, capInsets)	."
+			],
+			[
+				"reur",
+				"return"
+			],
+			[
+				"dixc",
+				"display.cx	."
+			],
+			[
+				"_h",
+				"_halfHeight"
+			],
+			[
+				"_haf",
+				"_halfWidth"
+			],
+			[
+				"els",
+				"elseif	elseif"
+			],
+			[
+				"nextF",
+				"nextFocusIndex"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"_gr",
+				"_gradeLabel"
+			],
+			[
+				"Poked",
+				"PokedexEquipList"
+			],
+			[
+				"disw",
+				"display.width	."
+			],
+			[
+				"setText",
+				"setTexture(texture)	ParticleSystem"
+			],
+			[
+				"displco",
+				"display.COLOR_BLACK	."
+			],
+			[
+				"fu",
+				"function	function"
+			],
+			[
+				"removeFrom",
+				"removeFromParent()	Node"
+			],
+			[
+				"warro",
+				"warriorData"
+			],
+			[
+				"removeEvent",
+				"removeEventListenersByTag(tagToRemove)	EventProtocol"
+			],
+			[
+				"discolor",
+				"display.COLOR_BLACK	."
+			],
+			[
+				"_actual",
+				"_actualHeight"
+			],
+			[
+				"disTOP",
+				"display.CENTER_TOP	."
+			],
+			[
+				"setTex",
+				"setTexture(texture)	Sprite"
+			],
+			[
+				"disnesprit",
+				"display.newSprite(filename, x, y, params)	."
+			],
+			[
+				"_actu",
+				"_actualHeight"
+			],
+			[
+				"disnewsprtie",
+				"display.newSprite(filename, x, y, params)	."
+			],
+			[
+				"Warrior",
+				"WarriorListViewItem"
+			],
+			[
+				"He",
+				"HelloMessage"
+			],
+			[
+				"_at",
+				"_atkWarrior"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"_curAction",
+				"_curActionIndex"
+			],
+			[
+				"scale",
+				"scaleX	."
+			],
+			[
+				"disnewsrp",
+				"display.newSprite(filename, x, y, params)	."
+			],
+			[
+				"requre",
+				"require(modname)"
+			],
+			[
+				"isM",
+				"isMy()	Warrior"
+			],
+			[
+				"isMy",
+				"isMy	."
+			],
+			[
+				"setS",
+				"setScale(s)	ParticleSystem"
+			],
+			[
+				"disnewsprit",
+				"display.newSprite(filename, x, y, params)	."
+			],
+			[
+				"setScal",
+				"setScaleX(scaleX)	Node"
+			],
+			[
+				"_hP",
+				"_hpBar"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"setVi",
+				"setVisible(visible)	Mesh"
+			],
+			[
+				"tranfad",
+				"transition.fadeTo(target, args)	."
+			],
+			[
+				"tramov",
+				"transition.moveTo(target, args)	."
+			],
+			[
+				"disLeft",
+				"display.CENTER_LEFT	."
+			],
+			[
+				"try",
+				"try	Try/Except/Finally"
+			],
+			[
+				"per",
+				"performWithDelay(callback, delay)	Node"
+			],
+			[
+				"Blink",
+				"Blink:create(duration, blinks)	."
+			],
+			[
+				"_emen",
+				"_emenyHPBar"
+			],
+			[
+				"_myH",
+				"_myHPBar"
+			],
+			[
+				"_emenyMP",
+				"_emenyMPBar"
+			],
+			[
+				"_my",
+				"_myMPBar"
+			],
+			[
+				"tranmove",
+				"transition.moveBy(target, args)	."
+			],
+			[
+				"_myM",
+				"_myMPBar"
+			],
+			[
+				"setSca",
+				"setScale(scale)	WarriorCartoon"
+			],
+			[
+				"startToLoad",
+				"startToLoadArmature"
+			],
+			[
+				"sca",
+				"scale	."
+			],
+			[
+				"_power",
+				"_powerLabel"
+			],
+			[
+				"tram",
+				"transition.moveBy(target, args)	."
+			],
+			[
+				"_head",
+				"_headNode"
+			],
+			[
+				"_hea",
+				"_headNode"
+			],
+			[
+				"rmoveFrom",
+				"removeFromParent()	Node"
+			],
+			[
+				"self",
+				"self.sb	."
+			],
+			[
+				"_batt",
+				"_battleResult"
+			],
+			[
+				"out",
+				"outputNotExists"
+			],
+			[
+				"res",
+				"resDir"
+			],
+			[
+				"error",
+				"error(...)	Logger"
+			],
+			[
+				"requ",
+				"require(modname)"
+			],
+			[
+				"FLY_",
+				"FLY_UP"
+			],
+			[
+				"_max",
+				"_maxHp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 5110,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2016-01-05-H5、React Native、Native应用对比分析(转).md",
+			"settings":
+			{
+				"buffer_size": 10065,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2016-01-20-react-native热更新js脚本.md",
+			"settings":
+			{
+				"buffer_size": 1873,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2016-01-26-WebStorm注册码.md",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "navigations/working.html",
+			"settings":
+			{
+				"buffer_size": 2431,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "navigations/reading.html",
+			"settings":
+			{
+				"buffer_size": 1767,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"showe",
+				"TypeScript: Show Error List"
+			],
+			[
+				"show",
+				"TypeScript: Show Error List"
+			],
+			[
+				"typesc",
+				"Build With: TypeScript"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"painsta",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pakcremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pakcremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"paremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pacremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"packg",
+				"Package Control: Install Package"
+			],
+			[
+				"packrem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"pacakge",
+				"Package Control: Install Package"
+			],
+			[
+				"paka",
+				"Package Control: List Packages"
+			],
+			[
+				"packremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pakcage",
+				"Package Control: Remove Package"
+			],
+			[
+				"packgae",
+				"Package Control: Disable Package"
+			],
+			[
+				"battlesc",
+				"Snippet: BattleScene"
+			],
+			[
+				"packae",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: CCAction"
+			],
+			[
+				"pakage",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"pag",
+				"Package Control: Install Package"
+			],
+			[
+				"pagce",
+				"Package Control: Install Package"
+			],
+			[
+				"pacg",
+				"Package Control: Install Package"
+			],
+			[
+				"package:C",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol:",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"About"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 262.0,
+		"history":
+		[
+			"clear",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/blog",
+		"/F/blog/_posts",
+		"/F/blog/navigations"
+	],
+	"file_history":
+	[
+		"/F/blog/navigations/working.html",
+		"/F/blog/navigations/working.md",
+		"/F/blog/navigations/bodyBuilding.html",
+		"/F/blog/_posts/2016-01-05-H5、React Native、Native应用对比分析(转).md",
+		"/F/blog/_posts/2016-01-05-ERROR Watcher took too long to load.md",
+		"/F/blog/egretTest/4/index.html",
+		"/F/blog/blog.sublime-project",
+		"/F/blog/blog.sublime-workspace",
+		"/F/blog/_posts/2016-01-04-React Native 中组件的生命周期.md",
+		"/F/blog/_posts/2015-10-11-a.md",
+		"/F/blog/_posts/2015-11-19-react-native里的坑",
+		"/F/blog/_posts/2015-11-10-a.md",
+		"/F/blog/_posts/2015-11-13-1.md",
+		"/F/blog/_posts/2015-10-26-使用WebStorm做为Egret的开发环境.md",
+		"/F/blog/_posts/2015-10-30-基于Egret的摇杆控制.md",
+		"/F/blog/_posts/2015-10-30-使用手机玩智能电视上的游戏.md",
+		"/F/blog/_posts/2015-11-13-react-native的兼容性.md",
+		"/F/blog/_posts/2015-11-13-b.md",
+		"/C/Program Files/Microvirt/MEmu/MemuHyperv VMs/MEmu/Logs/MEmu.log",
+		"/C/Program Files/Egret/EgretEngine/win/egret/tools/commands/upgrade/2.4.3/libs/core.d.ts",
+		"/G/codeLib/react-native/FinanceReactNative/package.json",
+		"/F/blog/_posts/2015-11-11-a.md",
+		"/C/Users/鸿杰/Desktop/paoku/launcher/egret_loader.js",
+		"/C/Program Files/Egret/EgretEngine/win/egret/src/egret/native/NativeContext.ts",
+		"/G/codeLib/egret/EGER/发布文档/0.1_Release Note.md",
+		"/G/codeLib/egret/EGER/src/GameApp.ts",
+		"/G/codeLib/egret/EGER/src/core/data/GlobalData.ts",
+		"/G/codeLib/egret/EGER/bin-debug/src/GameApp.js",
+		"/G/codeLib/egret/EGER/src/core/utils/NativeApi.ts",
+		"/G/codeLib/egret/EGER/src/core/config/GameConfig.ts",
+		"/F/blog/.gitignore",
+		"/G/codeLib/C#/BT-Framework/.gitignore",
+		"/C/Users/鸿杰/Desktop/MyProject_0.14.0_winx64_react-native.cn/MyProject/android/gradlew.bat",
+		"/C/Users/鸿杰/Desktop/MyProject_0.14.0_winx64_react-native.cn/MyProject/node_modules/react-native/ReactAndroid/release.gradle",
+		"/C/Users/鸿杰/Desktop/MyProject_0.14.0_winx64_react-native.cn/MyProject/node_modules/spdx-exceptions/index.json",
+		"/C/Users/鸿杰/Desktop/MyProject_0.14.0_winx64_react-native.cn/MyProject/node_modules/spdx-expression-parse/parser.generated.js",
+		"/G/codeLib/react-native/MyProject/android/build.gradle",
+		"/G/codeLib/react-native/MyProject/android/gradle.properties",
+		"/G/codeLib/react-native/MyProject/android/gradlew",
+		"/G/codeLib/react-native/MyProject/android/gradlew.bat",
+		"/G/codeLib/react-native/MyProject/android/MyProject.iml",
+		"/G/codeLib/react-native/MyProject/android/settings.gradle",
+		"/C/Users/鸿杰/Desktop/MyProject_0.14.0_winx64_react-native.cn/MyProject/node_modules/utf-8-validate/build/config.gypi",
+		"/C/Users/鸿杰/Desktop/MyProject_0.14.0_winx64_react-native.cn/MyProject/android/local.properties",
+		"/G/codeLib/react-native/MyProject/android/local.properties",
+		"/G/codeLib/react-native/MyProject/android/build/intermediates/dex-cache/cache.xml",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/Demo/Demo.json",
+		"/F/blog/_posts/2015-10-27-TypeScript的循环效率.md",
+		"/F/blog/_posts/2015-11-06-a.md",
+		"/G/codeLib/LibraServer/LibraServer/LibraServer.csproj",
+		"/F/apowo/hywx/client/trunk/src/app/view/relation/RelationPanel.lua",
+		"/G/codeLib/egret/LcpLib_Egret/lcp/display/LStar.ts",
+		"/F/apowo/hywx/client/trunk/src/app/view/lStarPreview/LStarPreviewPanel.lua",
+		"/F/apowo/hywx/client/trunk/src/app/view/components/QueueListView.lua",
+		"/F/apowo/hywx/client/trunk/src/app/view/components/WarriorListViewItem.lua",
+		"/F/apowo/hywx/client/trunk/src/app/view/equipmentNew/EquipmentPanel.lua",
+		"/F/apowo/hywx/client/trunk/src/app/view/relation/RelationShow.lua",
+		"/F/apowo/hywx/client/trunk/src/app/model/WarriorManager.lua",
+		"/F/apowo/hywx/client/trunk/src/app/init.lua",
+		"/F/apowo/hywx/client/trunk/src/app/config/WarriorConfig.lua",
+		"/F/apowo/hywx/client/trunk/src/app/view/relation/RelationContainer.lua",
+		"/F/apowo/hywx/client/trunk/src/main.lua",
+		"/F/apowo/hywx/client/trunk/src/app/MyApp.lua",
+		"/F/blog/_config.yml",
+		"/F/blog/README.md",
+		"/F/apowo/hywx/client/trunk/src/libra/init.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/log4q/Logger.lua",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/soldier/build_ani_1002.xml",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/soldier/hero_ani_11420.plist",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/soldier/hero_ani_11414_1.xml",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/soldier/hero_ani_11420.png",
+		"/F/apowo/hywx/tools/png2jpg/png2jpg.py",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/pvp/pvp_map.tmx",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/soldier/hero_ani_11624_1.xml",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/res/game/ui/equip/UIEquipUpgradePanel.lua",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/xml/affect.xml",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/decor/hulaoguan_tou.xml",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/config/animation_file.lua",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/asset/conf/achieve.lua",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/res/util/gaudio.lua",
+		"/C/Users/鸿杰/Desktop/hgame.zyfc.151016.0.1.38.200/assets/res/global.lua",
+		"/G/代码库/as3/Libra/src/org/libra/utils/QueryUtil.as",
+		"/F/apowo/hywx/client/trunk/src/app/config/GuideConfig.lua",
+		"/G/代码库/as3/Libra/src/org/libra/utils/ArrayUtil.as",
+		"/G/代码库/as3/Libra/src/org/libra/utils/Beizer.as",
+		"/G/代码库/as3/Libra/src/org/libra/utils/CapabilitiesUtil.as",
+		"/G/代码库/as3/Libra/src/org/libra/utils/DateUtil.as",
+		"/G/代码库/as3/Libra/src/org/libra/utils/FileUtil.as",
+		"/G/代码库/as3/Libra/src/org/libra/utils/Formatter.as",
+		"/G/代码库/as3/Libra/src/org/libra/utils/HitTestUtil.as",
+		"/G/代码库/as3/Libra/src/org/libra/utils/QTree.as",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/Demo/xls/PVPSpeak/xl/workbook.xml",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/Demo/xls/Workbook",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/Demo/xls/ETExtData",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/Demo/xls/[5]SummaryInformation",
+		"/F/blog/_posts/2015-11-06-TypeScript的export和static的方法的效率比较.md",
+		"/F/apowo/ProjectS/tools/dynamicUpdateTool/update.py",
+		"/C/Program Files/Egret/EgretEngine/win/egret/src/Defines.release.ts",
+		"/C/Program Files/Egret/EgretEngine/assets/app/app_config.xml",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/resource/assets/ff.json",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/resource/assets/shopDemo/body01.json",
+		"/F/apowo/ProjectS/tools/dynamicUpdateTool/fileList.py",
+		"/F/apowo/ProjectS/tools/dynamicUpdateTool/svnchanged_export.py",
+		"/G/codeLib/LibraEditor/LibraEditor/bin/Debug/cfg.json",
+		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/FurnitureView.mxml",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/ShopDemo/ShopDemo.json",
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/resource/defaultTest.res.json",
+		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/FurnitureEditor.mxml",
+		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/ListItemRender.mxml",
+		"/F/apowo/hywx/client/trunk/src/app/scenes/MainScene.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTNode.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTPrecondition.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTAction.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTTree.lua",
+		"/C/Users/鸿杰/Desktop/开心商店资源/char_head_02.png",
+		"/C/Users/鸿杰/Desktop/开心商店资源/lang.bin",
+		"/F/apowo/hywx/client/trunk/src/app/utils/PreloadFunctions.lua",
+		"/F/apowo/hywx/client/trunk/src/app/view/battle/CompareMP.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/Database.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTPrioritySelector.lua",
+		"/G/codeLib/C#/BT-Framework/BTTree.cs",
+		"/F/apowo/hywx/client/trunk/src/lollipopSoundLoadFix.lua",
+		"/F/apowo/hywx/client/trunk/src/app/scenes/battle/BattleScene.lua",
+		"/F/apowo/hywx/client/trunk/debug.log",
+		"/F/apowo/hywx/client/trunk/src/app/scenes/battle/Warrior.lua",
+		"/F/apowo/hywx/client/trunk/src/app/config/SkillConfig.lua",
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTSequence.lua",
+		"/G/codeLib/C#/BT-Framework/Extends/Preconditions/BTPrecondition2.cs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Program Files\\Egret\\EgretEngine\\win\\egret\\src",
+			"C:\\Program Files\\Egret\\EgretEngine\\win\\egret",
+			"G:\\codeLib\\egret\\EGER",
+			"G:\\codeLib\\egret\\EgretGameEngine\\src",
+			"C:\\Users\\鸿杰\\Desktop\\MyProject_0.14.0_winx64_react-native.cn\\MyProject",
+			"C:\\Program Files\\Egret\\EgretEngine\\win",
+			"F:\\apowo\\hywx\\client\\trunk\\src",
+			"F:\\blog",
+			"G:\\codeLib\\LibraEditor\\LibraEditor",
+			"F:\\apowo\\hywx\\client\\trunk\\src\\app\\scenes",
+			"F:\\apowo\\hywx\\client\\trunk\\src",
+			"G:\\codeLib\\C#\\BT-Framework",
+			"F:\\apowo\\hywx\\client\\trunk\\src\\app\\view\\skill",
+			"C:\\Users\\鸿杰\\Desktop\\ttt\\AVManager2.0\\AVManager2\\avManager",
+			"C:\\Program Files\\Egret\\EgretEngine\\win\\egret\\src",
+			"G:\\codeLib\\egret",
+			"G:\\codeLib\\egret\\LcpLib_Egret\\lcp",
+			"F:\\apowo\\hywx\\client\\trunk\\src",
+			"G:\\代码库\\as3\\Libra\\src\\org\\libra",
+			"G:\\codeLib\\egret\\LcpLib_Egret\\lcp",
+			"G:\\codeLib\\egret\\EGER\\src",
+			"G:\\codeLib\\egret\\egret-eagle",
+			"G:\\codeLib\\egret\\LcpLib_Egret\\lcp",
+			"G:\\codeLib\\egret\\EgretGameEngine",
+			"G:\\codeLib\\LibraEditor",
+			"F:\\blog",
+			"F:\\apowo\\hywx\\client\\trunk\\src",
+			"F:\\apowo\\hywx\\client\\trunk",
+			"C:\\Users\\鸿杰\\Desktop\\egretTest\\Test\\bin-release\\web\\1\\libs",
+			"C:\\Users\\鸿杰\\Desktop\\egretTest\\Test",
+			"F:\\blog",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\mail",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3",
+			"F:\\apowo\\hywx\\client\\src\\framework",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\skill",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\strengthNew",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\level",
+			"F:\\apowo\\hywx\\client\\src\\framework",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\skill",
+			"F:\\apowo\\hywx\\client\\src\\libra\\ui",
+			"F:\\apowo\\hywx\\cocos3.3",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\config",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\config",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3",
+			"F:\\apowo\\hywx\\client\\src\\app\\config",
+			"F:\\apowo\\hywx\\cocos3.3",
+			"F:\\apowo\\hywx\\client",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\level",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3",
+			"F:\\apowo\\hywx\\cocos3.3\\cocos",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3\\cocos",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3\\cocos",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3\\cocos",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\framework",
+			"F:\\apowo\\hywx\\client\\src",
+			"C:\\Users\\鸿杰\\Desktop\\ttt\\AVManager2.0",
+			"F:\\apowo\\hywx\\cocos3.3\\cocos",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3\\cocos",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\arena\\shop",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\cocos3.3\\quick\\samples",
+			"F:\\apowo\\hywx\\client\\src",
+			"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0",
+			"C:\\Users\\鸿杰\\Documents\\Visual Studio 2015",
+			"C:\\Users\\鸿杰\\Documents\\Visual Studio 2015\\Settings",
+			"F:\\apowo\\hywx\\cocos3.3\\cocos",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\scenes\\battle",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\battle",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app\\view\\queue",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\frameworks",
+			"F:\\apowo\\hywx\\client\\src",
+			"F:\\apowo\\hywx\\client\\src\\app",
+			"E:\\cocos2d-x\\JQuick\\cocos",
+			"E:\\apowo\\hywx\\client\\src",
+			"E:\\cocos2d-x\\JQuick\\cocos",
+			"E:\\apowo\\hywx\\client\\src",
+			"D:\\apowo\\hywx\\client\\src",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\apowo\\hywx\\client\\src\\framework",
+			"D:\\apowo\\hywx\\client\\src",
+			"D:\\apowo\\hywx\\client\\src\\app\\scenes",
+			"D:\\apowo\\hywx\\client\\src\\libra",
+			"D:\\cocos2d-x\\JQuick",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\apowo\\hywx\\client\\src",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\apowo\\hywx\\client\\src",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\apowo\\hywx\\client\\src",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\apowo\\hywx\\client\\src",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\cocos2d-x\\JQuick\\cocos\\editor-support\\cocostudio",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\cocos2d-x\\JQuick\\cocos\\editor-support\\cocostudio",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\cocos2d-x\\JQuick\\cocos\\editor-support\\cocostudio",
+			"D:\\apowo\\hywx\\client\\src",
+			"D:\\cocos2d-x\\JQuick\\cocos",
+			"D:\\apowo\\hywx\\client\\src\\framework"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"react",
+			"native",
+			"center",
+			"align=\"center\"",
+			"webGame",
+			"book",
+			"toRead",
+			"working",
+			"reading",
+			"e",
+			"{{",
+			"```",
+			"true",
+			"http",
+			"{{",
+			"}}",
+			"} }",
+			"}}",
+			"{{",
+			"# ",
+			"#",
+			" port ",
+			"yeo",
+			"setDesignSize",
+			"StageDelegate",
+			"setDesignSize",
+			"initIsVertical",
+			"isVerticalGame",
+			"onorientationchange",
+			"showVerticalTips",
+			"横",
+			"doResize",
+			"dor",
+			"dosi",
+			"3. 安装",
+			"```",
+			"Java",
+			"classpath",
+			"bootClasspath",
+			"classpath",
+			"tool",
+			"tools.jar",
+			"classpath",
+			"tdz",
+			"- ",
+			"-",
+			"TypeScript",
+			"ignManife",
+			"desk",
+			"QueueListView",
+			"StrengthWarriorListView",
+			"WarriorListViewItem",
+			"isRemoveBorderWhenLostFocusEnabled",
+			"isRemoveBorderWhenLostFocusEnabled，",
+			"WarriorListViewItem",
+			"_isLocked",
+			"WarriorListViewItem",
+			"ueueListView.ne",
+			"getAllNpcWarriorByClass",
+			"橙",
+			"getAllNpcWarriorByClass",
+			"class",
+			"getQueueWarriorList",
+			"onWarriorSelected",
+			"tag",
+			"Category",
+			"tag",
+			"category",
+			"require",
+			"orgRequire",
+			"```",
+			"学习武功",
+			"reinsert",
+			"6DA5985E",
+			"updateFurnitureSubface",
+			"subfaceStr",
+			"<<<",
+			"_subface",
+			"subfaceAry",
+			"_subface",
+			"body01Json1",
+			"15DB1057",
+			"BTResult",
+			"activate",
+			"Ended",
+			"Running",
+			"_statys",
+			"onExecute",
+			"doEvaluate",
+			"precondition",
+			"dataVal",
+			".new",
+			"activate",
+			"_database",
+			"dataVal",
+			"false",
+			"_root",
+			"sch",
+			"onUpdate",
+			"onupdate(",
+			"onupdate",
+			"preconditionType",
+			"dataToCheck",
+			"Condition",
+			"database",
+			"precondition",
+			"RunAction",
+			"Tree",
+			"login",
+			"testBehaviourTree",
+			"print",
+			"self._atkSkillCfg =",
+			"s.Armature:crea",
+			"Hywx_a_10000_NearAttackStart",
+			"isAccelerate",
+			"Hywx_a_10000_Flash",
+			"rangedAtk",
+			"进行普攻",
+			"20063",
+			"12181",
+			"12113",
+			"id",
+			"陆乘风",
+			"14030",
+			"黄蓉",
+			"dispose",
+			"evaluate",
+			"precondition"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{ {",
+			"} }",
+			"{ {",
+			"    ",
+			"export function",
+			"_curMusic",
+			"	",
+			"_curPropItemIndex",
+			"_propTotal",
+			"_propItemList",
+			"_propDataList",
+			"PropDataList",
+			"PropListView",
+			"AVManager2",
+			"_curItemIndex",
+			"_dataTotal",
+			"_itemList",
+			"	",
+			"SceneType=103",
+			"bg004",
+			"_resLoadList",
+			"\"queuqPanel2\"",
+			"\"queuqPanel1\"",
+			"RelationName2='芷若妹妹'",
+			"RelationName1='蓉儿妹纸'",
+			"QueueListView",
+			"**",
+			"self._emenyWarriorList",
+			"self._myWarriorList",
+			"	",
+			"startToBattle",
+			"startToLoadArmature",
+			"	",
+			"logger",
+			"	",
+			"self._scale9Sprite",
+			"	",
+			"_uiName",
+			"	",
+			"v:actualWidth(), v:actualHeight()",
+			"item:actualWidth(), item:actualHeight()",
+			"loadOneItem",
+			"_delegateFunc",
+			"VERTICAL",
+			"JListView",
+			"_delegateList",
+			"self._container",
+			"JListView",
+			"self._container",
+			"actualWidth(), actualHeight()",
+			"_redundancyViewVal",
+			"idx",
+			"increaseOrReduceItem",
+			"_viewRect",
+			"_itemList",
+			"_itemInStatus",
+			"JListView",
+			"	",
+			"quickDevSocket",
+			"libra.ui.components",
+			"\"nums/numYellow_35x43.fnt\"",
+			"evin21",
+			"setSpeedScale",
+			"ClientEffectTarget",
+			"latestRevision",
+			")",
+			"(",
+			"",
+			"Waitting",
+			"	",
+			"_serverItemListView",
+			"",
+			"_indexListView",
+			"",
+			"debugLayer:debug",
+			"projects",
+			":setPhase(",
+			"_3",
+			"_2",
+			"_3",
+			"self._island1",
+			"_1",
+			"self.",
+			"TO_UP",
+			"TO_DOWN",
+			"IN",
+			"18016",
+			"id()",
+			"id(), \"]\"",
+			"{ }",
+			"checkDead",
+			".targetGroups",
+			"",
+			"self.",
+			":type()",
+			"_damagePercent",
+			"self._warriorData.",
+			"self._warrior.",
+			"self.",
+			"_warriorData._reduceCritDamagePercent",
+			"_warriorData._reduceDamagePercent",
+			"_warriorData._reduceCounterPercent",
+			"_warriorData._reduceComboAttackPercent",
+			"_warriorData._reduceBlockPercent",
+			"_warriorData._reduceCritAttackPercent",
+			"_warriorData._addCritDamagePercent",
+			"_warriorData._addDamagePercent",
+			"_warriorData._addCounterPercent",
+			"self._warriorData._addBlockPercent",
+			"self._warriorData._addCritAttackPercent",
+			"self._warriorData._addComboAttackPercent",
+			"self._warriorData._zhongDuDamage",
+			"self._warriorData._reduceAttackPercent",
+			"self._warriorData._reduceDefencePercent",
+			"self._warriorData._addAttackPercent",
+			"self._warriorData._addDefencePercent",
+			"",
+			"gameScene/toolbar_btn_fg_s",
+			"gameScene/toolbar_btn_s",
+			"gameScene/toolbar_btn_fg_l",
+			"UI_RES .. \"kuang_1.png\"",
+			"UI_RES .. \"kuang_1.png",
+			" UIRES .. \"kuang_1.png\"",
+			" .. ",
+			"viewPath",
+			"v",
+			"buffData:",
+			"buff:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3839,
+								3839
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2016-01-05-H5、React Native、Native应用对比分析(转).md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2016-01-20-react-native热更新js脚本.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2016-01-26-WebStorm注册码.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "navigations/working.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1161,
+								1161
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "navigations/reading.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								668
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 237.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"globaldata",
+				"EGER\\src\\core\\data\\GlobalData.ts"
+			],
+			[
+				"lstarp",
+				"trunk\\src\\app\\view\\lStarPreview\\LStarPreviewPanel.lua"
+			],
+			[
+				"lstart",
+				"egret\\LcpLib_Egret\\lcp\\display\\LStar.ts"
+			],
+			[
+				"warriorlistviewitem",
+				"trunk\\src\\app\\view\\components\\WarriorListViewItem.lua"
+			],
+			[
+				"queuelistview",
+				"trunk\\src\\app\\view\\components\\QueueListView.lua"
+			],
+			[
+				"warriorconfi",
+				"trunk\\src\\app\\config\\WarriorConfig.lua"
+			],
+			[
+				"warriorma",
+				"trunk\\src\\app\\model\\WarriorManager.lua"
+			],
+			[
+				"myapp",
+				"trunk\\src\\app\\MyApp.lua"
+			],
+			[
+				"logge",
+				"trunk\\src\\libra\\log4q\\Logger.lua"
+			],
+			[
+				"init",
+				"trunk\\src\\libra\\init.lua"
+			],
+			[
+				"guidecon",
+				"trunk\\src\\app\\config\\GuideConfig.lua"
+			],
+			[
+				"preload",
+				"trunk\\src\\app\\utils\\PreloadFunctions.lua"
+			],
+			[
+				"bttree",
+				"trunk\\src\\libra\\behaviourTree\\BTTree.lua"
+			],
+			[
+				"btprecondition",
+				"trunk\\src\\libra\\behaviourTree\\BTPrecondition.lua"
+			],
+			[
+				"btaction",
+				"trunk\\src\\libra\\behaviourTree\\BTAction.lua"
+			],
+			[
+				"lollipopsoundloadfix",
+				"trunk\\src\\lollipopSoundLoadFix.lua"
+			],
+			[
+				"main",
+				"trunk\\src\\main.lua"
+			],
+			[
+				"warrior",
+				"trunk\\src\\app\\scenes\\battle\\Warrior.lua"
+			],
+			[
+				"skillcon",
+				"trunk\\src\\app\\config\\SkillConfig.lua"
+			],
+			[
+				"battlesce",
+				"trunk\\src\\app\\scenes\\battle\\BattleScene.lua"
+			],
+			[
+				"warriorn",
+				"trunk\\src\\app\\config\\WarriorConfig.lua"
+			],
+			[
+				"btnode",
+				"trunk\\src\\libra\\behaviourTree\\BTNode.lua"
+			],
+			[
+				"audioma",
+				"trunk\\src\\app\\model\\AudioManager.lua"
+			],
+			[
+				"jcontainer",
+				"trunk\\src\\libra\\ui\\components\\JContainer.lua"
+			],
+			[
+				"warriordata",
+				"trunk\\src\\app\\model\\data\\WarriorData.lua"
+			],
+			[
+				"skillpanel",
+				"trunk\\src\\app\\view\\skill\\SkillPanel.lua"
+			],
+			[
+				"guideconfig",
+				"trunk\\src\\app\\config\\GuideConfig.lua"
+			],
+			[
+				"loadinghe",
+				"trunk\\src\\app\\utils\\LoadingHelper.lua"
+			],
+			[
+				"mons",
+				"trunk\\src\\app\\config\\MonsterConfig.lua"
+			],
+			[
+				"warriorcon",
+				"trunk\\src\\app\\config\\WarriorConfig.lua"
+			],
+			[
+				"act1",
+				"trunk\\src\\app\\view\\game\\Act1.lua"
+			],
+			[
+				"battlescene",
+				"trunk\\src\\app\\scenes\\battle\\BattleScene.lua"
+			],
+			[
+				"prot",
+				"googleProto\\protoBuf.proto"
+			],
+			[
+				"renderable",
+				"EgretEngine\\win\\egret\\src\\egret\\player\\Renderable.ts"
+			],
+			[
+				"hashobject",
+				"EgretEngine\\win\\egret\\src\\egret\\utils\\HashObject.ts"
+			],
+			[
+				"texture.ts",
+				"EgretEngine\\win\\egret\\src\\egret\\display\\Texture.ts"
+			],
+			[
+				"bitmap.ts",
+				"EgretEngine\\win\\egret\\src\\egret\\display\\Bitmap.ts"
+			],
+			[
+				"timemanager",
+				"egret\\EgretGameEngine\\src\\core\\utils\\TimerManager.ts"
+			],
+			[
+				"tran",
+				"trunk\\src\\framework\\transition.lua"
+			],
+			[
+				"displa",
+				"trunk\\src\\framework\\display.lua"
+			],
+			[
+				"config",
+				"trunk\\src\\config.lua"
+			],
+			[
+				"scene",
+				"trunk\\src\\framework\\cocos2dx\\SceneEx.lua"
+			],
+			[
+				"battlesc",
+				"trunk\\src\\app\\scenes\\battle\\BattleScene.lua"
+			],
+			[
+				"librainit",
+				"trunk\\src\\libra\\init.lua"
+			],
+			[
+				"jcontain",
+				"trunk\\src\\libra\\ui\\components\\JContainer.lua"
+			],
+			[
+				"loginpane",
+				"trunk\\src\\app\\view\\login\\LoginPanel.lua"
+			],
+			[
+				"guidemana",
+				"trunk\\src\\app\\model\\GuideManager.lua"
+			],
+			[
+				"act2",
+				"trunk\\src\\app\\view\\game\\Act2.lua"
+			],
+			[
+				"dev",
+				"trunk\\src\\framework\\device.lua"
+			],
+			[
+				"propceln",
+				"trunk\\src\\app\\view\\components\\PropCellNew.lua"
+			],
+			[
+				"maildeta",
+				"trunk\\src\\app\\view\\mail\\MailDetail.lua"
+			],
+			[
+				"mailpanel",
+				"trunk\\src\\app\\view\\mail\\MailPanel.lua"
+			],
+			[
+				"lang",
+				"trunk\\src\\libra\\utils\\lang.lua"
+			],
+			[
+				"util/init",
+				"trunk\\src\\libra\\utils\\init.lua"
+			],
+			[
+				"confi",
+				"trunk\\src\\config.lua"
+			],
+			[
+				"gsdk",
+				"trunk\\src\\app\\platform\\GSDK.lua"
+			],
+			[
+				"update",
+				"trunk\\src\\update.lua"
+			],
+			[
+				"serverindex",
+				"trunk\\src\\app\\view\\serverList\\ServerIndex.lua"
+			],
+			[
+				"serverlistpan",
+				"trunk\\src\\app\\view\\serverList\\ServerListPanel.lua"
+			],
+			[
+				"guiconfi",
+				"trunk\\src\\app\\config\\GuideConfig.lua"
+			],
+			[
+				"serverlist",
+				"client\\src\\app\\view\\serverList\\ServerListPanel.lua"
+			],
+			[
+				"netwo",
+				"client\\src\\framework\\network.lua"
+			],
+			[
+				"propcellnew",
+				"client\\src\\app\\view\\components\\PropCellNew.lua"
+			],
+			[
+				"mailde",
+				"client\\src\\app\\view\\mail\\MailDetail.lua"
+			],
+			[
+				"logins",
+				"client\\src\\app\\scenes\\login\\LoginScene.lua"
+			],
+			[
+				"gamescene",
+				"client\\src\\app\\scenes\\game\\GameScene.lua"
+			],
+			[
+				"uima",
+				"client\\src\\app\\view\\UIManager.lua"
+			],
+			[
+				"sockethand",
+				"client\\src\\libra\\net\\socket\\SocketHandler.lua"
+			],
+			[
+				"richt",
+				"client\\src\\libra\\utils\\richText.lua"
+			],
+			[
+				"mailpane",
+				"client\\src\\app\\view\\mail\\MailPanel.lua"
+			],
+			[
+				"mailtitle",
+				"client\\src\\app\\view\\mail\\MailTitle.lua"
+			],
+			[
+				"app/init",
+				"client\\src\\app\\init.lua"
+			],
+			[
+				"propcell",
+				"client\\src\\app\\view\\components\\PropCellNew.lua"
+			],
+			[
+				"maildata",
+				"client\\src\\app\\model\\data\\MailData.lua"
+			],
+			[
+				"item",
+				"client\\src\\app\\config\\ItemsConfig.lua"
+			],
+			[
+				"itemcon",
+				"client\\src\\app\\config\\ItemsConfig.lua"
+			],
+			[
+				"mailt",
+				"client\\src\\app\\view\\mail\\MailTitle.lua"
+			],
+			[
+				"mailma",
+				"client\\src\\app\\model\\MailManager.lua"
+			],
+			[
+				"confiug",
+				"client\\src\\config.lua"
+			],
+			[
+				"appinit",
+				"client\\src\\app\\init.lua"
+			],
+			[
+				"disp",
+				"client\\src\\framework\\display.lua"
+			],
+			[
+				"norma",
+				"client\\src\\app\\view\\components\\NormalButton.lua"
+			],
+			[
+				"battlewin",
+				"client\\src\\app\\view\\battle\\BattleWin.lua"
+			],
+			[
+				"levelbtn",
+				"client\\src\\app\\view\\level\\LevelButton.lua"
+			],
+			[
+				"levelco",
+				"client\\src\\app\\config\\LevelConfig.lua"
+			],
+			[
+				"levelpane",
+				"client\\src\\app\\view\\level\\LevelPanel.lua"
+			],
+			[
+				"guidema",
+				"client\\src\\app\\model\\GuideManager.lua"
+			],
+			[
+				"levelscene",
+				"client\\src\\app\\scenes\\level\\LevelScene.lua"
+			],
+			[
+				"levelc",
+				"client\\src\\app\\config\\LevelConfig.lua"
+			],
+			[
+				"warrioravatar",
+				"client\\src\\app\\view\\skill\\WarriorAvatar.lua"
+			],
+			[
+				"guiconfg",
+				"client\\src\\app\\config\\GuideConfig.lua"
+			],
+			[
+				"ui/init",
+				"client\\src\\libra\\ui\\init.lua"
+			],
+			[
+				"warrior.lua",
+				"client\\src\\app\\scenes\\battle\\Warrior.lua"
+			],
+			[
+				"levelcon",
+				"client\\src\\app\\config\\LevelConfig.lua"
+			],
+			[
+				"userma",
+				"client\\src\\app\\model\\UserManager.lua"
+			],
+			[
+				"queuelistvie",
+				"client\\src\\app\\view\\components\\QueueListView.lua"
+			],
+			[
+				"jconta",
+				"client\\src\\libra\\ui\\components\\JContainer.lua"
+			],
+			[
+				"fun",
+				"client\\src\\framework\\functions.lua"
+			],
+			[
+				"battlelos",
+				"client\\src\\app\\view\\battle\\BattleLose.lua"
+			],
+			[
+				"gamepane",
+				"client\\src\\app\\view\\game\\GamePanel.lua"
+			],
+			[
+				"tra",
+				"client\\src\\framework\\transition.lua"
+			],
+			[
+				"guidearr",
+				"client\\src\\app\\view\\components\\GuideArrow.lua"
+			],
+			[
+				"config.lua",
+				"client\\src\\config.lua"
+			],
+			[
+				"datama",
+				"client\\src\\libra\\data\\managers\\DataManager.lua"
+			],
+			[
+				"pro",
+				"googleProto\\protoBuf.proto"
+			],
+			[
+				"locald",
+				"client\\src\\libra\\utils\\LocalDump.lua"
+			],
+			[
+				"logpanel",
+				"client\\src\\libra\\log4q\\LogPanel.lua"
+			],
+			[
+				"loginsc",
+				"client\\src\\app\\scenes\\login\\LoginScene.lua"
+			],
+			[
+				"battlepane",
+				"client\\src\\app\\view\\battle\\BattlePanel.lua"
+			],
+			[
+				"battlepower",
+				"client\\src\\app\\view\\battle\\BattlePower.lua"
+			],
+			[
+				"mya",
+				"client\\src\\app\\MyApp.lua"
+			],
+			[
+				"awardma",
+				"client\\src\\app\\model\\AwardManager.lua"
+			],
+			[
+				"getoth",
+				"client\\src\\app\\view\\getOther\\GetOtherPanel.lua"
+			],
+			[
+				"levelbutt",
+				"client\\src\\app\\view\\level\\LevelButton.lua"
+			],
+			[
+				"queuelist",
+				"client\\src\\app\\view\\components\\QueueListView.lua"
+			],
+			[
+				"proplistview",
+				"client\\src\\app\\view\\components\\PropListView.lua"
+			],
+			[
+				"normalb",
+				"client\\src\\app\\view\\components\\NormalButton.lua"
+			],
+			[
+				"gamepa",
+				"client\\src\\app\\view\\game\\GamePanel.lua"
+			],
+			[
+				"wxbut",
+				"client\\src\\app\\view\\components\\WXButton.lua"
+			],
+			[
+				"getother",
+				"client\\src\\app\\view\\getOther\\GetOtherPanel.lua"
+			],
+			[
+				"jcontin",
+				"client\\src\\libra\\ui\\components\\JContainer.lua"
+			],
+			[
+				"guimanager",
+				"client\\src\\app\\model\\GuideManager.lua"
+			],
+			[
+				"gamepanel",
+				"client\\src\\app\\view\\game\\GamePanel.lua"
+			],
+			[
+				"gamepae",
+				"client\\src\\app\\view\\game\\GamePanel.lua"
+			],
+			[
+				"jcontaie",
+				"client\\src\\libra\\ui\\components\\JContainer.lua"
+			],
+			[
+				"norm",
+				"client\\src\\app\\view\\components\\NormalButton.lua"
+			],
+			[
+				"button",
+				"client\\src\\app\\view\\components\\Button.lua"
+			],
+			[
+				"guidecof",
+				"client\\src\\app\\config\\GuideConfig.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\apowo\\PTuApp\\client\\P2.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
