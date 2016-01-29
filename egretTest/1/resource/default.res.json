@@ -1,0 +1,20 @@
+{
+	"resources": [
+		{
+			"name": "pet022s",
+			"type": "image",
+			"url": "assets/pet/pet022s.png"
+		},
+		{
+			"name": "pet022",
+			"type": "sheet",
+			"url": "assets/pet/pet022.json"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "pet022s"
+		}
+	]
+}

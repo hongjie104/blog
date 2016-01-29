@@ -1,0 +1,33 @@
+{
+	"resources": [
+	{
+		"name": "description",
+		"type": "json",
+		"url": "config/description.json"
+	},
+	{
+		"name": "testJson",
+		"type": "json",
+		"url": "assets/ff.json"
+	},
+	{
+		"name": "testPng",
+		"type": "image",
+		"url": "assets/ff.png"
+	},
+	{
+		"name": "rockBg",
+		"type": "image",
+		"url": "assets/Direction_bc.png"
+	},
+	{
+		"name": "rockBtn",
+		"type": "image",
+		"url": "assets/Direction_bt.png"
+	}],
+	"groups": [
+	{
+		"name": "preload",
+		"keys": "testJson,testPng,rockBg,rockBtn"
+	}]
+}
