@@ -520,50 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "_config.yml",
+			"file": "_layouts/post.html",
 			"settings":
 			{
-				"buffer_size": 5110,
+				"buffer_size": 149,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_posts/2016-01-05-H5、React Native、Native应用对比分析(转).md",
+			"file": "/C/Windows/System32/drivers/etc/hosts",
 			"settings":
 			{
-				"buffer_size": 10065,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2016-01-20-react-native热更新js脚本.md",
-			"settings":
-			{
-				"buffer_size": 1873,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2016-01-26-WebStorm注册码.md",
-			"settings":
-			{
-				"buffer_size": 136,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "navigations/working.html",
-			"settings":
-			{
-				"buffer_size": 2431,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "navigations/reading.html",
-			"settings":
-			{
-				"buffer_size": 1767,
+				"buffer_size": 149,
 				"line_ending": "Windows"
 			}
 		}
@@ -787,15 +755,30 @@
 	"expanded_folders":
 	[
 		"/F/blog",
-		"/F/blog/_posts",
-		"/F/blog/navigations"
+		"/F/blog/_layouts"
 	],
 	"file_history":
 	[
+		"/F/blog/_config.yml",
+		"/C/Users/鸿杰/Desktop/blog-jekyll-blog/_posts/2014-04-23-chinese-messy-code.md",
+		"/F/blog/_posts/2014-04-20-githubpages.md",
+		"/F/blog/_posts/2014-05-10-template.md",
+		"/F/blog/_includes/JB/setup",
+		"/C/Users/鸿杰/Desktop/blog-jekyll-blog/Rakefile",
+		"/C/Users/鸿杰/Desktop/simplygrey-jekyll-master/_layouts/default.html",
+		"/C/Users/鸿杰/Desktop/simplygrey-jekyll-master/_config.yml",
+		"/C/Users/鸿杰/Desktop/blog/_config.yml",
+		"/F/blog/CNAME",
+		"/C/Users/鸿杰/Desktop/blog/params.json",
+		"/F/blog/navigations/index.html",
+		"/F/blog/_layouts/default.html",
+		"/F/blog/_posts/2016-01-05-H5、React Native、Native应用对比分析(转).md",
+		"/F/blog/_posts/2016-01-20-react-native热更新js脚本.md",
+		"/F/blog/_posts/2016-01-26-WebStorm注册码.md",
 		"/F/blog/navigations/working.html",
+		"/F/blog/navigations/reading.html",
 		"/F/blog/navigations/working.md",
 		"/F/blog/navigations/bodyBuilding.html",
-		"/F/blog/_posts/2016-01-05-H5、React Native、Native应用对比分析(转).md",
 		"/F/blog/_posts/2016-01-05-ERROR Watcher took too long to load.md",
 		"/F/blog/egretTest/4/index.html",
 		"/F/blog/blog.sublime-project",
@@ -855,7 +838,6 @@
 		"/F/apowo/hywx/client/trunk/src/app/view/relation/RelationContainer.lua",
 		"/F/apowo/hywx/client/trunk/src/main.lua",
 		"/F/apowo/hywx/client/trunk/src/app/MyApp.lua",
-		"/F/blog/_config.yml",
 		"/F/blog/README.md",
 		"/F/apowo/hywx/client/trunk/src/libra/init.lua",
 		"/F/apowo/hywx/client/trunk/src/libra/log4q/Logger.lua",
@@ -904,22 +886,7 @@
 		"/F/apowo/hywx/client/trunk/src/app/scenes/MainScene.lua",
 		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTNode.lua",
 		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTPrecondition.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTAction.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTTree.lua",
-		"/C/Users/鸿杰/Desktop/开心商店资源/char_head_02.png",
-		"/C/Users/鸿杰/Desktop/开心商店资源/lang.bin",
-		"/F/apowo/hywx/client/trunk/src/app/utils/PreloadFunctions.lua",
-		"/F/apowo/hywx/client/trunk/src/app/view/battle/CompareMP.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/Database.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTPrioritySelector.lua",
-		"/G/codeLib/C#/BT-Framework/BTTree.cs",
-		"/F/apowo/hywx/client/trunk/src/lollipopSoundLoadFix.lua",
-		"/F/apowo/hywx/client/trunk/src/app/scenes/battle/BattleScene.lua",
-		"/F/apowo/hywx/client/trunk/debug.log",
-		"/F/apowo/hywx/client/trunk/src/app/scenes/battle/Warrior.lua",
-		"/F/apowo/hywx/client/trunk/src/app/config/SkillConfig.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTSequence.lua",
-		"/G/codeLib/C#/BT-Framework/Extends/Preconditions/BTPrecondition2.cs"
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTAction.lua"
 	],
 	"find":
 	{
@@ -930,6 +897,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"F:\\blog",
 			"C:\\Program Files\\Egret\\EgretEngine\\win\\egret\\src",
 			"C:\\Program Files\\Egret\\EgretEngine\\win\\egret",
 			"G:\\codeLib\\egret\\EGER",
@@ -1056,8 +1024,7 @@
 			"D:\\cocos2d-x\\JQuick\\cocos",
 			"D:\\cocos2d-x\\JQuick\\cocos\\editor-support\\cocostudio",
 			"D:\\apowo\\hywx\\client\\src",
-			"D:\\cocos2d-x\\JQuick\\cocos",
-			"D:\\apowo\\hywx\\client\\src\\framework"
+			"D:\\cocos2d-x\\JQuick\\cocos"
 		]
 	},
 	"find_state":
@@ -1065,6 +1032,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"blog",
+			"ASSET_PATH",
+			"markdown",
 			"react",
 			"native",
 			"center",
@@ -1189,10 +1159,7 @@
 			"id",
 			"陆乘风",
 			"14030",
-			"黄蓉",
-			"dispose",
-			"evaluate",
-			"precondition"
+			"黄蓉"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1338,92 +1305,30 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_config.yml",
-					"semi_transient": false,
+					"file": "_layouts/post.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 5110,
+						"buffer_size": 149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3839,
-								3839
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1980.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2016-01-05-H5、React Native、Native应用对比分析(转).md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10065,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								641,
-								641
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2016-01-20-react-native热更新js脚本.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1873,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85,
+								0,
 								0
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1433,93 +1338,32 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_posts/2016-01-26-WebStorm注册码.md",
+					"buffer": 1,
+					"file": "/C/Windows/System32/drivers/etc/hosts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 136,
+						"buffer_size": 149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								149,
+								149
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "navigations/working.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2431,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1161,
-								1161
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "navigations/reading.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1767,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								654,
-								668
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
