@@ -15,3 +15,27 @@ comments: true
 这一页往下面拉:
 
 ![](https://pic4.zhimg.com/cf0f718887c6ff2e20d77884885dea13_b.jpg)
+
+2. 更推荐命令行，流程如下：
+
+首先要先确定一下是否建立了主repo的远程源：
+
+```
+git remote -v
+```
+
+如果里面只能看到你自己的两个源(fetch 和 push)，那就需要添加主repo的源：
+
+```
+git remote add upstream URL
+git remote -v
+```
+
+然后你就能看到upstream了。
+
+如果想与主repo合并：
+
+```
+git fetch upstream
+git merge upstream/master
+```
