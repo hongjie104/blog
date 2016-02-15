@@ -520,18 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "_layouts/post.html",
+			"file": "_posts/2015-11-06-a.md",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 1670,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Windows/System32/drivers/etc/hosts",
+			"file": "_posts/2016-02-07-生成Git公钥.md",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 581,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2016-02-14-github上fork后如何同步源的新更新.md",
+			"settings":
+			{
+				"buffer_size": 771,
 				"line_ending": "Windows"
 			}
 		}
@@ -544,7 +552,7 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "pa",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -755,10 +763,13 @@
 	"expanded_folders":
 	[
 		"/F/blog",
-		"/F/blog/_layouts"
+		"/F/blog/_layouts",
+		"/F/blog/_posts"
 	],
 	"file_history":
 	[
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/鸿杰/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/F/blog/_config.yml",
 		"/C/Users/鸿杰/Desktop/blog-jekyll-blog/_posts/2014-04-23-chinese-messy-code.md",
 		"/F/blog/_posts/2014-04-20-githubpages.md",
@@ -884,9 +895,7 @@
 		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/FurnitureEditor.mxml",
 		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/ListItemRender.mxml",
 		"/F/apowo/hywx/client/trunk/src/app/scenes/MainScene.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTNode.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTPrecondition.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTAction.lua"
+		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTNode.lua"
 	],
 	"find":
 	{
@@ -1032,6 +1041,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"project",
+			"switch",
 			"blog",
 			"ASSET_PATH",
 			"markdown",
@@ -1157,9 +1168,7 @@
 			"12181",
 			"12113",
 			"id",
-			"陆乘风",
-			"14030",
-			"黄蓉"
+			"陆乘风"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1305,16 +1314,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_layouts/post.html",
-					"semi_transient": true,
+					"file": "_posts/2015-11-06-a.md",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 1670,
 						"regions":
 						{
 						},
@@ -1327,8 +1336,39 @@
 						],
 						"settings":
 						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2016-02-07-生成Git公钥.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								581
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1338,26 +1378,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Windows/System32/drivers/etc/hosts",
+					"buffer": 2,
+					"file": "_posts/2016-02-14-github上fork后如何同步源的新更新.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								523,
+								523
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
