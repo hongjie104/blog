@@ -776,6 +776,7 @@
 	],
 	"file_history":
 	[
+		"/F/blog/_posts/2016-02-17-hello koa.md",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/鸿杰/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/F/blog/_config.yml",
@@ -902,8 +903,7 @@
 		"/G/codeLib/egret/Libra-Egret/Libra_Egret/resource/defaultTest.res.json",
 		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/FurnitureEditor.mxml",
 		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/ListItemRender.mxml",
-		"/F/apowo/hywx/client/trunk/src/app/scenes/MainScene.lua",
-		"/F/apowo/hywx/client/trunk/src/libra/behaviourTree/BTNode.lua"
+		"/F/apowo/hywx/client/trunk/src/app/scenes/MainScene.lua"
 	],
 	"find":
 	{
@@ -1427,8 +1427,8 @@
 						"selection":
 						[
 							[
-								410,
-								410
+								77,
+								0
 							]
 						],
 						"settings":
