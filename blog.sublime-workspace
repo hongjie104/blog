@@ -520,34 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2015-11-06-a.md",
+			"file": "_posts/2016-02-26-在react-native中加入socket.io",
 			"settings":
 			{
-				"buffer_size": 1670,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2016-02-07-生成Git公钥.md",
-			"settings":
-			{
-				"buffer_size": 581,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2016-02-14-github上fork后如何同步源的新更新.md",
-			"settings":
-			{
-				"buffer_size": 771,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2016-02-15-centOS上搭建NodeJS环境.md",
-			"settings":
-			{
-				"buffer_size": 1627,
+				"buffer_size": 1100,
 				"line_ending": "Windows"
 			}
 		}
@@ -771,11 +747,14 @@
 	"expanded_folders":
 	[
 		"/F/blog",
-		"/F/blog/_layouts",
 		"/F/blog/_posts"
 	],
 	"file_history":
 	[
+		"/F/blog/_posts/2015-11-06-a.md",
+		"/F/blog/_posts/2016-02-07-生成Git公钥.md",
+		"/F/blog/_posts/2016-02-14-github上fork后如何同步源的新更新.md",
+		"/F/blog/_posts/2016-02-15-centOS上搭建NodeJS环境.md",
 		"/F/blog/_posts/2016-02-17-hello koa.md",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/鸿杰/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
@@ -843,7 +822,6 @@
 		"/G/codeLib/react-native/MyProject/android/build/intermediates/dex-cache/cache.xml",
 		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/Demo/Demo.json",
 		"/F/blog/_posts/2015-10-27-TypeScript的循环效率.md",
-		"/F/blog/_posts/2015-11-06-a.md",
 		"/G/codeLib/LibraServer/LibraServer/LibraServer.csproj",
 		"/F/apowo/hywx/client/trunk/src/app/view/relation/RelationPanel.lua",
 		"/G/codeLib/egret/LcpLib_Egret/lcp/display/LStar.ts",
@@ -900,10 +878,7 @@
 		"/G/codeLib/LibraEditor/LibraEditor/bin/Debug/cfg.json",
 		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/FurnitureView.mxml",
 		"/G/codeLib/egret/Libra-Egret/Libra_Egret/editor/ShopDemo/ShopDemo.json",
-		"/G/codeLib/egret/Libra-Egret/Libra_Egret/resource/defaultTest.res.json",
-		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/FurnitureEditor.mxml",
-		"/F/apowo/PicaTownMobile/tools/PicaTool5.0/src/com/apowo/picaTool/furnitureEditor/view/ListItemRender.mxml",
-		"/F/apowo/hywx/client/trunk/src/app/scenes/MainScene.lua"
+		"/G/codeLib/egret/Libra-Egret/Libra_Egret/resource/defaultTest.res.json"
 	],
 	"find":
 	{
@@ -1049,6 +1024,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"接收iuxiao",
+			"_socketID",
+			"onOpen",
+			"msg",
+			"nodejs",
 			"project",
 			"switch",
 			"blog",
@@ -1171,12 +1151,7 @@
 			"isAccelerate",
 			"Hywx_a_10000_Flash",
 			"rangedAtk",
-			"进行普攻",
-			"20063",
-			"12181",
-			"12113",
-			"id",
-			"陆乘风"
+			"进行普攻"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1322,119 +1297,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2015-11-06-a.md",
+					"file": "_posts/2016-02-26-在react-native中加入socket.io",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1670,
+						"buffer_size": 1100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								800,
+								800
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2016-02-07-生成Git公钥.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 581,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								581
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2016-02-14-github上fork后如何同步源的新更新.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 771,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								771
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_posts/2016-02-15-centOS上搭建NodeJS环境.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1627,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								0
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
