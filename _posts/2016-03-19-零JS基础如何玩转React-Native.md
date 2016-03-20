@@ -7,11 +7,7 @@ comments: true
 
 > 注:React-Native框架，下面简称RN
 
-[ppt下载](http://pan.baidu.com/s/1eQPmI2m)
-
 ---
-
-> 注:React-Native框架，下面简称RN
 
 [ppt下载](http://pan.baidu.com/s/1eQPmI2m)
 
