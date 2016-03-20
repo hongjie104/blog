@@ -89,3 +89,9 @@ Import * as moduleName from './moduleName';
 那我们怎么学习或者提高自己的水平呢？我推荐大家去多看一些开源项目，三人行必有我师，别人的代码多看看，肯定能让自己有所收获的。那么问题来了，去哪里找到开源的项目呢？第一个想到的肯定就是[github](https://github.com/)了，全球最大的同性交友社区，在github的搜索栏中输入react-native，然后按下回车，会出现很多和rn相关的项目，有完整的项目代码也有很多第三方组件，按照star数量排个序，基本上star过50的，都是挺靠谱的项目，都要仔细去阅读它。然后还有一个网站：[js.coach](https://js.coach/react-native)，上面有不少的好组件，可以省去我们造轮子的时间。
 
 我的分享就到此了，谢谢大家。
+
+---
+
+![](http://7xqx50.com1.z0.glb.clouddn.com/mmexport1458439618631.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/mmexport1458439626255.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/mmexport1458439622177.jpg)
