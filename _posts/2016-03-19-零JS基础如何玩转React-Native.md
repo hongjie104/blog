@@ -15,6 +15,26 @@ comments: true
 
 [ppt下载](http://pan.baidu.com/s/1eQPmI2m)
 
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-1.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-2.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-3.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-4.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-5.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-6.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-7.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-8.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-9.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-10.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-11.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-12.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-13.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-14.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-15.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-16.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-17.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-18.jpg)
+![](http://7xqx50.com1.z0.glb.clouddn.com/%E9%9B%B6JS%E5%9F%BA%E7%A1%80%E7%8E%A9%E8%BD%ACRN-19.jpg)
+
 ---
 
 大家好，我今天和大家分享的主题叫《零JS基础如何玩转RN》，先简单自我介绍一下，我叫周鸿杰，从事游戏研发多年，在游戏开发方面还略有心得，但是在APP领域，我就是小白一个了，我们在网络上调研了不少资料，最终决定使用react-native来开发APP。
