@@ -138,6 +138,42 @@ reading:
     - item:
       - name: 冒号课堂
         url: http://book.douban.com/subject/4031906/
+    - item:
+      - name: 编程珠玑
+        url: https://book.douban.com/subject/3227098/
+    - item:
+      - name: 计算机程序设计艺术（第一卷）
+        url: https://book.douban.com/subject/1757982/
+    - item:
+      - name: 计算机程序设计艺术（第二卷）
+        url: https://book.douban.com/subject/1852976/
+    - item:
+      - name: 计算机程序设计艺术（第三卷）
+        url: https://book.douban.com/subject/2568362/
+    - item:
+      - name: 算法导论
+        url: https://book.douban.com/subject/20432061/
+    - item:
+      - name: 程序员的思维修炼
+        url: https://book.douban.com/subject/5372651/
+    - item:
+      - name: 构建之法
+        url: https://book.douban.com/subject/25965995/
+    - item:
+      - name: 程序员健康指南
+        url: https://book.douban.com/subject/25981248/
+    - item:
+      - name: 重来
+        url: https://book.douban.com/subject/5320866/
+    - item:
+      - name: 设计模式
+        url: https://book.douban.com/subject/1052241/
+    - item:
+      - name: 代码之美
+        url: https://book.douban.com/subject/3224524/
+    - item:
+      - name: 我们为什么生病
+        url: https://book.douban.com/subject/1046620/
   readed:
     - item:
       - name: 程序员必读之软件架构3
