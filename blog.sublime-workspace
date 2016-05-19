@@ -507,7 +507,7 @@
 			"file": "_posts/2016-03-20-mongoDB中的Number.md",
 			"settings":
 			{
-				"buffer_size": 422,
+				"buffer_size": 418,
 				"line_ending": "Windows"
 			}
 		},
@@ -1007,19 +1007,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 422,
+						"buffer_size": 418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								422,
-								422
+								39,
+								39
 							]
 						],
 						"settings":
 						{
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
