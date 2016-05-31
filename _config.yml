@@ -113,9 +113,9 @@ friends: [
 ]
 
 
-pages: [
-    {
-        title: '标题',
-        url: "http://www.baidu.com"
-    }
-]
+# pages: [
+#     {
+#         title: '标题',
+#         url: "http://www.baidu.com"
+#     }
+# ]
