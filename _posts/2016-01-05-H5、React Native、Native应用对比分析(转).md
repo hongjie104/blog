@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "H5、React Native、Native应用对比分析"
+title:      "（转）H5、React Native、Native应用对比分析"
 subtitle:   ""
 date:       2016-01-05 12:00:00
 catalog:    true
