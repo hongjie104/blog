@@ -2,7 +2,7 @@
 layout: post
 title: 鸽子-刘若英
 date:       2015-10-27 12:00:00
-catalog:    true
+catalog:    false
 tags:
 	- 音乐
 ---
