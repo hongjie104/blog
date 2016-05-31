@@ -10,12 +10,13 @@ tags:
 
 1. **安装JDK**
 
-既然是android开发，那么java肯定逃不掉了。从[Java官网](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)下载安装包吧。我的电脑是64位的，所以我选择下载64位的安装包。
+	既然是android开发，那么java肯定逃不掉了。从[Java官网](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)下载安装包吧。我的电脑是64位的，所以我选择下载64位的安装包。
 
 2. **安装Android SDK**
 
 先下载Android Studio，如果翻墙不方便的话，可以从[AndroidDevTools](http://androiddevtools.cn/)上下载，我是翻墙从官网下载的。安装过程中会提示选择SDK的目录，默认是在系统盘，我选择的是F/android/sdk。安装完成后，先要配置一下sdk Manager的网络设置，否则在不翻墙的情况下安装sdk会很慢很慢。腾讯Bugly的镜像就挺好的，[查看说明](http://android-mirror.bugly.qq.com:8080/include/usage.html)。
 安装以下项目：
+
 > * Tools/Android SDK Tools (24.4.1)
 > * Tools/Android SDK Platform-tools (23.0.1)
 > * Tools/Android SDK Build-tools (23.0.2)
