@@ -4,7 +4,6 @@ title:      "react-native热更新js脚本"
 subtitle:   ""
 date:       2016-01-20 12:00:00
 author:     "鸿杰"
-catalog:    true
 tags:
     - react-native
 ---

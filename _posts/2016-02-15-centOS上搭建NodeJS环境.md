@@ -4,7 +4,6 @@ title:      "centOS上搭建NodeJS环境"
 subtitle:   ""
 date:       2016-02-15 12:00:00
 author:     "鸿杰"
-catalog:    true
 tags:
     - nodejs
 ---
