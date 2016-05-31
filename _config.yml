@@ -111,3 +111,11 @@ friends: [
     #     href: "http://wepiaofei.github.io/blog/"
     # }
 ]
+
+
+pages: [
+    {
+        title: '标题',
+        url: "http://www.baidu.com"
+    }
+]
