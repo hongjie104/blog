@@ -10,9 +10,13 @@ tags:
 ---
 
 > 著作权归作者所有。
+>
 > 商业转载请联系作者获得授权，非商业转载请注明出处。
+>
 > 作者：hi大头鬼hi
+>
 > 链接：http://zhuanlan.zhihu.com/program-life/20464825
+>
 > 来源：知乎
 
 先来看一个简单的demo，如何在RN中调用Android原生的的Toast模块。
@@ -99,7 +103,7 @@ __fbBatchedBridgeConfig.localModulesConfig,
 
 __fbBatchedBridgeConfig是一个全局js变量，它是在CatalystInstance.java中声明赋值的，通过调用ReactBridge.setGlobalVariable方法。setGlobalVariable是在Jni中声明的方法，最终会调用JavaScriptCore，把Java中定义的JSON字符串，赋值给js的全局对象__fbBatchedBridgeConfig，这个对象会有两个属性remoteModuleConfig和localModulesConfig。
 
-```js
+```java
 private void initializeBridge(
     JavaScriptExecutor jsExecutor,
     NativeModuleRegistry registry,
@@ -121,7 +125,7 @@ private void initializeBridge(
 __fbBatchedBridgeConfig.remoteModuleConfig代表的是Java中定义的一些模块，这些模块可以在js中被调用。
 __fbBatchedBridgeConfig.remoteModuleConfig的格式大概如下：
 
-```js
+```json
 {
   "remoteModuleConfig": {
     "Logger": {
