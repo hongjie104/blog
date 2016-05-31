@@ -9,7 +9,7 @@ tags:
     - git
 ---
 
-1. 只用github不用命令行的方法:
+###### 1 只用github不用命令行的方法:
 
 ![](http://7u2qiz.com1.z0.glb.clouddn.com/cbd7f5298b0ceca142ec0487b4468add_b.jpg)
 ![](http://7u2qiz.com1.z0.glb.clouddn.com/3359d274bd9c4ade8d891b8717dab5a7_b.jpg)
@@ -20,7 +20,7 @@ tags:
 
 ![](http://7u2qiz.com1.z0.glb.clouddn.com/cf0f718887c6ff2e20d77884885dea13_b.jpg)
 
-2. 更推荐命令行，流程如下：
+###### 2 更推荐命令行，流程如下：
 
 首先要先确定一下是否建立了主repo的远程源：
 
