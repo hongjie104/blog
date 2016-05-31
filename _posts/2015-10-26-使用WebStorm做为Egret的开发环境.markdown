@@ -12,8 +12,8 @@ tags:
 试用了一会Egret官方提供的Egret Wing 2.0做为Egret的开发IDE，发现其书写体验还有很大的提升空间。那么试一试WebStorm吧，毕竟别人是收费软件并且经过这么多年的发展，理论上应该是不错的。
 
 1. **第一步，下载[WebStorm](http://www.jetbrains.com/webstorm/)**
-2. **大家都懂的**
 
+2. **大家都懂的**
 ```
 WebStorm注册码
 User Name：
@@ -27,7 +27,6 @@ YA8vwka9tH!vibaUKS4FIDIkUfy!!f  
 ===== LICENSE END =====
 ------来自网络，如果侵犯您的权利请留言或联系我，我会及时删除
 ```
-
 3. **直接点open 找到你的 Egret 的一个工程的目录**
  *（或者通过cmd egret create testpro 创建一个项目，再找到这个项目，通过cmd命令创建的Egret项目就在，cmd create的当前目录，例如你：cd c:/EgretWorkSapce这个目录下创建）*
 
