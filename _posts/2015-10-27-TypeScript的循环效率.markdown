@@ -12,7 +12,7 @@ tags:
 
 在TypeScript中的循环语句无非for和while，写了个测试看看哪个比较快一些。
 
-```typescript
+```javascript
 class Test{
     public constructor(main:Main){
         var t:number = egret.getTimer();
