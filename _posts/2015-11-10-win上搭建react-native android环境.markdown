@@ -32,7 +32,7 @@ tags:
 
 4. **安装Node.js**
 
-	到[官网](https://nodejs.org/)下载最新版的安装包安装即可。npm（node package manager）是随着node.js就安装好的，为了加速安装其他的package，在cmd里输入以下命令c：
+	到[官网](https://nodejs.org/)下载最新版的安装包安装即可。npm（node package manager）是随着node.js就安装好的，为了加速安装其他的package，在cmd里输入以下命令：
 
 	```
 	npm config set registry https://registry.npm.taobao.org
@@ -82,21 +82,27 @@ tags:
 	```
 	00:00:00.277099 NAT: set redirect TCP host port 21505 => guest port 21505 @ 10.0.2.15
 	```
+
 	```
 	00:00:00.278027 NAT: set redirect TCP host port 21504 => guest port 21504 @ 10.0.2.15
 	```
+
 	```
 	00:00:00.278123 NAT: set redirect TCP host port 21501 => guest port 21501 @ 10.0.2.15
 	```
+
 	```
 	00:00:00.278199 NAT: set redirect TCP host port 21500 => guest port 21500 @ 10.0.2.15
 	```
+
 	```
 	00:00:00.278274 NAT: set redirect TCP host port 21502 => guest port 21502 @ 10.0.2.15
 	```
+
 	```
 	00:00:00.278342 NAT: set redirect TCP host port 21503 => guest port 5555 @ 10.0.2.15
 	```
+
 	诶，找到了，端口号是21503，然后回到命令行，输入：
 
 	```
@@ -118,7 +124,7 @@ tags:
 	```
 	react-native run-android
 	```
-	
+
 	第一次运行时会需要下载一些东西，等待就行。
 	build成功后便会在模拟器上自动运行了
 	![react-native的hello world](http://7u2qiz.com1.z0.glb.clouddn.com/QQ截图20151111131648.png)
