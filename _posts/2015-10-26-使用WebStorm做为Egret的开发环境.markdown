@@ -17,25 +17,25 @@ tags:
 2. **大家都懂的**
 
 	> WebStorm注册码
-
+	> 
 	> User Name：
-
+	> 
 	> EMBRACE
-
+	> 
 	> License Key:
-
+	> 
 	> ===== LICENSE BEGIN =====
-
+	> 
 	> 24718-12042010  
-
+	> 
 	> 00001h6wzKLpfo3gmjJ8xoTPw5mQvY  
-
+	> 
 	> YA8vwka9tH!vibaUKS4FIDIkUfy!!f  
-
+	> 
 	> 3C"rQCIRbShpSlDcFT1xmJi5h0yQS6
-
+	> 
 	> ===== LICENSE END =====
-	
+	> 
 	> ------来自网络，如果侵犯您的权利请留言或联系我，我会及时删除
 
 3. **直接点open 找到你的 Egret 的一个工程的目录**
