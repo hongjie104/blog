@@ -34,10 +34,12 @@ tags:
 
 	到[官网](https://nodejs.org/)下载最新版的安装包安装即可。npm（node package manager）是随着node.js就安装好的，为了加速安装其他的package，在cmd里输入以下命令c：
 
-```
+	```
 	npm config set registry https://registry.npm.taobao.org
+	```
+	```
 	npm config set disturl https://npm.taobao.org/dist
-```
+	```
 
 5. **安装react-native命令行工具**
 
@@ -63,6 +65,7 @@ tags:
 	```
 	react-native start
 	```
+
 	在浏览器中访问地址：<http://localhost:8081/index.android.bundle?platform=android>
 	第一次访问需要骚等一会，这是在生成android的bundle文件。**cmd窗口别关，一直保持开启状态**。
 
@@ -73,14 +76,25 @@ tags:
 	```
 	adb devices
 	```
+
 	看看adb是否和设备连接上了，如果没有连接上，那么需要手动连接，连接设备需要一个端口号，那么这个端口号是多少呢？聪明的我通过查找模拟器log找到了答案。打开模拟器安装目录，然后找到MEmu\MemuHyperv VMs\MEmu\Logs下的log文件，打开此log，通过查找关键词“ port ”（注意port两边都带上空格），可以发现：
 
 	```
 	00:00:00.277099 NAT: set redirect TCP host port 21505 => guest port 21505 @ 10.0.2.15
+	```
+	```
 	00:00:00.278027 NAT: set redirect TCP host port 21504 => guest port 21504 @ 10.0.2.15
+	```
+	```
 	00:00:00.278123 NAT: set redirect TCP host port 21501 => guest port 21501 @ 10.0.2.15
+	```
+	```
 	00:00:00.278199 NAT: set redirect TCP host port 21500 => guest port 21500 @ 10.0.2.15
+	```
+	```
 	00:00:00.278274 NAT: set redirect TCP host port 21502 => guest port 21502 @ 10.0.2.15
+	```
+	```
 	00:00:00.278342 NAT: set redirect TCP host port 21503 => guest port 5555 @ 10.0.2.15
 	```
 	诶，找到了，端口号是21503，然后回到命令行，输入：
@@ -88,11 +102,13 @@ tags:
 	```
 	adb connect 127.0.0.1:21503
 	```
+
 	然后再一次输入
 
 	```
 	adb devices
 	```
+
 	adb是不是连上模拟器了？那么接下去就是在模拟器中运行我们的小demo了。
 
 9. **在模拟器中运行**
@@ -102,6 +118,7 @@ tags:
 	```
 	react-native run-android
 	```
+	
 	第一次运行时会需要下载一些东西，等待就行。
 	build成功后便会在模拟器上自动运行了
 	![react-native的hello world](http://7u2qiz.com1.z0.glb.clouddn.com/QQ截图20151111131648.png)
