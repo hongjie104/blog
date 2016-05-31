@@ -1,22 +1,22 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: 鸿杰的博客
+SEOTitle: 鸿杰的博客 | HongJie Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
-url: "http://huangxuan.me"              # your host, for absolute URL
+email: 32968210@qq.com
+description: "记录些东西"
+keyword: "鸿杰 Libra"
+url: "http://3zhongjie.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+weibo_username:     myfallenheaven
+zhihu_username:     3zhongjie
+github_username:    Eddie104
 #twitter_username:  huxpro
-facebook_username:  huxpro
+# facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -60,10 +60,10 @@ duoshuo_share: false                     # set to false if you want to use Comme
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 
 
@@ -82,32 +82,32 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Friends
 friends: [
-    {
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
-    }
+    # {
+    #     title: "前端外刊评论",
+    #     href: "http://qianduan.guru/"
+    # },{
+    #     title: "天镶的博客",
+    #     href: "http://lingyu.wang/"
+    # },{
+    #     title: "Luke的自留地",
+    #     href: "http://hmqk1995.github.io"
+    # },{
+    #     title: "Ebn's Blog",
+    #     href: "http://ebnbin.com/"
+    # },{
+    #     title: "SmdCn's Blog",
+    #     href: "http://blog.smdcn.net"
+    # },{
+    #     title: "解旻的博客",
+    #     href: "http://xieminis.me/"
+    # },{
+    #     title: "DHong Say",
+    #     href: "http://dhong.co"
+    # },{
+    #     title: "尹峰以为",
+    #     href: "http://ingf.github.io/"
+    # },{
+    #     title: "前端神盾局",
+    #     href: "http://wepiaofei.github.io/blog/"
+    # }
 ]
