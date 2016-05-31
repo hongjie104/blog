@@ -115,7 +115,8 @@ HTML5 vs React Native ? HTML5 : React Native
 ## 1、开发方式
 很多人说React Native的代码不好看，不好理解。那是因为前端工程师都熟悉了Web的开发方式。怎么解决这个问题呢，可以先看看iOS代码，断定不熟悉iOS的同学心里会默念“一万匹**马奔腾”。那时候，你再看React Native，你会觉得使用React Native开发App是件多么美好的事！OK，我们先来看下三者在开始“一款简单App”的代码结构。
 
-###（1）代码结构
+### （1）代码结构
+
 H5/Hybird的开发模式，我们需要维护3套代码，两套是Native（iOS/Android）代码，一套是WebApp版本。这里，我们使用AngularJS作为WebApp单页开发框架。如下图所示。
 ![](http://vczero.github.io/react_native/imgs/w1.png)
 
@@ -129,7 +130,7 @@ H5/Hybird的开发模式，我们需要维护3套代码，两套是Native（iOS/
 
 结论：从前端角度而言，React Native跨平台特性，不要开发者深入的了解各平台就能开发一款高效App。同时，语言层面而言，JavaScript运用很广泛，入门门槛相对较低。React Native虽然抛弃了MVC分离实践，但是从业务角度而言，更为合理。一切而言：对前端，对移动领域是利好的消息。
 
-###（2）UI布局
+### （2）UI布局
 
 “面容姣好”，合理的UI却总是跟着时间在变。那么UI布局就不是小事。
 Web开发布局目前大多是 DIV + CSS。
@@ -198,7 +199,7 @@ publisher.text = obj[@"publisher"];
 <Text style={ {width:100;height:30;backgroundColor:'red'} }>测试</Text>
 ```
 
-###（3）UI截面图
+### （3）UI截面图
 #### Hybrid方式截面图
 ![](http://vczero.github.io/react_native/imgs/h5-1.png)
 
@@ -218,7 +219,7 @@ publisher.text = obj[@"publisher"];
 
 可以清楚的看到React Native调用的全部是Native组件。并且层次更深，因为React Native做了组件的封装。如上图，蓝色边框的就是RCTScrollView组件。
 
-###（4）路由／Navigation
+### （4）路由／Navigation
 
 在Web单页面应用中，路由由History API实现。
 而React Native采用的路由是原生的UINavigationController导航控制器实现。
@@ -259,7 +260,7 @@ popToTop() - Pop to the first scene in the stack, unmounting every other scene
 
 总结：React Native封装的导航控制更容易理解。
 
-###（5）第三方生态链
+### （5）第三方生态链
 
 “我的是我的，你的也是我的。 ”——我不是“疯狂女友”，我是React Native！
 我们缺少“城市列表”组件，OK，使用JSX封装一个；觉得性能太低，OK，基于React Native方案封装一个原生组件。
@@ -272,7 +273,7 @@ popToTop() - Pop to the first scene in the stack, unmounting every other scene
 我们都很关注一款App性能。因此测试和体验App的性能很重要。以下测试，都是基于相同的case。
 测试平台：模拟器，iphone6，iOS8.4
 
-###（1）内存
+### （1）内存
 
 首先，我们来看下Native应用占用的内存情况。一开始，原生应用启动后，占用内存是20~25M；针对相同的case，跑了2min，结果如下图：
 ![](http://vczero.github.io/react_native/imgs/ios-me.png)
@@ -291,7 +292,7 @@ popToTop() - Pop to the first scene in the stack, unmounting every other scene
 
 总结：React Native和Web View在简单App上相差不大。二者主要：内存消耗主要是在网页数据上。
 
-###（2）CPU
+### （2）CPU
 
 我们可以看一下Native应用程序CPU的情况，最高值在41%。
 ![](http://vczero.github.io/react_native/imgs/ios-cpu.png)
@@ -304,14 +305,14 @@ React Native的最高值在34%。
 
 总结：CPU使用率大体相近，React Native的占用率低于Native。
 
-###（3）动画
+### （3）动画
 
 React Native提供了Animated API实现动画。简单效果，基本OK。个人觉得React Native不适合做游戏，尤其布局能力。
 Native Animation提供UIView动画
 H5/Hybird：采用js动画能力
 总结：React Native Animated API / 封装Native动画库 可以满足基本需求
 
-###（4）安装包体积
+### （4）安装包体积
 
 **Hybird App:**
 34(App壳) + 5(HTML) + 125(Angular) + 29(An-route) + 6(min.js) + 4(min.css) = 203 KB。
@@ -329,13 +330,13 @@ H5/Hybird：采用js动画能力
 相比快速迭代和热更新，比Native多了811KB一点都不重要，我们将图片素材、静态资源线上更新缓存起来即可减少很多体积。
 总结：牺牲一点体积，换更大的灵活性！（世界上哪有那么美的事，除非丑，就会想得美，:) ）。
 
-###（5）Big ListView & Scroll 性能
+### （5）Big ListView & Scroll 性能
 
 循环列表项500次: H5页面惨不忍睹
 React Native还可以接受
 Native 采用UITabView更高效，因为不渲染视图外部分。
 
-###（6）真机体验
+### （6）真机体验
 
 机型：iphone4s，iOS7
 Native > React Native > Hybird
@@ -347,13 +348,13 @@ H5/Hybird： 70% 流畅度
 总结：Native／React Native的体验相对而言更流畅。
 
 ##3、更新 & 维护
-###（1）更新能力
+### （1）更新能力
 
 H5/Hybird： 随时更新，适合做营销页面，目前携程一些BU全部都是H5页面；但是重要的部分还是Native。
 React Native：React Native部分可以热更新，bug及时修复。
 Native：随版本更新，尤其iOS审核严格，需要测试过关，否则影响用户。
 
-###（2）维护成本
+### （2）维护成本
 
 H5/Hybird： Web代码 ＋ iOS/Android平台支持
 React Native：可以一个开发团队 ＋ iOS/Android工程师；业务组件颗粒度小，不用把握全局即可修改业务代码。
