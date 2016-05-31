@@ -1,230 +1,113 @@
+# Site settings
+title: Hux Blog
+SEOTitle: 黄玄的博客 | Hux Blog
+header-img: img/home-bg.jpg
+email: huxpro@gmail.com
+description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
+keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
+url: "http://huangxuan.me"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
-######################### theme kunka condigure ##############################################
-# Where things are
-source:       .
-destination:  ./_site
-plugins:      ./_plugins
-layouts:      ./_layouts
-paginate:     8
-
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-textile_ext:  "textile"
-
-# Filtering Content
-show_drafts:  null
-limit_posts:  0
-future:       true
-unpublished:  false
-
-# Conversion
-markdown:     kramdown
-highlighter:  pygments
-lsi:          false
-excerpt_separator: "\n\n"
-
-# Serving
-detach:       false
-port:         4000
-host:         127.0.0.1
-baseurl:      "" # does not include hostname
-
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
+# SNS settings
+RSS: false
+weibo_username:     huxpro
+zhihu_username:     huxpro
+github_username:    huxpro
+#twitter_username:  huxpro
+facebook_username:  huxpro
+# linkedin_username:  firstname-lastname-idxxxx
 
 
-#Site config
-title: Jekyll Theme
-description: Just another Jekyll theme design and code by zhanxin.info.
-keywords: Jekyll Theme
-# 如果没有使用自定义域名，那么url为/blog，否则为空
-# url: /blog
-url:
-feed: /atom.xml
-favicon: http://jekyllrb.com/favicon.png
 
-#Nav config
-nav:
-  - text: 首页
-    url: index.html
-  - text: 分类目录 
-    url: navigations/categories.html
-  - text: 文章归档
-    url: navigations/archives.html
-  - text: 读书笔记
-    url: navigations/reading.html
-  - text: 我的作品
-    url: navigations/working.html
-  - text: 联系我
-    url: navigations/contact.html
-  # - text: 友情链接
-  #   url: navigations/links.html
-
-#Author config
-author:
-    name: 鸿杰
-    email: 32968210@qq.com
-    imageLink: http://7u2qiz.com1.z0.glb.clouddn.com/instaface_20151572843352.jpg
-    # http://7u2qiz.com1.z0.glb.clouddn.com/instaface_20151572843352.jpg
-    simpleIntro: 我是鸿杰
-    detailIntro:
-      <p>hello world</p>
-
-#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
-follow:
-#   - class: icon-rss
-#     url: /atom.xml
-  - class: icon-weibo
-    url: http://weibo.com/myfallenheaven
-#   - class: icon-renren
-#     url: http://renren.com
-  - class: icon-github-alt
-    url: https://github.com/Eddie104
-  - class: icon-graduation-cap
-    url: http://www.zhihu.com/people/3zhongjie
-#   - class: icon-twitter
-#     url: http://twitter.com
-#   - class: icon-google-plus
-#     url: http://google.com
-
-#Links
-# customLinks:
-#   - item:
-#     - text: 掌心
-#       url: http://www.zhanxin.info
-#     - text: Jekyll
-#       url: http://jekyllrb.com
-#     - text: Jekyll Theme
-#       url: http://www.zhanxin.info/themes.html
-#     message: Friends
-#   - item:
-#     - text: Font Awesome
-#       url: http://fortawesome.github.io/Font-Awesome/
-#     - text: Google Font
-#       url: http://www.google.com/fonts/
-#     - text: jQuery
-#       url: http://jquery.com/
-#     message: 其他相关链接
-
-reading:
-  toRead:
-    - item:
-      - name: 程序员必读之软件架构
-        url: http://book.douban.com/subject/26248182/
-    - item:
-      - name: 枪与玫瑰的使用方法
-        url: http://book.douban.com/subject/25775846/
-    - item:
-      - name: 大话数据结构
-        url: http://book.douban.com/subject/6424904/
-    - item:
-      - name: 自控术
-        url: http://book.douban.com/subject/20504840/
-    - item:
-      - name: 冒号课堂
-        url: http://book.douban.com/subject/4031906/
-    - item:
-      - name: 编程珠玑
-        url: https://book.douban.com/subject/3227098/
-    - item:
-      - name: 计算机程序设计艺术（第一卷）
-        url: https://book.douban.com/subject/1757982/
-    - item:
-      - name: 计算机程序设计艺术（第二卷）
-        url: https://book.douban.com/subject/1852976/
-    - item:
-      - name: 计算机程序设计艺术（第三卷）
-        url: https://book.douban.com/subject/2568362/
-    - item:
-      - name: 算法导论
-        url: https://book.douban.com/subject/20432061/
-    - item:
-      - name: 程序员的思维修炼
-        url: https://book.douban.com/subject/5372651/
-    - item:
-      - name: 构建之法
-        url: https://book.douban.com/subject/25965995/
-    - item:
-      - name: 程序员健康指南
-        url: https://book.douban.com/subject/25981248/
-    - item:
-      - name: 重来
-        url: https://book.douban.com/subject/5320866/
-    - item:
-      - name: 设计模式
-        url: https://book.douban.com/subject/1052241/
-    - item:
-      - name: 代码之美
-        url: https://book.douban.com/subject/3224524/
-    - item:
-      - name: 我们为什么生病
-        url: https://book.douban.com/subject/1046620/
-  readed:
-    - item:
-      - name: 程序员必读之软件架构3
-        url: http://book.douban.com/subject/26248182/
-        note: http://book.douban.com/subject/26248182/
-    - item:
-      - name: 程序员必读之软件架构4
-        url: http://book.douban.com/subject/26248182/
-        note: http://book.douban.com/subject/26248182/
-    - item:
-      - name: 程序员必读之软件架构5
-        url: http://book.douban.com/subject/26248182/
-        note: http://book.douban.com/subject/26248182/
-
-working:
-  webGame:
-    - item:
-      - name: 皮卡堂
-        url: http://www.picatown.com
-        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
-    - item:
-      - name: 寻将记
-        url: http://baike.baidu.com/link?url=a9F2-letrb-ytHnlL7OLTN-P6YX7m6AqMwCFafGrYhROptXrRLYnXKmfZwNGOo4-kl9maPa3dE24RnIjzrWW9a
-        state: 前端底层框架搭建，初期90%业务逻辑编写，已暂停运营
-  phoneGame:
-    - item:
-      - name: 花样三国
-        url: http://baike.baidu.com/link?url=krJzKqJ_YuRRJCvquaktkpW2gcGXwKjoblOD-4gcT9GATgFPvTiV0ZuASpaMlsimfsqE9Xb8dGmxTxajT_rIgx7EW8jRuO7tNNwgDGNVJX0bE55DQ1gRx4VT7T4uQ3F-
-        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
-      - name: 花样武侠
-        url: http://www.tvhome.com/article/21191.html
-        state: 前端底层框架搭建，初期60%业务逻辑编写，运营中
-  app:
-    - item:
-      - name: P图社区
-        url: http://www.52ptu.com
-        state: 前端底层框架搭建，初期90%业务逻辑编写，运营中
-
-#comment config
-disqus:
-  config: true
-  id: hongjie
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
-#################################### global configure #######################################
 
-username: Eddie104
-# 如果没有使用自定义域名，那么url为/blog，否则为空
-# baseurl: /blog
-baseurl:
-markdown: redcarpet
-safe: false
-highlighter: pygments
-title: 鸿杰博客
-description: 人生到处知何似，应似飞鸿踏雪泥
-theme: kunka
-disqusname: hongjie
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
 
-# theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
-# those themes are all come from GitHub Pages Themes
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: huxblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
+    },{
+        title: "天镶的博客",
+        href: "http://lingyu.wang/"
+    },{
+        title: "Luke的自留地",
+        href: "http://hmqk1995.github.io"
+    },{
+        title: "Ebn's Blog",
+        href: "http://ebnbin.com/"
+    },{
+        title: "SmdCn's Blog",
+        href: "http://blog.smdcn.net"
+    },{
+        title: "解旻的博客",
+        href: "http://xieminis.me/"
+    },{
+        title: "DHong Say",
+        href: "http://dhong.co"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
+    },{
+        title: "前端神盾局",
+        href: "http://wepiaofei.github.io/blog/"
+    }
+]
