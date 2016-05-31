@@ -32,7 +32,7 @@ tags:
 
 4. **安装Node.js**
 
-	到[官网](https://nodejs.org/)下载最新版的安装包安装即可。npm（node package manager）是随着node.js就安装好的，为了加速安装其他的package，在cmd里输入以下命令a：
+	到[官网](https://nodejs.org/)下载最新版的安装包安装即可。npm（node package manager）是随着node.js就安装好的，为了加速安装其他的package，在cmd里输入以下命令b：
 
 	```
 	npm config set registry https://registry.npm.taobao.org
