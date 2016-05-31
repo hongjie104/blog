@@ -2,8 +2,7 @@
 layout:     post
 title:      "零JS基础如何玩转React-Native"
 subtitle:   ""
-date:       2016-03-01 12:00:00
-catalog:    true
+date:       2016-03-19 12:00:00
 tags:
     - react-native
 ---
