@@ -1,7 +1,7 @@
 # Site settings
 title: 鸿杰的博客
 SEOTitle: 鸿杰的博客 | HongJie Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg-o.jpg
 email: 32968210@qq.com
 description: "记录些东西"
 keyword: "鸿杰 Libra"
@@ -69,8 +69,8 @@ duoshuo_share: false                     # set to false if you want to use Comme
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "共产主义接班人"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
