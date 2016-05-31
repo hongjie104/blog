@@ -34,7 +34,7 @@ tags:
 
 然后，准备加载组件，会调用 componentWillMount()，其原型如下：
 
-```
+```js
 void componentWillMount()
 ```
 
@@ -44,7 +44,7 @@ void componentWillMount()
 
 在组件第一次绘制之后，会调用 componentDidMount()，通知组件已经加载完成。函数原型如下：
 
-```
+```js
 void componentDidMount()
 ```
 
@@ -54,7 +54,7 @@ void componentDidMount()
 
 如果组件收到新的属性（props），就会调用 componentWillReceiveProps()，其原型如下：
 
-```
+```js
 void componentWillReceiveProps(  
   object nextProps
 )
@@ -62,7 +62,7 @@ void componentWillReceiveProps(
 
 输入参数 nextProps 是即将被设置的属性，旧的属性还是可以通过 this.props 来获取。在这个回调函数里面，你可以根据属性的变化，通过调用 this.setState() 来更新你的组件状态，这里调用更新状态是安全的，并不会触发额外的 render() 调用。如下：
 
-```
+```js
 componentWillReceiveProps: function(nextProps) {  
   this.setState({
     likesIncreasing: nextProps.likeCount > this.props.likeCount
@@ -74,7 +74,7 @@ componentWillReceiveProps: function(nextProps) {
 
 当组件接收到新的属性和状态改变的话，都会触发调用 shouldComponentUpdate(...)，函数原型如下：
 
-```
+```js
 boolean shouldComponentUpdate(  
   object nextProps, object nextState
 )
@@ -88,7 +88,7 @@ boolean shouldComponentUpdate(
 
 如果组件状态或者属性改变，并且上面的 shouldComponentUpdate(...) 返回为 true，就会开始准更新组件，并调用 componentWillUpdate()，其函数原型如下：
 
-```
+```js
 void componentWillUpdate(  
   object nextProps, object nextState
 )
@@ -100,7 +100,7 @@ void componentWillUpdate(
 
 调用了 render() 更新完成界面之后，会调用 componentDidUpdate() 来得到通知，其函数原型如下：
 
-```
+```js
 void componentDidUpdate(  
   object prevProps, object prevState
 )
@@ -112,7 +112,7 @@ void componentDidUpdate(
 
 当组件要被从界面上移除的时候，就会调用 componentWillUnmount()，其函数原型如下：
 
-```
+```js
 void componentWillUnmount()
 ```
 
