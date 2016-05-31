@@ -14,6 +14,7 @@ tags:
 1. **第一步，下载[WebStorm](http://www.jetbrains.com/webstorm/)**
 
 2. **大家都懂的**
+
 ```
 WebStorm注册码
 User Name：
