@@ -10,9 +10,7 @@ tags:
 ---
 
 > 本规范是基于JavaScript规范拟定的，只针对ES6相关内容进行约定
-
 > 如变量命名，是否加分号等约定的请参考JavaScript规范
-
 > 应注意目前的代码转换工具(如Babel，Traceur)不够完善,有些特性须谨慎使用
 
 ### [ES6 Coding Style English Version](https://github.com/gf-web/es6-coding-style/blob/master/es6-coding-style-en.md)
@@ -28,7 +26,7 @@ tags:
 7. [模块 Modules](#模块)
 8. [版权 Copyright](#copyright)
 
-### 声明
+#### 声明
 
 - 1.1 变量
 
