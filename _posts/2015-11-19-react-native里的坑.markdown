@@ -9,7 +9,7 @@ tags:
     - react-native
 ---
 
-- 当TouchableHighlight中包含Image并且Image包含Text时，点击时会报错:
+当TouchableHighlight中包含Image并且Image包含Text时，点击时会报错:
 
 ```html
 <TouchableHighlight onPress={this.onTryLogin} underlayColor="#d9f2f3">
@@ -32,7 +32,7 @@ tags:
 </View>
 ```
 
-- java方法的参数，Callback类型的参数后面要么没有参数，要么全是Callback类型的，否则会引起闪退。原因不明。
+java方法的参数，Callback类型的参数后面要么没有参数，要么全是Callback类型的，否则会引起闪退。原因不明。
 
 错误的写法如下:
 
@@ -54,7 +54,7 @@ public void showDatepicker(int year, int month, int day, Callback successCallbac
 }
 ```
 
-- precomputeStyle.js找不到。不知道从哪个版本开始，RN将precomputeStyle.js给删除了，那某些第三方组件用到了precomputeStyle就会报错，怎么破？将precomputeStyle( … )  改为   { style: { … } }就行了。
+precomputeStyle.js找不到。不知道从哪个版本开始，RN将precomputeStyle.js给删除了，那某些第三方组件用到了precomputeStyle就会报错，怎么破？将precomputeStyle( … )  改为   { style: { … } }就行了。
 
 例如：
 
