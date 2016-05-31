@@ -39,7 +39,11 @@ YA8vwka9tH!vibaUKS4FIDIkUfy!!f  
 
 6. **调试 egret 项目**
 如果不习惯使用 Chrome 浏览器进行调试，而是更希望在 IDE 里直接调试，可以遵循如下步骤进行设置
-1) 右键单击 launcher/index.html
-2) 单击 Debug "index.html"
-3) IDE 要求去chrome商店安装插件
-4) DONE
+
+- 1) 右键单击 launcher/index.html
+
+- 2) 单击 Debug "index.html"
+
+- 3) IDE 要求去chrome商店安装插件
+
+- 4) DONE
