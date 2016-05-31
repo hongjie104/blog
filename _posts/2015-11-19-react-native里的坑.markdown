@@ -3,8 +3,7 @@ layout:     post
 title:      "Reac-Native里的坑"
 subtitle:   ""
 date:       2015-11-19 12:00:00
-author:     "shane_xu"
-catalog:    true
+author:     "鸿杰"
 tags:
     - react-native
 ---
