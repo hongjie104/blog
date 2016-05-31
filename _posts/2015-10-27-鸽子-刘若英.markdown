@@ -2,10 +2,12 @@
 layout: post
 title: 鸽子-刘若英
 date:       2015-10-27 12:00:00
-catalog:    false
+catalog:    true
 tags:
 	- 音乐
 ---
 
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=28828477&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+## 测试
+
+地方，哦的附件是豆腐脑家底丰厚的是你发的**顺风**
