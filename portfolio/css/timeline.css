@@ -191,6 +191,15 @@ body, html {
 	background-size: 22px;
 }
 
+.i-cocos:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-cocos.jpg") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
 /******* Hux Branch *****/
 html{
 	font-size: 90%;
