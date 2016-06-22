@@ -496,10 +496,18 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2016-04-07-React-Native 实现增量热更新的思路(1).md",
+			"file": "_posts/2016-06-22-FlashBuilder破解方法.md",
 			"settings":
 			{
-				"buffer_size": 7975,
+				"buffer_size": 733,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2016-03-20-mongoDB中的Number.md",
+			"settings":
+			{
+				"buffer_size": 463,
 				"line_ending": "Windows"
 			}
 		}
@@ -589,6 +597,7 @@
 	],
 	"file_history":
 	[
+		"/E/blog/.gitignore",
 		"/E/blog/_posts/2016-06-15-设置Putty字体颜色.md",
 		"/F/codeLib/egret/EgretGameEngine/src/core/scene/base/BaseScene.ts",
 		"/F/codeLib/egret/EgretGameEngine/src/core/scene/manager/SceneManager.ts",
@@ -715,8 +724,7 @@
 		"/E/apowo/SNPole/client/app/vote/container/VoteContainer.js",
 		"/E/apowo/SNPole/client/.flowconfig",
 		"/E/apowo/SNPole/client/app/components/Spinner.js",
-		"/E/apowo/SNPole/server/app/models/db/userSchema.js",
-		"/E/apowo/SNPole/server/app/controllers/userController.js"
+		"/E/apowo/SNPole/server/app/models/db/userSchema.js"
 	],
 	"find":
 	{
@@ -808,6 +816,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"blog",
 			"closeAll",
 			"ViewManager",
 			"layerRemoveAllChild",
@@ -934,8 +943,7 @@
 			"img",
 			"imgContainer",
 			"voteResultContainer",
-			"imgContainer",
-			"IMG_WIDTH"
+			"imgContainer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -967,32 +975,58 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2016-04-07-React-Native 实现增量热更新的思路(1).md",
-					"semi_transient": true,
+					"file": "_posts/2016-06-22-FlashBuilder破解方法.md",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7975,
+						"buffer_size": 733,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								0
+								34,
+								50
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2016-03-20-mongoDB中的Number.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1591,7 +1625,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 349.0,
+	"side_bar_width": 439.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
