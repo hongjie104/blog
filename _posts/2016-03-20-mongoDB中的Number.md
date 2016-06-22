@@ -22,3 +22,4 @@ db.users.update({"uid": 1000}, {"$set": {"age": NumberInt(36)}})
 ```
 
 这样就行了。
+这样就行了。
