@@ -2,7 +2,7 @@
 layout:     post
 title:      "React-Native多渠道打包（android）"
 subtitle:   ""
-date:       2016-07-20 12:00:00
+date:       2016-07-19 12:00:00
 author:     "鸿杰"
 tags:
     - react-native
