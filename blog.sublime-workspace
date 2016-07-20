@@ -496,18 +496,10 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2016-06-22-FlashBuilder破解方法.md",
+			"file": "_posts/2016-06-21-FlashBuilder破解方法.md",
 			"settings":
 			{
 				"buffer_size": 733,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2016-03-20-mongoDB中的Number.md",
-			"settings":
-			{
-				"buffer_size": 463,
 				"line_ending": "Windows"
 			}
 		}
@@ -597,6 +589,8 @@
 	],
 	"file_history":
 	[
+		"/E/blog/_posts/2016-03-20-mongoDB中的Number.md",
+		"/E/blog/_posts/2016-05-22-test.md",
 		"/E/blog/.gitignore",
 		"/E/blog/_posts/2016-06-15-设置Putty字体颜色.md",
 		"/F/codeLib/egret/EgretGameEngine/src/core/scene/base/BaseScene.ts",
@@ -629,7 +623,6 @@
 		"/E/blog/_posts/2016-02-26-在react-native中加入socket.io.md",
 		"/E/blog/_posts/2016-03-01-Linux 守护进程的启动方法.md",
 		"/E/blog/_posts/2016-03-19-零JS基础如何玩转React-Native.md",
-		"/E/blog/_posts/2016-03-20-mongoDB中的Number.md",
 		"/E/blog/_posts/2016-02-15-centOS上搭建NodeJS环境.md",
 		"/E/blog/_posts/2016-02-07-生成Git公钥.md",
 		"/E/blog/_posts/2016-01-20-react-native热更新js脚本.md",
@@ -723,8 +716,7 @@
 		"/E/apowo/SNPole/client/app/socket.js",
 		"/E/apowo/SNPole/client/app/vote/container/VoteContainer.js",
 		"/E/apowo/SNPole/client/.flowconfig",
-		"/E/apowo/SNPole/client/app/components/Spinner.js",
-		"/E/apowo/SNPole/server/app/models/db/userSchema.js"
+		"/E/apowo/SNPole/client/app/components/Spinner.js"
 	],
 	"find":
 	{
@@ -975,7 +967,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2016-06-22-FlashBuilder破解方法.md",
+					"file": "_posts/2016-06-21-FlashBuilder破解方法.md",
 					"semi_transient": false,
 					"settings":
 					{
@@ -986,8 +978,8 @@
 						"selection":
 						[
 							[
-								34,
-								50
+								89,
+								89
 							]
 						],
 						"settings":
@@ -999,34 +991,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2016-03-20-mongoDB中的Number.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								463
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
