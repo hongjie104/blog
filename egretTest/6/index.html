@@ -40,7 +40,7 @@
 	<!--game_files_end-->
 </head>
 <body>
-    <h1 style="margin-top: 200px">test44444444444444</h1>
+
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
          data-entry-class="Main"
          data-orientation="landscape"
@@ -53,5 +53,9 @@
          data-show-fps="false" data-show-log="false"
          data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
     </div>
+    <script>
+        //默认使用 WebGL 渲染模式
+        egret.runEgret({renderMode:"webgl"});
+    </script>
 </body>
 </html>
