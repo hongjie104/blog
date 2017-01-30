@@ -1,8 +1,11 @@
 ---
-layout: post
-title: React Native ListView sticky效果实现(转)
-category: react-native
-comments: true
+layout:     post
+title:      "(转)React Native ListView sticky效果实现"
+subtitle:   ""
+date:       2016-01-04 12:00:00
+catalog:    true
+tags:
+    - react-native
 ---
 
 [点击查看原文](http://www.ghugo.com/react-native-listview-stickyheaderindices/)
@@ -18,19 +21,19 @@ React Native中，ScrollView组件可以使用*stickyHeaderIndices*轻松实现*
 
 好了，废话不多。在ListView中实现sticky，需要使用cloneWithRowsAndSections 方法，将dataBlob(object),sectionIDs (array),rowIDs (array) 三个值传进去即可。
 
-##dataBlob
+## dataBlob
 
 dataBlob包含ListView所需的所有数据（section header 和 rows），在ListView渲染数据时，使用 getSectionData 和 getRowData 来渲染每一行数据。dataBlob的key值包含sectionID + rowId
 
 ![](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/51.png)
 
-##sectionIDs
+## sectionIDs
 
 sectionIDs 用于标识每组section。
 
 ![](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/52.png)
 
-##rowIDs
+## rowIDs
 
 ![](http://7qnca0.com1.z0.glb.clouddn.com/wp-content/uploads/2015/08/53.png)
 

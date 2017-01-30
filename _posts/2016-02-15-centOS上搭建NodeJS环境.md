@@ -1,12 +1,17 @@
 ---
-layout: post
-title: centOS上搭建NodeJS环境
-category: nodejs
-comments: true
+layout:     post
+title:      "centOS上搭建NodeJS环境"
+subtitle:   ""
+date:       2016-02-15 12:00:00
+author:     "鸿杰"
+tags:
+    - nodejs
 ---
 
 第一次使用linux系统，相关的知识积累可谓是一点都没有。但是木有关系，我们还有搜索引擎呢。
+
 安装NodeJS有很多方式，大家比较推荐的方式是下载源码然后编译安装。
+
 从[nodeJS下载列表](http://nodejs.org/dist/)中找到想要下载的版本地址，一般来说，第一次安装的话都是选择最新版。到[官网](http://nodejs.org)上可以查到有两个版本：V4.3.0LTS和V5.6.0，V4版本是长期维护版本，V5版本是稳定版本。我这里选择的是V4版本，那也可以从[这里](https://nodejs.org/dist/latest-v4.x/)找到V4版中的最新版本。
 
 在linux的终端中使用wget命令下载源码压缩包

@@ -1,19 +1,27 @@
 ---
-layout: post
-title: ReactNativeAndroid源码分析-Js如何调用Native的代码(转)
-category: react-native
-comments: true
+layout:     post
+title:      "(转)ReactNativeAndroid源码分析-Js如何调用Native的代码"
+subtitle:   ""
+date:       2016-01-02 12:00:00
+author:     "hi大头鬼hi"
+catalog:    true
+tags:
+    - react-native
 ---
 
 > 著作权归作者所有。
+>
 > 商业转载请联系作者获得授权，非商业转载请注明出处。
+>
 > 作者：hi大头鬼hi
+>
 > 链接：http://zhuanlan.zhihu.com/program-life/20464825
+>
 > 来源：知乎
 
 先来看一个简单的demo，如何在RN中调用Android原生的的Toast模块。
 
-```
+```js
 var React = require('react-native');
 var {
   ToastAndroid,
@@ -24,7 +32,7 @@ ToastAndroid.show('This is a toast with short duration', ToastAndroid.SHORT)
 
 index.android.js是ReactNative的入口文件，后缀Android表示是在Android平台使用的代码。ReactNative内置了babel，所以可以使用最新的JavaScript语法来开发（ECMAScript6简称es6），不熟悉es6的同学可以看看阮一峰写的这本[e6入门教程](http://es6.ruanyifeng.com/)。这里我简单介绍一下require，Android程序员可以把require对应到Java的import，使用来导入一个JavaScript模块的。`var {ToastAndroid} = React`这种写法叫结构赋值，就是从React这个对象中，提取出ToastAndroid这个属性所对应的值，并赋值给ToastAndroid这个变量。可以看出toast模块就是从react-native这个模块中的ToastAndroid属性，js中的Toast模块API和Android中的JavaAPI基本是保持一致的。我们来看看`react-native.js`中，是如何定义ToastAndroid这个属性的
 
-```
+```js
 var ReactNative = Object.assign(Object.create(require('React')), {
   ...
   ToastAndroid: require('ToastAndroid'),
@@ -34,7 +42,7 @@ module.exports = ReactNative;
 
 react-native.js其实就是声明了ReactNative提供的可以在js中使用的各种模块。这里我们拿ToastAndroid这个模块来分析RN中js和native的通讯。ToastAndroid模块的源代码在ToastAndroid.android.js中。
 
-```
+```js
 var RCTToastAndroid = require('NativeModules').ToastAndroid;
 
 var ToastAndroid = {
@@ -58,7 +66,7 @@ module.exports = ToastAndroid;
 
 > NativeModules.js
 
-```
+```js
 var NativeModules = require('BatchedBridge').RemoteModules;
 
 var nativeModulePrefixNormalizer = require('nativeModulePrefixNormalizer');
@@ -72,7 +80,7 @@ module.exports = NativeModules;
 
 > BatchedBridge.js
 
-```
+```js
 let MessageQueue = require('MessageQueue');
 
 let BatchedBridge = new MessageQueue(
@@ -88,14 +96,14 @@ BatchedBridge.js中做的事情就是构造一个MessageQueue对象。
 
 检查MessageQueue源码，其实你是找不到ToastAndroid属性的声明的，因为这个属性是动态生成的，下面我们就看看这个方法是怎么生成，又是怎么调用的吧。在分析MessageQueue源码之前，先大概说一下构造函数中传入的两个参数
 
-```
+```js
 __fbBatchedBridgeConfig.remoteModuleConfig,
 __fbBatchedBridgeConfig.localModulesConfig,
 ```
 
 __fbBatchedBridgeConfig是一个全局js变量，它是在CatalystInstance.java中声明赋值的，通过调用ReactBridge.setGlobalVariable方法。setGlobalVariable是在Jni中声明的方法，最终会调用JavaScriptCore，把Java中定义的JSON字符串，赋值给js的全局对象__fbBatchedBridgeConfig，这个对象会有两个属性remoteModuleConfig和localModulesConfig。
 
-```
+```java
 private void initializeBridge(
     JavaScriptExecutor jsExecutor,
     NativeModuleRegistry registry,
@@ -117,7 +125,7 @@ private void initializeBridge(
 __fbBatchedBridgeConfig.remoteModuleConfig代表的是Java中定义的一些模块，这些模块可以在js中被调用。
 __fbBatchedBridgeConfig.remoteModuleConfig的格式大概如下：
 
-```
+```json
 {
   "remoteModuleConfig": {
     "Logger": {
@@ -161,7 +169,7 @@ __fbBatchedBridgeConfig.remoteModuleConfig的格式大概如下：
 至于这里的数据是如何生成的，我后面会再写一篇文章分析，这里我们先知道它的格式，以方便我们梳理js代码。
 好了，我们回过头来继续分析MessageQueue。MessageQueue构造函数中首先定义了一些实例变量，下面的代码中，我加入了一些注释，来解释这些变量的作用，注释里面的js module指的是只在js中定义的模块，native module指的是在native(这里就是Java)层定义的模块，这些模块都可以在js中使用。
 
-```
+```js
 this.RemoteModules = {};//存储最终生成的各个模块信息，包含模块名，模块中的方法，常量等信息
 this._require = customRequire || require;//用于加载模块的函数
 this._queue = [[],[],[]];//队列，用于存放调用的模块，方法和参数信息，分别存储在第一二三个数组中
@@ -184,7 +192,7 @@ this._genLookupTables(
 
 我们来看一下_genModules方法
 
-```
+```js
 _genModules(remoteModules) {
   let moduleNames = Object.keys(remoteModules);
   for (var i = 0, l = moduleNames.length; i < l; i++) {
@@ -197,7 +205,7 @@ _genModules(remoteModules) {
 
 遍历传过来的remoteModules所有的key，得到moduleName，然后针对每个module调用_genModule方法
 
-```
+```js
 _genModule(module, moduleConfig) {
   let methodNames = Object.keys(moduleConfig.methods);
   for (var i = 0, l = methodNames.length; i < l; i++) {
@@ -213,7 +221,7 @@ _genModule(module, moduleConfig) {
 
 _genModule方法和_genModules方法类似，遍历module下面的所有的方法，对每个方法，调用_genMethod方法。
 
-```
+```js
 _genMethod(module, method, type) {
   ...
   fn = function(...args) {
@@ -237,7 +245,7 @@ _genMethod(module, method, type) {
 _genModule分两种情况，根据type来，如果是remoteAsync类型，其实就是异步方法，就用promise来包装一下，我们先不看这种情况，来看看普通的同步方法是如何处理的。
 处理部分也比较简单，就是处理一下参数，把onFail和onSucc回调函数从参数中取出来，再调用__nativeCall方法。
 
-```
+```js
 __nativeCall(module, method, params, onFail, onSucc) {
   if (onFail || onSucc) {
     // eventually delete old debug info
@@ -271,7 +279,7 @@ __nativeCall(module, method, params, onFail, onSucc) {
 
 __nativeCall方法首先检查是否有onFail和onSucc，如果有的话就压入_callbacks栈中，同时把_callbackID存入参数中接着可以看到，_queue其实被当做了三个栈来使用，分别压入模块名，方法名和参数信息。到这里MessageQueue的构造函数就分析的差不多了，那么我们最开始的ToastAndroid.show(message, duration);方法调用，其实就是往_queue栈中压入了一些信息而已，那么最终是怎么在Java层调用到Android原生的Toast模块的呢？这里的关键就是__nativeCall中调用的nativeFlushQueueImmediate方法，这个方法其实C++代码中注入到Js的一个全局变量，具体怎么注入的，就是在`JSCExecutor.cpp`中调用installGlobalFunction，installGlobalFunction的是通过JavaScriptCore的API来实现让Js可以调用C++代码的。
 
-```
+```js
 installGlobalFunction(m_context, "nativeFlushQueueImmediate", nativeFlushQueueImmediate);
 installGlobalFunction(m_context, "nativeLoggingHook", nativeLoggingHook);
 installGlobalFunction(m_context, "nativePerformanceNow", nativePerformanceNow);
@@ -281,7 +289,7 @@ nativeFlushQueueImmediate其实又调用了`JSCExecutor.cpp`中的flushQueueImme
 
 > JSCExecutor.cpp
 
-```
+```c++
 void JSCExecutor::flushQueueImmediate(std::string queueJSON) {
   m_flushImmediateCallback(queueJSON);
 }
@@ -289,14 +297,14 @@ void JSCExecutor::flushQueueImmediate(std::string queueJSON) {
 
 其中，m_flushImmediateCallback是在JSCExecutor的构造函数中初始化
 
-```
+```c++
 JSCExecutor::JSCExecutor(FlushImmediateCallback cb) :
     m_flushImmediateCallback(cb) {
 ```
 
 那么JSCExecutor对象又是在哪了被创建出来的呢？RN中是通过JSCExecutorFactory这个工厂的createJSExecutor方法来创建JSCExecutor对象的，而这个方法的实现刚好就在`JSCExecutor.cpp`中
 
-```
+```c++
 std::unique_ptr<JSExecutor> JSCExecutorFactory::createJSExecutor(FlushImmediateCallback cb) {
   return std::unique_ptr<JSExecutor>(new JSCExecutor(cb));
 }
@@ -306,7 +314,7 @@ std::unique_ptr<JSExecutor> JSCExecutorFactory::createJSExecutor(FlushImmediateC
 
 > Bridge.cpp
 
-```
+```c++
 Bridge::Bridge(const RefPtr<JSExecutorFactory>& jsExecutorFactory, Callback callback) :
   m_threadState.reset(new JSThreadState(jsExecutorFactory, std::move(proxyCallback)));
 
@@ -321,7 +329,7 @@ JSThreadState(const RefPtr<JSExecutorFactory>& jsExecutorFactory, Bridge::Callba
 
 `ReactBridge.java`回去调用jni中注册的initialize方法。RN所有jni中注册的方法，都在`OnLoad.cpp`
 
-```
+```c++
 registerNatives("com/facebook/react/bridge/ReactBridge", {
     makeNativeMethod("initialize", "(Lcom/facebook/react/bridge/JavaScriptExecutor;Lcom/facebook/react/bridge/ReactCallback;Lcom/facebook/react/bridge/queue/MessageQueueThread;)V", bridge::create),
     makeNativeMethod(
@@ -342,7 +350,7 @@ registerNatives("com/facebook/react/bridge/ReactBridge", {
 
 可以看到initialize方法其实就是OnLoad.cpp中的bridge这个namespace下得create方法
 
-```
+```c++
 static void create(JNIEnv* env, jobject obj, jobject executor, jobject callback,
                    jobject callbackQueueThread) {
   auto weakCallback = createNew<WeakReference>(callback);
@@ -358,7 +366,7 @@ static void create(JNIEnv* env, jobject obj, jobject executor, jobject callback,
 
 这里调用了Bridge类的构造函数，而Bridge的构造函数中，回去构造一个JSThreadState对象，Bridge所有的API调用都会委托给这个创建的JSThreadState对象。
 
-```
+```c++
 Bridge::Bridge(const RefPtr<JSExecutorFactory>& jsExecutorFactory, Callback callback) :
   m_callback(callback),
   m_destroyed(std::shared_ptr<bool>(new bool(false)))
@@ -376,7 +384,7 @@ Bridge::Bridge(const RefPtr<JSExecutorFactory>& jsExecutorFactory, Callback call
 
 JSThreadState的构造函数中，会去创建一个JSCExecutor类的对象
 
-```
+```c++
 JSThreadState(const RefPtr<JSExecutorFactory>& jsExecutorFactory, Bridge::Callback&& callback) :
     m_callback(callback)
 {
@@ -390,7 +398,7 @@ JSThreadState(const RefPtr<JSExecutorFactory>& jsExecutorFactory, Bridge::Callba
 
 找到了创建JSCExecutor对象的地方了，回到刚才，我们说，所有的Js调用Native Module的API的时候，都会调用flushQueueImmediate方法，而flushQueueImmediate方法中会去调用m_flushImmediateCallback函数。
 
-```
+```c++
 JSCExecutor::JSCExecutor(FlushImmediateCallback cb) :
     m_flushImmediateCallback(cb) {
 
@@ -401,7 +409,7 @@ std::unique_ptr<JSExecutor> JSCExecutorFactory::createJSExecutor(FlushImmediateC
 
 也就是说，Js层所有的API调用，都会走到这个m_flushImmediateCallback函数的调用中，这个函数是实现Js和Native通讯的核心。而这里的m_flushImmediateCallback在CPP层，最终是在`OnLoad.cpp`的bridge::create方法中传入的，这个create方法又是由Java层来调用的，`Bridge.java`的构造函数中会调用这个create方法，所以说，Js层调用Native API的时候，最终就是调用了`Bridge.java`中传递过来的ReactCallback对象
 
-```
+```java
 public ReactBridge(
       JavaScriptExecutor jsExecutor,
       ReactCallback callback,
@@ -412,7 +420,7 @@ public ReactBridge(
 
 ReactBridge对象的创建，是在`CatalystInstanceImpl.java`中
 
-```
+```java
 private ReactBridge initializeBridge
   bridge = new ReactBridge(
             jsExecutor,
@@ -429,7 +437,7 @@ private ReactBridge initializeBridge
 
 > NativeModuleRegistry.Java
 
-```
+```java
 /* package */ void call(
     CatalystInstance catalystInstance,
     int moduleId,
@@ -445,7 +453,7 @@ private ReactBridge initializeBridge
 
 我们在RN中注册NativeModule是通过add一个ReactPackage对象来实现，家下来我们看一下，RN是如何把我们注册的各个module添加到NativeModuleRegistry中的。
 
-```
+```java
 mReactInstanceManager = ReactInstanceManager.builder()
                 .addPackage(new MainReactPackage())
                 .build();
@@ -453,7 +461,7 @@ mReactInstanceManager = ReactInstanceManager.builder()
 
 ReactInstanceManager.Builder的build方法，会new一个ReactInstanceManagerImpl对象，把我们的ReactPackage对象传递过去。ReactInstanceManagerImpl类的核心就是createReactContext方法，createReactContext会首先遍历所有注册的ReactPackage，对所有的NativeModule，构造一个ModuleDefinition对象，保存到nativeModuleRegistry对象的mModuleTable中。最后，createReactContext会通过CatalystInstanceImpl.Builder构造一个CatalystInstance对象，并把包含各个NativeModule信息的nativeModuleRegistry对象传递过去。具体的模块的注册过程，我后面再写一篇单独的博客介绍，此处就不啰嗦了。
 
-```
+```java
 private ReactApplicationContext createReactContext(JavaScriptExecutor jsExecutor, JSBundleLoader jsBundleLoader) {
     ...
     for (ReactPackage reactPackage : mPackages) {
@@ -472,7 +480,7 @@ private ReactApplicationContext createReactContext(JavaScriptExecutor jsExecutor
 
 回到我们最开始的例子中，我们要在Js中使用Toast，那么我们的MainReactPackage中，就需要构造一个ToastModule，来注册给RN，这样才可以给Js调用。
 
-```
+```java
 public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
     return Arrays.<NativeModule>asList(
       new ToastModule(reactContext));
@@ -480,4 +488,5 @@ public List<NativeModule> createNativeModules(ReactApplicationContext reactConte
 ```
 
 需要注意的是，所有要给Js中使用的模块，都需要在Native这边注册一个对应的Module，具体的规范，请参考RN的官方文档，我就不啰嗦了。
+
 最终我们在Js中调用ToastAndroid这个模块的流程就是，Js调用会调用到C++中m_flushImmediateCallback函数，参数就是Js函数的参数加上调用的模块名构成的一个JSON字符串。C++中，有一个parseMethodCalls方法，会从Js传递的JSON中，解析出moduleName,function name,参数等一些列信息，然后C++层会调用Java层的ReactCallback类，Java代码中，会根据传递来的ModuleName functionName找到对应的模块中的方法，然后通过反射执行这些方法，并把参数传递过去。这样就完成了Js对Native代码的调用。

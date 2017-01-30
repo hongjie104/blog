@@ -1,9 +1,13 @@
 ---
-layout: post
-title: “指尖上的魔法” -- 谈谈React-Native中的手势(转)
-category: react-native
-comments: true
+layout:     post
+title:      "(转)“指尖上的魔法” -- 谈谈React-Native中的手势"
+subtitle:   ""
+date:       2015-12-30 12:00:00
+catalog:    true
+tags:
+    - react-native
 ---
+
 
 [点击查看原文](https://github.com/jabez128/jabez128.github.io/issues/1)
 
@@ -16,7 +20,7 @@ React-Native是一款由Facebook开发并开源的框架，主要卖点是使用
 
 和以往的Hybrid应用相比，使用React-Native开发的原生应用的一大优势就是可以流畅的响应用户的手势操作，这也是使用React-Native相比以往在原生应用中插入webview控件的一个优势，因此，相比web端的手势，React-Native应用中的手势要复杂得多。我在初次接触React-Native手势之初也是看的一头雾水，经过搜索也发现相关的资料比较少，因此萌发了写一篇相关文章的想法。这也是写作本文的初衷，一方面总结自己学习和摸索的经验，以作为后来使用中的备忘录，另一方面也作为交流分享之用。
 
-##Touch*手势
+## Touch*手势
 
 移动应用中最简单的手势，就是touch手势，而这也是应用中最常使用的手势，类比web开发中的事件，就好比web开发中的click。在web开发中，浏览器内部实现了click事件，我们可以通过onclick或者addEventListener('click',callback)来绑定click事件。React-Native也针对Touch手势进行了类似的实现，在React-Native中，一共有四个和Touch相关的组件：
 
@@ -27,7 +31,7 @@ React-Native是一款由Facebook开发并开源的框架，主要卖点是使用
 
 使用这四个组件，我们就可以在应用的某个部分绑定上Touch事件，来个简单的例子：
 
-```
+```js
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -130,7 +134,7 @@ AppRegistry.registerComponent('gesture', () => gesture);
 
 以上内容就是对React-Native对Touch事件的实现和用法分析，对于大部分应用来说，使用这四个Touch*组件再配合4个press事件就能对用户的手势进行响应。但是对于比较复杂的交互，还是得使用React-Native中的gesture responder system。
 
-##gesture responder system
+## gesture responder system
 
 在React Native中，响应手势的基本单位是responder，具体来说，就是最常见的View组件。任何的View组件，都是潜在的responder，如果某个View组件没有响应手势操作，那是因为它还没有被“开发”。
 
@@ -162,7 +166,7 @@ AppRegistry.registerComponent('gesture', () => gesture);
 
 来段简单的示例代码：
 
-```
+```js
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -245,7 +249,7 @@ AppRegistry.registerComponent('pan', () => pan);
 
 两个方法来进行设置。当某个潜在responder的这两个方法的其中一个返回值为true时，即使当前的View组件不在最顶部，唯一一个responder的位置也会由它占据。看下面的例子：
 
-```
+```js
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -337,7 +341,7 @@ AppRegistry.registerComponent('pan', () => pan);
 
 而当在外层的View中加入
 
-```
+```js
 onStartShouldSetResponderCapture: () => true,
 onMoveShouldSetResponderCapture: ()=> true,
 ```
@@ -352,7 +356,7 @@ onMoveShouldSetResponderCapture: ()=> true,
 
 参数的具体含义可以参看React Native文档。
 
-##PanResponder
+## PanResponder
 
 除了gesture responder system之外，React Native还抽象出了一套PanResponder方法，和gesture responder system相比，PanResponder方法的抽象程度更高，使用起来也更为方便。在使用PanResponder的时候，相应手势的逻辑和流程都不变，只需要根据文档对几个方法名称作修改即可。PanResponder的好处是：对于每个方法，除了第一个evt参数之外，开发者还可以使用第二个参数gestureState，这个gestureState是一个对象，包含手势进行过程中更多的信息，其中比较常用的几个是：
 
@@ -362,7 +366,7 @@ onMoveShouldSetResponderCapture: ()=> true,
 
 通过使用PanResponder，我们可以非常方便的实现drag & drop的效果。代码如下所示：
 
-```
+```js
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -446,7 +450,7 @@ AppRegistry.registerComponent('pan', () => pan);
 
 ![](https://cloud.githubusercontent.com/assets/2700425/9910057/b420a34e-5ccd-11e5-94d3-31259083726e.gif)
 
-##总结
+## 总结
 
 以上的内容就是我近一段事件来对React Native手势的学习和理解。讲了一些基本原理，但是要实现一些更加复杂的手势，例如pinch、rotate、zoom，还需要更进一步的研究和学习。
 
