@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"json",
+				"jsonText"
+			],
+			[
 				"b",
 				"bVote"
 			],
@@ -21,7 +25,7 @@
 			],
 			[
 				"fle",
-				"flexDirection	flexDirection row"
+				"flexDirection\tflexDirection row"
 			],
 			[
 				"con",
@@ -29,15 +33,15 @@
 			],
 			[
 				"cla",
-				"class-es6	Create react-native Class"
+				"class-es6\tCreate react-native Class"
 			],
 			[
 				"borde",
-				"borderRadius	borderRadius"
+				"borderRadius\tborderRadius"
 			],
 			[
 				"cmd",
-				"cdm-es6	componentDidMount()"
+				"cdm-es6\tcomponentDidMount()"
 			],
 			[
 				"getUs",
@@ -97,7 +101,7 @@
 			],
 			[
 				"fun",
-				"fun	Function"
+				"fun\tFunction"
 			],
 			[
 				"ch",
@@ -141,7 +145,7 @@
 			],
 			[
 				"sets",
-				"setState-es6	setState"
+				"setState-es6\tsetState"
 			],
 			[
 				"sc",
@@ -181,7 +185,7 @@
 			],
 			[
 				"props",
-				"propTypes	object getDefaultProps()"
+				"propTypes\tobject getDefaultProps()"
 			],
 			[
 				"rem",
@@ -205,11 +209,11 @@
 			],
 			[
 				"try",
-				"try	Try/Except"
+				"try\tTry/Except"
 			],
 			[
 				"def",
-				"defs	Method"
+				"defs\tMethod"
 			],
 			[
 				"fe",
@@ -233,7 +237,7 @@
 			],
 			[
 				"hea",
-				"header	Tag"
+				"header\tTag"
 			],
 			[
 				"Ta",
@@ -249,23 +253,23 @@
 			],
 			[
 				"if",
-				"if	If Condition"
+				"if\tIf Condition"
 			],
 			[
 				"pro",
-				"propTypes	object getDefaultProps()"
+				"propTypes\tobject getDefaultProps()"
 			],
 			[
 				"de",
-				"defaultProps	object getDefaultProps()"
+				"defaultProps\tobject getDefaultProps()"
 			],
 			[
 				"cdu",
-				"cdu-es6	componentDidUpdate(object prevProps, object prevState)"
+				"cdu-es6\tcomponentDidUpdate(object prevProps, object prevState)"
 			],
 			[
 				"cdm",
-				"cdm-es6	componentDidMount()"
+				"cdm-es6\tcomponentDidMount()"
 			],
 			[
 				"S",
@@ -281,7 +285,7 @@
 			],
 			[
 				"for",
-				"for	for (…) {…}"
+				"for\tfor (…) {…}"
 			],
 			[
 				"flex",
@@ -313,7 +317,7 @@
 			],
 			[
 				"disnewpsr",
-				"display.newSprite(filename, x, y, params)	."
+				"display.newSprite(filename, x, y, params)\t."
 			],
 			[
 				"el",
@@ -333,7 +337,7 @@
 			],
 			[
 				"addEvent",
-				"addEventListener(eventName, listener, tag)	EventProtocol"
+				"addEventListener(eventName, listener, tag)\tEventProtocol"
 			],
 			[
 				"_war",
@@ -341,15 +345,15 @@
 			],
 			[
 				"tranmov",
-				"transition.moveTo(target, args)	."
+				"transition.moveTo(target, args)\t."
 			],
 			[
 				"setFl",
-				"setFlippedY(flippedY)	Sprite"
+				"setFlippedY(flippedY)\tSprite"
 			],
 			[
 				"disnewsprite",
-				"display.newSprite(filename, x, y, params)	."
+				"display.newSprite(filename, x, y, params)\t."
 			],
 			[
 				"x",
@@ -369,7 +373,7 @@
 			],
 			[
 				"els",
-				"elseif	elseif"
+				"elseif\telseif"
 			],
 			[
 				"cod",
@@ -385,19 +389,19 @@
 			],
 			[
 				"lo",
-				"local	local x = 1"
+				"local\tlocal x = 1"
 			],
 			[
 				"setVi",
-				"setVisible(visible)	Node"
+				"setVisible(visible)\tNode"
 			],
 			[
 				"disb",
-				"display.COLOR_BLACK	."
+				"display.COLOR_BLACK\t."
 			],
 			[
 				"tramove",
-				"transition.moveTo(target, args)	."
+				"transition.moveTo(target, args)\t."
 			],
 			[
 				"_ac",
@@ -409,7 +413,7 @@
 			],
 			[
 				"size",
-				"size(width, height)	Node"
+				"size(width, height)\tNode"
 			],
 			[
 				"_b",
@@ -417,11 +421,11 @@
 			],
 			[
 				"dishe",
-				"display.height	."
+				"display.height\t."
 			],
 			[
 				"disw",
-				"display.width	."
+				"display.width\t."
 			],
 			[
 				"Quad",
@@ -433,7 +437,7 @@
 			],
 			[
 				"disnewspr",
-				"display.newScale9Sprite(filename, x, y, size, capInsets)	."
+				"display.newScale9Sprite(filename, x, y, size, capInsets)\t."
 			],
 			[
 				"sel",
@@ -453,23 +457,23 @@
 			],
 			[
 				"disleft",
-				"display.CENTER_LEFT	."
+				"display.CENTER_LEFT\t."
 			],
 			[
 				"disLeft",
-				"display.CENTER_LEFT	."
+				"display.CENTER_LEFT\t."
 			],
 			[
 				"onEnter",
-				"onEnterTransitionFinish()	Node"
+				"onEnterTransitionFinish()\tNode"
 			],
 			[
 				"removeFrom",
-				"removeFromParent()	Node"
+				"removeFromParent()\tNode"
 			],
 			[
 				"removeFrm",
-				"removeFromParent()	Node"
+				"removeFromParent()\tNode"
 			],
 			[
 				"ret",
@@ -477,7 +481,7 @@
 			],
 			[
 				"CHE",
-				"CHECKBOX_GROUP_EVENT	."
+				"CHECKBOX_GROUP_EVENT\t."
 			],
 			[
 				"reur",
@@ -485,29 +489,22 @@
 			],
 			[
 				"JCh",
-				"JCheckBoxGroup	."
+				"JCheckBoxGroup\t."
 			],
 			[
 				"addEven",
-				"addEventListener(eventName, listener, tag)	EventProtocol"
+				"addEventListener(eventName, listener, tag)\tEventProtocol"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_posts/2016-07-19-React-Native多渠道打包（android）.md",
+			"file": "_posts/2016-11-13-利用nvm安装和在多个Node.js版本之间切换.md",
 			"settings":
 			{
-				"buffer_size": 3812,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2016-07-26-关键字过滤算法：DFA.md",
-			"settings":
-			{
-				"buffer_size": 1377,
+				"buffer_size": 1315,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -597,8 +594,16 @@
 	],
 	"file_history":
 	[
-		"/E/apowo/SNPole/tools/serverLogTool/logTool.py",
+		"/C/Users/zhouhongjie/Desktop/xls2lua.bat",
+		"/C/Users/zhouhongjie/Desktop/nvm-setup/yifuConfig.lua",
+		"/E/apowo/hywx/tools/xls2lua/xls2lua.py",
+		"/C/Users/zhouhongjie/Desktop/MatchTable.json",
+		"/E/apowo/hywx/tools/xls2lua/xls2lua.bat",
+		"/E/blog/_posts/2016-11-13-利用nvm安装和在多个Node.js版本之间切换.md",
+		"/E/blog/_posts/2015-11-10-win上搭建react-native android环境.markdown",
+		"/E/blog/_posts/2016-07-26-关键字过滤算法：DFA.md",
 		"/E/blog/_posts/2016-07-19-React-Native多渠道打包（android）.md",
+		"/E/apowo/SNPole/tools/serverLogTool/logTool.py",
 		"/C/Users/Administrator/Desktop/app/msg/sysNews/SysNewsScene.js",
 		"/F/codeLib/as3/Libra/src/org/libra/utils/QueryUtil.as",
 		"/E/apowo/SNPole/tools/update/update.py",
@@ -658,7 +663,6 @@
 		"/E/blog/_posts/2015-11-13-react-native的兼容性.markdown",
 		"/E/blog/_posts/2015-11-19-react-native里的坑.markdown",
 		"/C/Users/Administrator/Desktop/huxpro.github.io-master/_posts/2016-02-01-React-vs-Angular2.markdown",
-		"/E/blog/_posts/2015-11-10-win上搭建react-native android环境.markdown",
 		"/E/blog/_posts/2015-11-11-npm库下载缓慢解决方案.markdown",
 		"/E/blog/_posts/2015-11-06-TypeScript的export和static的方法的效率比较.markdown",
 		"/C/Users/Administrator/Desktop/huxpro.github.io-master/_posts/2015-12-15-ios9-safari-web.markdown",
@@ -717,14 +721,7 @@
 		"/E/apowo/SNPole/client/app/components/ToolBar.js",
 		"/E/apowo/SNPole/client/app/register/RegisterScene.js",
 		"/E/apowo/SNPole/client/package.json",
-		"/E/apowo/SNPole/client/app/wx.js",
-		"/E/apowo/SNPole/client/app/api.js",
-		"/E/apowo/SNPole/client/app/vote/container/VoteImage.js",
-		"/C/Users/鸿杰/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
-		"/C/Users/鸿杰/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
-		"/C/Users/鸿杰/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
-		"/C/Users/鸿杰/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
-		"/E/apowo/SNPole/client/app/vote/container/VoteDetail.js"
+		"/E/apowo/SNPole/client/app/wx.js"
 	],
 	"find":
 	{
@@ -820,6 +817,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"  ",
+			"<p>",
+			"dic_to_lua_str",
+			"luaText",
+			"readXls",
+			"xlsList",
+			"toLua",
+			"luaDir",
+			"luadir",
+			"toLua",
+			">",
 			"inputFile",
 			"length = min(len(logTimeList), length)",
 			"addApiTime",
@@ -936,18 +944,7 @@
 			"valTextContainer",
 			"66",
 			"leftVal",
-			"valTextContainer",
-			"{}",
-			"VoteCell",
-			"1",
-			"rowData",
-			"choices",
-			"while",
-			"tempArr",
-			"choices",
-			"dataList",
-			"choicesAry",
-			"while"
+			"valTextContainer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -955,14 +952,14 @@
 		"regex": false,
 		"replace_history":
 		[
-			"	",
+			"\t",
 			"reactNativeTool",
-			"	",
+			"\t",
 			"neteasy",
 			":",
 			"uiManager",
 			"ui",
-			"	",
+			"\t",
 			""
 		],
 		"reverse": false,
@@ -974,24 +971,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2016-07-19-React-Native多渠道打包（android）.md",
+					"file": "_posts/2016-11-13-利用nvm安装和在多个Node.js版本之间切换.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3812,
+						"buffer_size": 1315,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								0
+								709,
+								709
 							]
 						],
 						"settings":
@@ -999,35 +996,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2016-07-26-关键字过滤算法：DFA.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1377,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								750,
-								750
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
