@@ -20,3 +20,11 @@ tags:
 |[react-native-smart-splash-screen](https://github.com/react-native-component/react-native-smart-splash-screen)|启动页|
 |[react-native-sqlite-storage](https://github.com/andpor/react-native-sqlite-storage)|sqlite|
 |[react-native-tab-navigator](https://github.com/happypancake/react-native-tab-navigator)|tab navigator|
+|[react-native-swipe-list-view](https://github.com/jemise111/react-native-swipe-list-view)|swiper list view|
+|[react-native-swiper](https://github.com/leecade/react-native-swiper)|轮播图片|
+|[react-native-storage](https://github.com/sunnylqm/react-native-storage)|本地存储|
+|[react-native-spinkit](https://github.com/maxs15/react-native-spinkit)|动画loading|
+|[axios](https://github.com/mzabriskie/axios)|网络通信|
+|[react-native-device-info](https://github.com/rebeccahughes/react-native-device-info)|设备信息|
+|[react-navigation](https://github.com/react-community/react-navigation)|导航|
+|[reconnecting-websocket](https://github.com/pladaria/reconnecting-websocket)|webSocket|
