@@ -8,9 +8,9 @@ tags:
     - react-native
 ---
 
-| 作用          | 地址          |
+|第三方库|作用|
 | ------------- |:--------------|
-| toast      | right-aligned |
+|[toast](https://github.com/remobile/react-native-toast)|提示框|
 | col 2 is      | centered      |
 | zebra stripes | are neat      |
 
