@@ -25,6 +25,9 @@ tags:
 |[react-native-storage](https://github.com/sunnylqm/react-native-storage)|本地存储|
 |[react-native-spinkit](https://github.com/maxs15/react-native-spinkit)|动画loading|
 |[axios](https://github.com/mzabriskie/axios)|网络通信|
+|[apisauce](https://github.com/skellock/apisauce)|网络通信|
 |[react-native-device-info](https://github.com/rebeccahughes/react-native-device-info)|设备信息|
 |[react-navigation](https://github.com/react-community/react-navigation)|导航|
 |[reconnecting-websocket](https://github.com/pladaria/reconnecting-websocket)|webSocket|
+|[autoresponsive-react-native](https://github.com/xudafeng/autoresponsive-react-native)|自动布局|
+|[react-native-elements](https://github.com/react-native-training/react-native-elements)|饿了么UI|
