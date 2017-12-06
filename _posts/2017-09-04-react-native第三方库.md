@@ -31,3 +31,5 @@ tags:
 |[reconnecting-websocket](https://github.com/pladaria/reconnecting-websocket)|webSocket|
 |[autoresponsive-react-native](https://github.com/xudafeng/autoresponsive-react-native)|自动布局|
 |[react-native-elements](https://github.com/react-native-training/react-native-elements)|饿了么UI|
+|[react-native-masonry](https://github.com/brh55/react-native-masonry)|瀑布流布局|
+|[react-native-hero](https://github.com/brh55/react-native-hero)|图片修改相关|
