@@ -23,13 +23,13 @@ LibreSSL SSL_read: SSL_ERROR_SYSCALL, errno 54
 
 ##### 解决
 
-1. 执行下面这句命令，更换为中科院的镜像：
+1.执行下面这句命令，更换为中科院的镜像：
 
 ```
 git clone git://mirrors.ustc.edu.cn/homebrew-core.git/ /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core --depth=1
 ```
 
-2. 把homebrew-core的镜像地址也设为中科院的国内镜像
+2.把homebrew-core的镜像地址也设为中科院的国内镜像
 
 ```
 cd "$(brew --repo)"
