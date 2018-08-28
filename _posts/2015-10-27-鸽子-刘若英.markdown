@@ -1,0 +1,12 @@
+---
+layout:     post
+title:      "鸽子-刘若英"
+subtitle:   ""
+date:       2015-10-27 12:00:00
+author:     "鸿杰"
+tags:
+    - 音乐
+---
+
+
+<embed src="http://music.163.com/style/swf/widget.swf?sid=28828477&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all" />
