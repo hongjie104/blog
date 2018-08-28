@@ -8,7 +8,8 @@ keyword: "鸿杰 Libra"
 url: "http://3zhongjie.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-
+# Publish posts or collection documents with a future date.
+future: true
 
 # SNS settings
 RSS: false
@@ -33,7 +34,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -52,8 +53,8 @@ kramdown:
 
 # Duoshuo settings
 duoshuo_username: 3zhongjie
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+# Netease settings
+netease_comment: false
 
 
 
@@ -79,6 +80,9 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
 
 # Friends
 friends: [
