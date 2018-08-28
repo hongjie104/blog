@@ -43,7 +43,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ## 支持
 
-* 你可以自由的fork。如果你能将主题作者和 github 的地址保留在你的页面底部，我将非常感谢你。
+* 你可以自由的fork。如果你能主题作者和 github 的地址保留在你的页面底部，我将非常感谢你。
 * 如果你喜欢我的这个博客模板，请在`huxpro.github.io`这个repository点个赞——右上角**star**一下。
 
 ## 说明文档
@@ -107,6 +107,7 @@ subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
 author:     "Hux"
 header-img: "img/post-bg-2015.jpg"
+header-mask: 0.3
 tags:
     - Life
 ---
