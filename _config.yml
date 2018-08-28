@@ -6,7 +6,7 @@ email: 32968210@qq.com
 description: "记录些东西"
 keyword: "鸿杰 Libra"
 url: "http://3zhongjie.com"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "./"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
