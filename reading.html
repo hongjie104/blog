@@ -1,0 +1,12 @@
+---
+layout: page
+title: "Reading"
+description: "书中自有黄金屋"
+header-img: "img/about-bg.jpg"
+multilingual: true
+---
+
+<div class="zh post-container">
+    {% capture %}{% include Reading/reading.md %}{% endcapture %}
+    {{ markdownify }}
+</div>
