@@ -8,6 +8,6 @@ multilingual: true
 
 <!-- Chinese Version -->
 <div class="zh post-container">
-    {% capture %}{% include reading/reading.md %}{% endcapture %}
-    {{ markdownify }}
+    {% capture reading_zh %}{% include reading/reading.md %}{% endcapture %}
+    {{ reading_zh | markdownify }}
 </div>
