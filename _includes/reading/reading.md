@@ -3,5 +3,4 @@
 
 | 书名 | 封面 | 心得 |
 | ------ | ------ | ------ |
-| 短文本 | 中等文本 | 稍微长一点的文本 |
-| 稍微长一点的文本 | 短文本 | 中等文本 |
+| [别做正常的傻瓜](https://book.douban.com/subject/1874488/) | ![别做正常的傻瓜](https://img3.doubanio.com/view/subject/l/public/s11332434.jpg) | 正在读 |
