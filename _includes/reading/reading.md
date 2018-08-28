@@ -3,4 +3,4 @@
 
 | 书名 | 封面 | 心得 |
 | ------ | ------ | ------ |
-| [别做正常的傻瓜](https://book.douban.com/subject/1874488/) | ![别做正常的傻瓜](https://img3.doubanio.com/view/subject/l/public/s11332434.jpg =136x) | 正在读 |
+| [别做正常的傻瓜](https://book.douban.com/subject/1874488/) | <img src="https://img3.doubanio.com/view/subject/m/public/s11332434.jpg" width = "136" alt="别做正常的傻瓜" /> | 正在读 |
