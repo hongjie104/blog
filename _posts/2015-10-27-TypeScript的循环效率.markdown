@@ -20,7 +20,7 @@ class Test{
             this.t();
         }
         console.log("for 耗时:", egret.getTimer() - t);
-        
+
         t = egret.getTimer();
         var j = 900000;
         while(--j > -1){
@@ -28,7 +28,7 @@ class Test{
         }
         console.log("while 耗时:", egret.getTimer() - t);
     }
-    
+
     private t():void{
         var a: number = 0;
         a++;

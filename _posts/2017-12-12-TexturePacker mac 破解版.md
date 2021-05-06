@@ -12,6 +12,6 @@ tags:
 
 如果10.12系统遇到文件损坏的问题，那么执行以下命令，再安装
 
-```
+``` ssh
 sudo spctl --master-disable
 ```
